@@ -1,0 +1,36 @@
+2022-09-01 16:16:16.086 +02:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-09-01 16:16:16.239 +02:00 [DBG] Hosting starting
+2022-09-01 16:16:16.785 +02:00 [DBG] Using development certificate: CN=localhost (Thumbprint: D2D078B8839554F36FC8158D0A37C2DCA6302CB7)
+2022-09-01 16:16:16.822 +02:00 [INF] Now listening on: https://localhost:7127
+2022-09-01 16:16:16.823 +02:00 [INF] Now listening on: http://localhost:5127
+2022-09-01 16:16:16.824 +02:00 [DBG] Loaded hosting startup assembly FoodIdea.API
+2022-09-01 16:16:16.824 +02:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-09-01 16:16:16.825 +02:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-09-01 16:16:16.826 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-01 16:16:16.828 +02:00 [INF] Hosting environment: Development
+2022-09-01 16:16:16.828 +02:00 [INF] Content root path: C:\Users\dell\Desktop\programming\FoodIdea.API\FoodIdea.API\
+2022-09-01 16:16:16.829 +02:00 [DBG] Hosting started
+2022-09-01 16:16:16.846 +02:00 [DBG] Connection id "0HMKC4I4D1FFV" accepted.
+2022-09-01 16:16:16.849 +02:00 [DBG] Connection id "0HMKC4I4D1FFV" started.
+2022-09-01 16:16:16.850 +02:00 [DBG] Connection id "0HMKC4I4D1FG0" accepted.
+2022-09-01 16:16:16.851 +02:00 [DBG] Connection id "0HMKC4I4D1FG0" started.
+2022-09-01 16:16:17.200 +02:00 [DBG] Connection id "0HMKC4I4D1FG1" accepted.
+2022-09-01 16:16:17.202 +02:00 [DBG] Connection id "0HMKC4I4D1FG1" started.
+2022-09-01 16:16:17.254 +02:00 [DBG] Connection 0HMKC4I4D1FG1 established using the following protocol: "Tls12"
+2022-09-01 16:16:17.328 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/swagger/index.html - -
+2022-09-01 16:16:17.392 +02:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-09-01 16:16:17.503 +02:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-09-01 16:16:17.838 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/_framework/aspnetcore-browser-refresh.js - -
+2022-09-01 16:16:17.845 +02:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-09-01 16:16:17.852 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 12.7487ms
+2022-09-01 16:16:17.852 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/swagger/index.html - - - 200 - text/html;charset=utf-8 529.1743ms
+2022-09-01 16:16:18.520 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/_vs/browserLink - -
+2022-09-01 16:16:18.576 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 56.3892ms
+2022-09-01 16:16:18.884 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/swagger/v1/swagger.json - -
+2022-09-01 16:16:19.060 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 176.3051ms
+2022-09-01 16:16:26.874 +02:00 [DBG] Authentication of the HTTPS connection timed out.
+2022-09-01 16:16:26.874 +02:00 [DBG] Authentication of the HTTPS connection timed out.
+2022-09-01 16:16:26.879 +02:00 [DBG] Connection id "0HMKC4I4D1FG0" stopped.
+2022-09-01 16:16:26.879 +02:00 [DBG] Connection id "0HMKC4I4D1FFV" stopped.
+2022-09-01 16:16:26.881 +02:00 [DBG] Connection id "0HMKC4I4D1FG0" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-09-01 16:16:26.882 +02:00 [DBG] Connection id "0HMKC4I4D1FFV" sending FIN because: "The Socket transport's send loop completed gracefully."

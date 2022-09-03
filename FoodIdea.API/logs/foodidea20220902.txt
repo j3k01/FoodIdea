@@ -1,0 +1,865 @@
+2022-09-02 14:37:55.113 +02:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-09-02 14:37:55.263 +02:00 [DBG] Hosting starting
+2022-09-02 14:37:55.508 +02:00 [DBG] Using development certificate: CN=localhost (Thumbprint: D2D078B8839554F36FC8158D0A37C2DCA6302CB7)
+2022-09-02 14:37:55.563 +02:00 [INF] Now listening on: https://localhost:7127
+2022-09-02 14:37:55.564 +02:00 [INF] Now listening on: http://localhost:5127
+2022-09-02 14:37:55.565 +02:00 [DBG] Loaded hosting startup assembly FoodIdea.API
+2022-09-02 14:37:55.566 +02:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-09-02 14:37:55.568 +02:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-09-02 14:37:55.569 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-02 14:37:55.570 +02:00 [INF] Hosting environment: Development
+2022-09-02 14:37:55.571 +02:00 [INF] Content root path: C:\Users\dell\Desktop\programming\FoodIdea.API\FoodIdea.API\
+2022-09-02 14:37:55.573 +02:00 [DBG] Hosting started
+2022-09-02 14:37:55.922 +02:00 [DBG] Connection id "0HMKCRVR011NP" accepted.
+2022-09-02 14:37:55.922 +02:00 [DBG] Connection id "0HMKCRVR011NO" accepted.
+2022-09-02 14:37:55.927 +02:00 [DBG] Connection id "0HMKCRVR011NP" started.
+2022-09-02 14:37:55.927 +02:00 [DBG] Connection id "0HMKCRVR011NO" started.
+2022-09-02 14:37:56.213 +02:00 [DBG] Connection id "0HMKCRVR011NQ" accepted.
+2022-09-02 14:37:56.216 +02:00 [DBG] Connection id "0HMKCRVR011NQ" started.
+2022-09-02 14:37:56.314 +02:00 [DBG] Connection 0HMKCRVR011NQ established using the following protocol: "Tls12"
+2022-09-02 14:37:56.436 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/swagger - -
+2022-09-02 14:37:56.497 +02:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-09-02 14:37:56.602 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/swagger - - - 301 0 - 172.0163ms
+2022-09-02 14:37:56.617 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/swagger/index.html - -
+2022-09-02 14:37:56.690 +02:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-09-02 14:37:56.912 +02:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-09-02 14:37:56.916 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/swagger/index.html - - - 200 - text/html;charset=utf-8 298.3275ms
+2022-09-02 14:37:56.928 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/swagger/swagger-ui.css - -
+2022-09-02 14:37:56.928 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/swagger/swagger-ui-standalone-preset.js - -
+2022-09-02 14:37:56.928 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/swagger/swagger-ui-bundle.js - -
+2022-09-02 14:37:56.928 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/_framework/aspnetcore-browser-refresh.js - -
+2022-09-02 14:37:56.945 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 16.7188ms
+2022-09-02 14:37:56.992 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/_vs/browserLink - -
+2022-09-02 14:37:57.019 +02:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-09-02 14:37:57.019 +02:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2022-09-02 14:37:57.026 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/swagger/swagger-ui.css - - - 200 143632 text/css 98.7576ms
+2022-09-02 14:37:57.035 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 106.6471ms
+2022-09-02 14:37:57.042 +02:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2022-09-02 14:37:57.043 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 115.2067ms
+2022-09-02 14:37:57.093 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 100.4751ms
+2022-09-02 14:37:57.260 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/swagger/v1/swagger.json - -
+2022-09-02 14:37:57.307 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/swagger/favicon-32x32.png - -
+2022-09-02 14:37:57.309 +02:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2022-09-02 14:37:57.311 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/swagger/favicon-32x32.png - - - 200 628 image/png 3.7081ms
+2022-09-02 14:37:57.438 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 177.8624ms
+2022-09-02 14:38:03.478 +02:00 [DBG] Connection id "0HMKCRVR011NR" accepted.
+2022-09-02 14:38:03.479 +02:00 [DBG] Connection id "0HMKCRVR011NR" received FIN.
+2022-09-02 14:38:03.480 +02:00 [DBG] Connection id "0HMKCRVR011NR" started.
+2022-09-02 14:38:03.481 +02:00 [DBG] Connection id "0HMKCRVR011NS" accepted.
+2022-09-02 14:38:03.484 +02:00 [DBG] Connection id "0HMKCRVR011NS" started.
+2022-09-02 14:38:03.486 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-09-02 14:38:03.490 +02:00 [DBG] Connection 0HMKCRVR011NS established using the following protocol: "Tls12"
+2022-09-02 14:38:03.539 +02:00 [DBG] Connection id "0HMKCRVR011NR" stopped.
+2022-09-02 14:38:03.543 +02:00 [DBG] Connection id "0HMKCRVR011NR" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-09-02 14:38:03.549 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7127/api/foods/1/recipe/1 - -
+2022-09-02 14:38:03.552 +02:00 [DBG] The request path  does not match the path filter
+2022-09-02 14:38:03.582 +02:00 [DBG] 1 candidate(s) found for the request path '/api/foods/1/recipe/1'
+2022-09-02 14:38:03.589 +02:00 [DBG] Endpoint 'FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API)' with route pattern 'api/foods/{foodId}/recipe/{recipeid}' is valid for the request path '/api/foods/1/recipe/1'
+2022-09-02 14:38:03.593 +02:00 [DBG] Request matched endpoint 'FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API)'
+2022-09-02 14:38:03.599 +02:00 [INF] Executing endpoint 'FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API)'
+2022-09-02 14:38:03.637 +02:00 [INF] Route matched with {action = "GetRecipe", controller = "Recipe"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[FoodIdea.API.Models.RecipeDto] GetRecipe(Int32, Int32) on controller FoodIdea.API.Controllers.RecipeController (FoodIdea.API).
+2022-09-02 14:38:03.641 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-09-02 14:38:03.644 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-09-02 14:38:03.647 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-09-02 14:38:03.650 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-09-02 14:38:03.651 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-09-02 14:38:03.653 +02:00 [DBG] Executing controller factory for controller FoodIdea.API.Controllers.RecipeController (FoodIdea.API)
+2022-09-02 14:38:03.656 +02:00 [DBG] Executed controller factory for controller FoodIdea.API.Controllers.RecipeController (FoodIdea.API)
+2022-09-02 14:38:03.704 +02:00 [DBG] Attempting to bind parameter 'foodId' of type 'System.Int32' ...
+2022-09-02 14:38:03.710 +02:00 [DBG] Attempting to bind parameter 'foodId' of type 'System.Int32' using the name 'foodId' in request data ...
+2022-09-02 14:38:03.714 +02:00 [DBG] Done attempting to bind parameter 'foodId' of type 'System.Int32'.
+2022-09-02 14:38:03.716 +02:00 [DBG] Done attempting to bind parameter 'foodId' of type 'System.Int32'.
+2022-09-02 14:38:03.717 +02:00 [DBG] Attempting to validate the bound parameter 'foodId' of type 'System.Int32' ...
+2022-09-02 14:38:03.720 +02:00 [DBG] Done attempting to validate the bound parameter 'foodId' of type 'System.Int32'.
+2022-09-02 14:38:03.726 +02:00 [DBG] Attempting to bind parameter 'recipeId' of type 'System.Int32' ...
+2022-09-02 14:38:03.729 +02:00 [DBG] Attempting to bind parameter 'recipeId' of type 'System.Int32' using the name 'recipeId' in request data ...
+2022-09-02 14:38:03.731 +02:00 [DBG] Done attempting to bind parameter 'recipeId' of type 'System.Int32'.
+2022-09-02 14:38:03.732 +02:00 [DBG] Done attempting to bind parameter 'recipeId' of type 'System.Int32'.
+2022-09-02 14:38:03.733 +02:00 [DBG] Attempting to validate the bound parameter 'recipeId' of type 'System.Int32' ...
+2022-09-02 14:38:03.735 +02:00 [DBG] Done attempting to validate the bound parameter 'recipeId' of type 'System.Int32'.
+2022-09-02 14:38:03.739 +02:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2022-09-02 14:38:03.745 +02:00 [DBG] No information found on request to perform content negotiation.
+2022-09-02 14:38:03.746 +02:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2022-09-02 14:38:03.747 +02:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2022-09-02 14:38:03.749 +02:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2022-09-02 14:38:03.750 +02:00 [INF] Executing OkObjectResult, writing value of type 'FoodIdea.API.Models.RecipeDto'.
+2022-09-02 14:38:03.765 +02:00 [INF] Executed action FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API) in 107.7017ms
+2022-09-02 14:38:03.767 +02:00 [INF] Executed endpoint 'FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API)'
+2022-09-02 14:38:03.769 +02:00 [DBG] Connection id "0HMKCRVR011NS" completed keep alive response.
+2022-09-02 14:38:03.770 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7127/api/foods/1/recipe/1 - - - 200 - application/json;+charset=utf-8 220.5432ms
+2022-09-02 14:38:05.948 +02:00 [DBG] Authentication of the HTTPS connection timed out.
+2022-09-02 14:38:05.948 +02:00 [DBG] Authentication of the HTTPS connection timed out.
+2022-09-02 14:38:05.949 +02:00 [DBG] Connection id "0HMKCRVR011NP" stopped.
+2022-09-02 14:38:05.950 +02:00 [DBG] Connection id "0HMKCRVR011NO" stopped.
+2022-09-02 14:38:05.951 +02:00 [DBG] Connection id "0HMKCRVR011NP" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-09-02 14:38:05.952 +02:00 [DBG] Connection id "0HMKCRVR011NO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-09-02 14:38:09.586 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7127/api/foods/2/recipe application/json 126
+2022-09-02 14:38:09.588 +02:00 [DBG] POST requests are not supported
+2022-09-02 14:38:09.590 +02:00 [DBG] 1 candidate(s) found for the request path '/api/foods/2/recipe'
+2022-09-02 14:38:09.591 +02:00 [DBG] Endpoint 'FoodIdea.API.Controllers.RecipeController.CreateRecipe (FoodIdea.API)' with route pattern 'api/foods/{foodId}/recipe' is valid for the request path '/api/foods/2/recipe'
+2022-09-02 14:38:09.593 +02:00 [DBG] Request matched endpoint 'FoodIdea.API.Controllers.RecipeController.CreateRecipe (FoodIdea.API)'
+2022-09-02 14:38:09.594 +02:00 [INF] Executing endpoint 'FoodIdea.API.Controllers.RecipeController.CreateRecipe (FoodIdea.API)'
+2022-09-02 14:38:09.597 +02:00 [INF] Route matched with {action = "CreateRecipe", controller = "Recipe"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[FoodIdea.API.Models.RecipeDto] CreateRecipe(Int32, FoodIdea.API.Models.RecipeForCreationDto) on controller FoodIdea.API.Controllers.RecipeController (FoodIdea.API).
+2022-09-02 14:38:09.598 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-09-02 14:38:09.600 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-09-02 14:38:09.601 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-09-02 14:38:09.605 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-09-02 14:38:09.606 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-09-02 14:38:09.608 +02:00 [DBG] Executing controller factory for controller FoodIdea.API.Controllers.RecipeController (FoodIdea.API)
+2022-09-02 14:38:09.609 +02:00 [DBG] Executed controller factory for controller FoodIdea.API.Controllers.RecipeController (FoodIdea.API)
+2022-09-02 14:38:09.610 +02:00 [DBG] Attempting to bind parameter 'foodId' of type 'System.Int32' ...
+2022-09-02 14:38:09.611 +02:00 [DBG] Attempting to bind parameter 'foodId' of type 'System.Int32' using the name 'foodId' in request data ...
+2022-09-02 14:38:09.612 +02:00 [DBG] Done attempting to bind parameter 'foodId' of type 'System.Int32'.
+2022-09-02 14:38:09.615 +02:00 [DBG] Done attempting to bind parameter 'foodId' of type 'System.Int32'.
+2022-09-02 14:38:09.617 +02:00 [DBG] Attempting to validate the bound parameter 'foodId' of type 'System.Int32' ...
+2022-09-02 14:38:09.619 +02:00 [DBG] Done attempting to validate the bound parameter 'foodId' of type 'System.Int32'.
+2022-09-02 14:38:09.620 +02:00 [DBG] Attempting to bind parameter 'recipe' of type 'FoodIdea.API.Models.RecipeForCreationDto' ...
+2022-09-02 14:38:09.624 +02:00 [DBG] Attempting to bind parameter 'recipe' of type 'FoodIdea.API.Models.RecipeForCreationDto' using the name '' in request data ...
+2022-09-02 14:38:09.628 +02:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2022-09-02 14:38:09.634 +02:00 [DBG] Connection id "0HMKCRVR011NS", Request id "0HMKCRVR011NS:00000003": started reading request body.
+2022-09-02 14:38:09.638 +02:00 [DBG] Connection id "0HMKCRVR011NS", Request id "0HMKCRVR011NS:00000003": done reading request body.
+2022-09-02 14:38:09.649 +02:00 [DBG] JSON input formatter succeeded, deserializing to type 'FoodIdea.API.Models.RecipeForCreationDto'
+2022-09-02 14:38:09.653 +02:00 [DBG] Done attempting to bind parameter 'recipe' of type 'FoodIdea.API.Models.RecipeForCreationDto'.
+2022-09-02 14:38:09.654 +02:00 [DBG] Done attempting to bind parameter 'recipe' of type 'FoodIdea.API.Models.RecipeForCreationDto'.
+2022-09-02 14:38:09.657 +02:00 [DBG] Attempting to validate the bound parameter 'recipe' of type 'FoodIdea.API.Models.RecipeForCreationDto' ...
+2022-09-02 14:38:09.671 +02:00 [DBG] Done attempting to validate the bound parameter 'recipe' of type 'FoodIdea.API.Models.RecipeForCreationDto'.
+2022-09-02 14:38:09.677 +02:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2022-09-02 14:38:09.680 +02:00 [DBG] No information found on request to perform content negotiation.
+2022-09-02 14:38:09.681 +02:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2022-09-02 14:38:09.682 +02:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2022-09-02 14:38:09.683 +02:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2022-09-02 14:38:09.686 +02:00 [INF] Executing CreatedAtRouteResult, writing value of type 'FoodIdea.API.Models.RecipeDto'.
+2022-09-02 14:38:09.712 +02:00 [DBG] Found the endpoints ["FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API)"] for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2022-09-02 14:38:09.734 +02:00 [DBG] Successfully processed template api/foods/{foodId}/recipe/{recipeid} for FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API) resulting in /api/foods/2/recipe/4 and 
+2022-09-02 14:38:09.737 +02:00 [DBG] Link generation succeeded for endpoints ["FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API)"] with result /api/foods/2/recipe/4
+2022-09-02 14:38:09.742 +02:00 [INF] Executed action FoodIdea.API.Controllers.RecipeController.CreateRecipe (FoodIdea.API) in 134.2131ms
+2022-09-02 14:38:09.743 +02:00 [INF] Executed endpoint 'FoodIdea.API.Controllers.RecipeController.CreateRecipe (FoodIdea.API)'
+2022-09-02 14:38:09.745 +02:00 [DBG] Connection id "0HMKCRVR011NS" completed keep alive response.
+2022-09-02 14:38:09.747 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7127/api/foods/2/recipe application/json 126 - 201 - application/json;+charset=utf-8 161.5663ms
+2022-09-02 14:38:15.281 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7127/api/foods/1/recipe/4 - -
+2022-09-02 14:38:15.282 +02:00 [DBG] The request path  does not match the path filter
+2022-09-02 14:38:15.283 +02:00 [DBG] 1 candidate(s) found for the request path '/api/foods/1/recipe/4'
+2022-09-02 14:38:15.284 +02:00 [DBG] Endpoint 'FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API)' with route pattern 'api/foods/{foodId}/recipe/{recipeid}' is valid for the request path '/api/foods/1/recipe/4'
+2022-09-02 14:38:15.288 +02:00 [DBG] Request matched endpoint 'FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API)'
+2022-09-02 14:38:15.289 +02:00 [INF] Executing endpoint 'FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API)'
+2022-09-02 14:38:15.290 +02:00 [INF] Route matched with {action = "GetRecipe", controller = "Recipe"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[FoodIdea.API.Models.RecipeDto] GetRecipe(Int32, Int32) on controller FoodIdea.API.Controllers.RecipeController (FoodIdea.API).
+2022-09-02 14:38:15.292 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-09-02 14:38:15.294 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-09-02 14:38:15.297 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-09-02 14:38:15.301 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-09-02 14:38:15.302 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-09-02 14:38:15.305 +02:00 [DBG] Executing controller factory for controller FoodIdea.API.Controllers.RecipeController (FoodIdea.API)
+2022-09-02 14:38:15.306 +02:00 [DBG] Executed controller factory for controller FoodIdea.API.Controllers.RecipeController (FoodIdea.API)
+2022-09-02 14:38:15.307 +02:00 [DBG] Attempting to bind parameter 'foodId' of type 'System.Int32' ...
+2022-09-02 14:38:15.308 +02:00 [DBG] Attempting to bind parameter 'foodId' of type 'System.Int32' using the name 'foodId' in request data ...
+2022-09-02 14:38:15.309 +02:00 [DBG] Done attempting to bind parameter 'foodId' of type 'System.Int32'.
+2022-09-02 14:38:15.310 +02:00 [DBG] Done attempting to bind parameter 'foodId' of type 'System.Int32'.
+2022-09-02 14:38:15.311 +02:00 [DBG] Attempting to validate the bound parameter 'foodId' of type 'System.Int32' ...
+2022-09-02 14:38:15.313 +02:00 [DBG] Done attempting to validate the bound parameter 'foodId' of type 'System.Int32'.
+2022-09-02 14:38:15.317 +02:00 [DBG] Attempting to bind parameter 'recipeId' of type 'System.Int32' ...
+2022-09-02 14:38:15.318 +02:00 [DBG] Attempting to bind parameter 'recipeId' of type 'System.Int32' using the name 'recipeId' in request data ...
+2022-09-02 14:38:15.319 +02:00 [DBG] Done attempting to bind parameter 'recipeId' of type 'System.Int32'.
+2022-09-02 14:38:15.320 +02:00 [DBG] Done attempting to bind parameter 'recipeId' of type 'System.Int32'.
+2022-09-02 14:38:15.321 +02:00 [DBG] Attempting to validate the bound parameter 'recipeId' of type 'System.Int32' ...
+2022-09-02 14:38:15.322 +02:00 [DBG] Done attempting to validate the bound parameter 'recipeId' of type 'System.Int32'.
+2022-09-02 14:38:15.324 +02:00 [INF] Podany przepis nie istnieje.
+2022-09-02 14:38:15.325 +02:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2022-09-02 14:38:15.327 +02:00 [DBG] No information found on request to perform content negotiation.
+2022-09-02 14:38:15.328 +02:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2022-09-02 14:38:15.331 +02:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2022-09-02 14:38:15.332 +02:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2022-09-02 14:38:15.336 +02:00 [INF] Executed action FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API) in 31.5257ms
+2022-09-02 14:38:15.338 +02:00 [INF] Executed endpoint 'FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API)'
+2022-09-02 14:38:15.339 +02:00 [DBG] Connection id "0HMKCRVR011NS" completed keep alive response.
+2022-09-02 14:38:15.340 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7127/api/foods/1/recipe/4 - - - 404 - application/problem+json;+charset=utf-8 59.5206ms
+2022-09-02 14:38:20.864 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7127/api/foods/2/recipe/4 - -
+2022-09-02 14:38:20.866 +02:00 [DBG] The request path  does not match the path filter
+2022-09-02 14:38:20.867 +02:00 [DBG] 1 candidate(s) found for the request path '/api/foods/2/recipe/4'
+2022-09-02 14:38:20.868 +02:00 [DBG] Endpoint 'FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API)' with route pattern 'api/foods/{foodId}/recipe/{recipeid}' is valid for the request path '/api/foods/2/recipe/4'
+2022-09-02 14:38:20.869 +02:00 [DBG] Request matched endpoint 'FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API)'
+2022-09-02 14:38:20.870 +02:00 [INF] Executing endpoint 'FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API)'
+2022-09-02 14:38:20.871 +02:00 [INF] Route matched with {action = "GetRecipe", controller = "Recipe"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[FoodIdea.API.Models.RecipeDto] GetRecipe(Int32, Int32) on controller FoodIdea.API.Controllers.RecipeController (FoodIdea.API).
+2022-09-02 14:38:20.872 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-09-02 14:38:20.874 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-09-02 14:38:20.877 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-09-02 14:38:20.879 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-09-02 14:38:20.880 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-09-02 14:38:20.881 +02:00 [DBG] Executing controller factory for controller FoodIdea.API.Controllers.RecipeController (FoodIdea.API)
+2022-09-02 14:38:20.882 +02:00 [DBG] Executed controller factory for controller FoodIdea.API.Controllers.RecipeController (FoodIdea.API)
+2022-09-02 14:38:20.883 +02:00 [DBG] Attempting to bind parameter 'foodId' of type 'System.Int32' ...
+2022-09-02 14:38:20.884 +02:00 [DBG] Attempting to bind parameter 'foodId' of type 'System.Int32' using the name 'foodId' in request data ...
+2022-09-02 14:38:20.885 +02:00 [DBG] Done attempting to bind parameter 'foodId' of type 'System.Int32'.
+2022-09-02 14:38:20.886 +02:00 [DBG] Done attempting to bind parameter 'foodId' of type 'System.Int32'.
+2022-09-02 14:38:20.887 +02:00 [DBG] Attempting to validate the bound parameter 'foodId' of type 'System.Int32' ...
+2022-09-02 14:38:20.888 +02:00 [DBG] Done attempting to validate the bound parameter 'foodId' of type 'System.Int32'.
+2022-09-02 14:38:20.890 +02:00 [DBG] Attempting to bind parameter 'recipeId' of type 'System.Int32' ...
+2022-09-02 14:38:20.891 +02:00 [DBG] Attempting to bind parameter 'recipeId' of type 'System.Int32' using the name 'recipeId' in request data ...
+2022-09-02 14:38:20.894 +02:00 [DBG] Done attempting to bind parameter 'recipeId' of type 'System.Int32'.
+2022-09-02 14:38:20.895 +02:00 [DBG] Done attempting to bind parameter 'recipeId' of type 'System.Int32'.
+2022-09-02 14:38:20.896 +02:00 [DBG] Attempting to validate the bound parameter 'recipeId' of type 'System.Int32' ...
+2022-09-02 14:38:20.897 +02:00 [DBG] Done attempting to validate the bound parameter 'recipeId' of type 'System.Int32'.
+2022-09-02 14:38:20.898 +02:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2022-09-02 14:38:20.900 +02:00 [DBG] No information found on request to perform content negotiation.
+2022-09-02 14:38:20.901 +02:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2022-09-02 14:38:20.901 +02:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2022-09-02 14:38:20.902 +02:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2022-09-02 14:38:20.903 +02:00 [INF] Executing OkObjectResult, writing value of type 'FoodIdea.API.Models.RecipeDto'.
+2022-09-02 14:38:20.904 +02:00 [INF] Executed action FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API) in 23.3169ms
+2022-09-02 14:38:20.906 +02:00 [INF] Executed endpoint 'FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API)'
+2022-09-02 14:38:20.907 +02:00 [DBG] Connection id "0HMKCRVR011NS" completed keep alive response.
+2022-09-02 14:38:20.910 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7127/api/foods/2/recipe/4 - - - 200 - application/json;+charset=utf-8 46.0036ms
+2022-09-02 14:38:26.012 +02:00 [INF] Request starting HTTP/1.1 PUT https://localhost:7127/api/foods/3/recipe/3 application/json 126
+2022-09-02 14:38:26.013 +02:00 [DBG] PUT requests are not supported
+2022-09-02 14:38:26.014 +02:00 [DBG] 1 candidate(s) found for the request path '/api/foods/3/recipe/3'
+2022-09-02 14:38:26.016 +02:00 [DBG] Endpoint 'FoodIdea.API.Controllers.RecipeController.UpdateRecipe (FoodIdea.API)' with route pattern 'api/foods/{foodId}/recipe/{recipeid}' is valid for the request path '/api/foods/3/recipe/3'
+2022-09-02 14:38:26.018 +02:00 [DBG] Request matched endpoint 'FoodIdea.API.Controllers.RecipeController.UpdateRecipe (FoodIdea.API)'
+2022-09-02 14:38:26.020 +02:00 [INF] Executing endpoint 'FoodIdea.API.Controllers.RecipeController.UpdateRecipe (FoodIdea.API)'
+2022-09-02 14:38:26.025 +02:00 [INF] Route matched with {action = "UpdateRecipe", controller = "Recipe"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult UpdateRecipe(Int32, Int32, FoodIdea.API.Models.RecipeForUpdateDto) on controller FoodIdea.API.Controllers.RecipeController (FoodIdea.API).
+2022-09-02 14:38:26.028 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-09-02 14:38:26.030 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-09-02 14:38:26.033 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-09-02 14:38:26.038 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-09-02 14:38:26.042 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-09-02 14:38:26.044 +02:00 [DBG] Executing controller factory for controller FoodIdea.API.Controllers.RecipeController (FoodIdea.API)
+2022-09-02 14:38:26.047 +02:00 [DBG] Executed controller factory for controller FoodIdea.API.Controllers.RecipeController (FoodIdea.API)
+2022-09-02 14:38:26.049 +02:00 [DBG] Attempting to bind parameter 'foodId' of type 'System.Int32' ...
+2022-09-02 14:38:26.050 +02:00 [DBG] Attempting to bind parameter 'foodId' of type 'System.Int32' using the name 'foodId' in request data ...
+2022-09-02 14:38:26.051 +02:00 [DBG] Done attempting to bind parameter 'foodId' of type 'System.Int32'.
+2022-09-02 14:38:26.052 +02:00 [DBG] Done attempting to bind parameter 'foodId' of type 'System.Int32'.
+2022-09-02 14:38:26.054 +02:00 [DBG] Attempting to validate the bound parameter 'foodId' of type 'System.Int32' ...
+2022-09-02 14:38:26.057 +02:00 [DBG] Done attempting to validate the bound parameter 'foodId' of type 'System.Int32'.
+2022-09-02 14:38:26.058 +02:00 [DBG] Attempting to bind parameter 'recipeId' of type 'System.Int32' ...
+2022-09-02 14:38:26.059 +02:00 [DBG] Attempting to bind parameter 'recipeId' of type 'System.Int32' using the name 'recipeId' in request data ...
+2022-09-02 14:38:26.060 +02:00 [DBG] Done attempting to bind parameter 'recipeId' of type 'System.Int32'.
+2022-09-02 14:38:26.061 +02:00 [DBG] Done attempting to bind parameter 'recipeId' of type 'System.Int32'.
+2022-09-02 14:38:26.062 +02:00 [DBG] Attempting to validate the bound parameter 'recipeId' of type 'System.Int32' ...
+2022-09-02 14:38:26.063 +02:00 [DBG] Done attempting to validate the bound parameter 'recipeId' of type 'System.Int32'.
+2022-09-02 14:38:26.064 +02:00 [DBG] Attempting to bind parameter 'recipe' of type 'FoodIdea.API.Models.RecipeForUpdateDto' ...
+2022-09-02 14:38:26.066 +02:00 [DBG] Attempting to bind parameter 'recipe' of type 'FoodIdea.API.Models.RecipeForUpdateDto' using the name '' in request data ...
+2022-09-02 14:38:26.067 +02:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2022-09-02 14:38:26.069 +02:00 [DBG] Connection id "0HMKCRVR011NS", Request id "0HMKCRVR011NS:00000006": started reading request body.
+2022-09-02 14:38:26.071 +02:00 [DBG] Connection id "0HMKCRVR011NS", Request id "0HMKCRVR011NS:00000006": done reading request body.
+2022-09-02 14:38:26.074 +02:00 [DBG] JSON input formatter succeeded, deserializing to type 'FoodIdea.API.Models.RecipeForUpdateDto'
+2022-09-02 14:38:26.075 +02:00 [DBG] Done attempting to bind parameter 'recipe' of type 'FoodIdea.API.Models.RecipeForUpdateDto'.
+2022-09-02 14:38:26.076 +02:00 [DBG] Done attempting to bind parameter 'recipe' of type 'FoodIdea.API.Models.RecipeForUpdateDto'.
+2022-09-02 14:38:26.077 +02:00 [DBG] Attempting to validate the bound parameter 'recipe' of type 'FoodIdea.API.Models.RecipeForUpdateDto' ...
+2022-09-02 14:38:26.079 +02:00 [DBG] Done attempting to validate the bound parameter 'recipe' of type 'FoodIdea.API.Models.RecipeForUpdateDto'.
+2022-09-02 14:38:26.085 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2022-09-02 14:38:26.088 +02:00 [INF] Executed action FoodIdea.API.Controllers.RecipeController.UpdateRecipe (FoodIdea.API) in 43.9104ms
+2022-09-02 14:38:26.091 +02:00 [INF] Executed endpoint 'FoodIdea.API.Controllers.RecipeController.UpdateRecipe (FoodIdea.API)'
+2022-09-02 14:38:26.092 +02:00 [DBG] Connection id "0HMKCRVR011NS" completed keep alive response.
+2022-09-02 14:38:26.093 +02:00 [INF] Request finished HTTP/1.1 PUT https://localhost:7127/api/foods/3/recipe/3 application/json 126 - 204 - - 81.3350ms
+2022-09-02 14:38:32.792 +02:00 [INF] Request starting HTTP/1.1 DELETE https://localhost:7127/api/foods/1/recipe/1 - -
+2022-09-02 14:38:32.795 +02:00 [DBG] DELETE requests are not supported
+2022-09-02 14:38:32.796 +02:00 [DBG] 1 candidate(s) found for the request path '/api/foods/1/recipe/1'
+2022-09-02 14:38:32.799 +02:00 [DBG] Endpoint 'FoodIdea.API.Controllers.RecipeController.RemoveRecipe (FoodIdea.API)' with route pattern 'api/foods/{foodId}/recipe/{recipeid}' is valid for the request path '/api/foods/1/recipe/1'
+2022-09-02 14:38:32.802 +02:00 [DBG] Request matched endpoint 'FoodIdea.API.Controllers.RecipeController.RemoveRecipe (FoodIdea.API)'
+2022-09-02 14:38:32.804 +02:00 [INF] Executing endpoint 'FoodIdea.API.Controllers.RecipeController.RemoveRecipe (FoodIdea.API)'
+2022-09-02 14:38:32.807 +02:00 [INF] Route matched with {action = "RemoveRecipe", controller = "Recipe"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult RemoveRecipe(Int32, Int32) on controller FoodIdea.API.Controllers.RecipeController (FoodIdea.API).
+2022-09-02 14:38:32.810 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-09-02 14:38:32.812 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-09-02 14:38:32.814 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-09-02 14:38:32.817 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-09-02 14:38:32.820 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-09-02 14:38:32.821 +02:00 [DBG] Executing controller factory for controller FoodIdea.API.Controllers.RecipeController (FoodIdea.API)
+2022-09-02 14:38:32.822 +02:00 [DBG] Executed controller factory for controller FoodIdea.API.Controllers.RecipeController (FoodIdea.API)
+2022-09-02 14:38:32.823 +02:00 [DBG] Attempting to bind parameter 'foodId' of type 'System.Int32' ...
+2022-09-02 14:38:32.824 +02:00 [DBG] Attempting to bind parameter 'foodId' of type 'System.Int32' using the name 'foodId' in request data ...
+2022-09-02 14:38:32.826 +02:00 [DBG] Done attempting to bind parameter 'foodId' of type 'System.Int32'.
+2022-09-02 14:38:32.827 +02:00 [DBG] Done attempting to bind parameter 'foodId' of type 'System.Int32'.
+2022-09-02 14:38:32.828 +02:00 [DBG] Attempting to validate the bound parameter 'foodId' of type 'System.Int32' ...
+2022-09-02 14:38:32.829 +02:00 [DBG] Done attempting to validate the bound parameter 'foodId' of type 'System.Int32'.
+2022-09-02 14:38:32.830 +02:00 [DBG] Attempting to bind parameter 'recipeId' of type 'System.Int32' ...
+2022-09-02 14:38:32.831 +02:00 [DBG] Attempting to bind parameter 'recipeId' of type 'System.Int32' using the name 'recipeId' in request data ...
+2022-09-02 14:38:32.833 +02:00 [DBG] Done attempting to bind parameter 'recipeId' of type 'System.Int32'.
+2022-09-02 14:38:32.834 +02:00 [DBG] Done attempting to bind parameter 'recipeId' of type 'System.Int32'.
+2022-09-02 14:38:32.835 +02:00 [DBG] Attempting to validate the bound parameter 'recipeId' of type 'System.Int32' ...
+2022-09-02 14:38:32.836 +02:00 [DBG] Done attempting to validate the bound parameter 'recipeId' of type 'System.Int32'.
+2022-09-02 14:38:32.838 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2022-09-02 14:38:32.839 +02:00 [INF] Executed action FoodIdea.API.Controllers.RecipeController.RemoveRecipe (FoodIdea.API) in 17.8575ms
+2022-09-02 14:38:32.840 +02:00 [INF] Executed endpoint 'FoodIdea.API.Controllers.RecipeController.RemoveRecipe (FoodIdea.API)'
+2022-09-02 14:38:32.841 +02:00 [DBG] Connection id "0HMKCRVR011NS" completed keep alive response.
+2022-09-02 14:38:32.842 +02:00 [INF] Request finished HTTP/1.1 DELETE https://localhost:7127/api/foods/1/recipe/1 - - - 204 - - 49.8911ms
+2022-09-02 14:45:49.481 +02:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-09-02 14:45:49.614 +02:00 [DBG] Hosting starting
+2022-09-02 14:45:49.775 +02:00 [DBG] Using development certificate: CN=localhost (Thumbprint: D2D078B8839554F36FC8158D0A37C2DCA6302CB7)
+2022-09-02 14:45:49.876 +02:00 [INF] Now listening on: https://localhost:7127
+2022-09-02 14:45:49.877 +02:00 [INF] Now listening on: http://localhost:5127
+2022-09-02 14:45:49.878 +02:00 [DBG] Loaded hosting startup assembly FoodIdea.API
+2022-09-02 14:45:49.879 +02:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-09-02 14:45:49.880 +02:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-09-02 14:45:49.881 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-02 14:45:49.882 +02:00 [INF] Hosting environment: Development
+2022-09-02 14:45:49.883 +02:00 [INF] Content root path: C:\Users\dell\Desktop\programming\FoodIdea.API\FoodIdea.API\
+2022-09-02 14:45:49.884 +02:00 [DBG] Hosting started
+2022-09-02 14:45:49.948 +02:00 [DBG] Connection id "0HMKCS488NQJ6" received FIN.
+2022-09-02 14:45:49.948 +02:00 [DBG] Connection id "0HMKCS488NQJ5" received FIN.
+2022-09-02 14:45:49.952 +02:00 [DBG] Connection id "0HMKCS488NQJ6" accepted.
+2022-09-02 14:45:49.952 +02:00 [DBG] Connection id "0HMKCS488NQJ5" accepted.
+2022-09-02 14:45:49.956 +02:00 [DBG] Connection id "0HMKCS488NQJ6" started.
+2022-09-02 14:45:49.956 +02:00 [DBG] Connection id "0HMKCS488NQJ5" started.
+2022-09-02 14:45:49.975 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-09-02 14:45:49.975 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-09-02 14:45:50.011 +02:00 [DBG] Connection id "0HMKCS488NQJ5" stopped.
+2022-09-02 14:45:50.011 +02:00 [DBG] Connection id "0HMKCS488NQJ6" stopped.
+2022-09-02 14:45:50.014 +02:00 [DBG] Connection id "0HMKCS488NQJ5" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-09-02 14:45:50.014 +02:00 [DBG] Connection id "0HMKCS488NQJ6" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-09-02 14:45:50.167 +02:00 [DBG] Connection id "0HMKCS488NQJ7" accepted.
+2022-09-02 14:45:50.169 +02:00 [DBG] Connection id "0HMKCS488NQJ7" started.
+2022-09-02 14:45:50.224 +02:00 [DBG] Connection 0HMKCS488NQJ7 established using the following protocol: "Tls12"
+2022-09-02 14:45:50.316 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/swagger/index.html - -
+2022-09-02 14:45:50.414 +02:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-09-02 14:45:50.688 +02:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-09-02 14:45:50.915 +02:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-09-02 14:45:50.947 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/_framework/aspnetcore-browser-refresh.js - -
+2022-09-02 14:45:50.953 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/swagger/index.html - - - 200 - text/html;charset=utf-8 644.6750ms
+2022-09-02 14:45:50.972 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 25.2822ms
+2022-09-02 14:45:50.987 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/_vs/browserLink - -
+2022-09-02 14:45:51.079 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 92.7197ms
+2022-09-02 14:45:51.337 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/swagger/v1/swagger.json - -
+2022-09-02 14:45:51.560 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 222.7168ms
+2022-09-02 15:59:40.670 +02:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-09-02 15:59:41.070 +02:00 [DBG] Hosting starting
+2022-09-02 15:59:41.244 +02:00 [DBG] Using development certificate: CN=localhost (Thumbprint: D2D078B8839554F36FC8158D0A37C2DCA6302CB7)
+2022-09-02 15:59:41.323 +02:00 [INF] Now listening on: https://localhost:7127
+2022-09-02 15:59:41.326 +02:00 [INF] Now listening on: http://localhost:5127
+2022-09-02 15:59:41.328 +02:00 [DBG] Loaded hosting startup assembly FoodIdea.API
+2022-09-02 15:59:41.329 +02:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-09-02 15:59:41.332 +02:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-09-02 15:59:41.334 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-02 15:59:41.335 +02:00 [INF] Hosting environment: Development
+2022-09-02 15:59:41.336 +02:00 [INF] Content root path: C:\Users\dell\Desktop\programming\FoodIdea.API\FoodIdea.API\
+2022-09-02 15:59:41.337 +02:00 [DBG] Hosting started
+2022-09-02 15:59:41.481 +02:00 [DBG] Connection id "0HMKCTDGV3D2V" accepted.
+2022-09-02 15:59:41.481 +02:00 [DBG] Connection id "0HMKCTDGV3D2U" accepted.
+2022-09-02 15:59:41.484 +02:00 [DBG] Connection id "0HMKCTDGV3D2V" started.
+2022-09-02 15:59:41.484 +02:00 [DBG] Connection id "0HMKCTDGV3D2U" started.
+2022-09-02 15:59:41.495 +02:00 [DBG] Connection id "0HMKCTDGV3D2V" received FIN.
+2022-09-02 15:59:41.495 +02:00 [DBG] Connection id "0HMKCTDGV3D2U" received FIN.
+2022-09-02 15:59:41.528 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-09-02 15:59:41.528 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-09-02 15:59:41.596 +02:00 [DBG] Connection id "0HMKCTDGV3D2U" stopped.
+2022-09-02 15:59:41.598 +02:00 [DBG] Connection id "0HMKCTDGV3D2V" stopped.
+2022-09-02 15:59:41.603 +02:00 [DBG] Connection id "0HMKCTDGV3D2V" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-09-02 15:59:41.613 +02:00 [DBG] Connection id "0HMKCTDGV3D2U" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-09-02 15:59:41.622 +02:00 [DBG] Connection id "0HMKCTDGV3D30" accepted.
+2022-09-02 15:59:41.626 +02:00 [DBG] Connection id "0HMKCTDGV3D30" started.
+2022-09-02 15:59:41.690 +02:00 [DBG] Connection 0HMKCTDGV3D30 established using the following protocol: "Tls12"
+2022-09-02 15:59:41.822 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/swagger/index.html - -
+2022-09-02 15:59:41.920 +02:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-09-02 15:59:42.104 +02:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-09-02 15:59:42.250 +02:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-09-02 15:59:42.256 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/swagger/index.html - - - 200 - text/html;charset=utf-8 441.1560ms
+2022-09-02 15:59:42.272 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/_framework/aspnetcore-browser-refresh.js - -
+2022-09-02 15:59:42.281 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 8.4083ms
+2022-09-02 15:59:42.301 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/_vs/browserLink - -
+2022-09-02 15:59:42.320 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 19.5258ms
+2022-09-02 15:59:42.478 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/swagger/v1/swagger.json - -
+2022-09-02 15:59:42.633 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 155.3221ms
+2022-09-02 16:43:40.749 +02:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-09-02 16:43:40.868 +02:00 [DBG] Hosting starting
+2022-09-02 16:43:41.048 +02:00 [DBG] Using development certificate: CN=localhost (Thumbprint: D2D078B8839554F36FC8158D0A37C2DCA6302CB7)
+2022-09-02 16:43:41.145 +02:00 [INF] Now listening on: https://localhost:7127
+2022-09-02 16:43:41.151 +02:00 [INF] Now listening on: http://localhost:5127
+2022-09-02 16:43:41.153 +02:00 [DBG] Loaded hosting startup assembly FoodIdea.API
+2022-09-02 16:43:41.154 +02:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-09-02 16:43:41.155 +02:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-09-02 16:43:41.156 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-02 16:43:41.157 +02:00 [INF] Hosting environment: Development
+2022-09-02 16:43:41.158 +02:00 [INF] Content root path: C:\Users\dell\Desktop\programming\FoodIdea.API\FoodIdea.API\
+2022-09-02 16:43:41.158 +02:00 [DBG] Hosting started
+2022-09-02 16:43:41.586 +02:00 [DBG] Connection id "0HMKCU63P3CLL" accepted.
+2022-09-02 16:43:41.586 +02:00 [DBG] Connection id "0HMKCU63P3CLM" accepted.
+2022-09-02 16:43:41.589 +02:00 [DBG] Connection id "0HMKCU63P3CLL" started.
+2022-09-02 16:43:41.589 +02:00 [DBG] Connection id "0HMKCU63P3CLM" started.
+2022-09-02 16:43:41.599 +02:00 [DBG] Connection id "0HMKCU63P3CLL" received FIN.
+2022-09-02 16:43:41.599 +02:00 [DBG] Connection id "0HMKCU63P3CLM" received FIN.
+2022-09-02 16:43:41.606 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-09-02 16:43:41.606 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-09-02 16:43:41.647 +02:00 [DBG] Connection id "0HMKCU63P3CLM" stopped.
+2022-09-02 16:43:41.647 +02:00 [DBG] Connection id "0HMKCU63P3CLL" stopped.
+2022-09-02 16:43:41.652 +02:00 [DBG] Connection id "0HMKCU63P3CLL" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-09-02 16:43:41.652 +02:00 [DBG] Connection id "0HMKCU63P3CLM" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-09-02 16:43:41.817 +02:00 [DBG] Connection id "0HMKCU63P3CLN" accepted.
+2022-09-02 16:43:41.819 +02:00 [DBG] Connection id "0HMKCU63P3CLN" started.
+2022-09-02 16:43:41.893 +02:00 [DBG] Connection 0HMKCU63P3CLN established using the following protocol: "Tls12"
+2022-09-02 16:43:41.993 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/swagger/index.html - -
+2022-09-02 16:43:42.035 +02:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-09-02 16:43:42.144 +02:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-09-02 16:43:42.292 +02:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-09-02 16:43:42.304 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/swagger/index.html - - - 200 - text/html;charset=utf-8 318.4717ms
+2022-09-02 16:43:42.317 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/_framework/aspnetcore-browser-refresh.js - -
+2022-09-02 16:43:42.327 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 9.8159ms
+2022-09-02 16:43:42.351 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/_vs/browserLink - -
+2022-09-02 16:43:42.377 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 25.8524ms
+2022-09-02 16:43:42.556 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/swagger/v1/swagger.json - -
+2022-09-02 16:43:42.829 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 273.7244ms
+2022-09-02 16:51:02.073 +02:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-09-02 16:51:02.205 +02:00 [DBG] Hosting starting
+2022-09-02 16:51:02.376 +02:00 [DBG] Using development certificate: CN=localhost (Thumbprint: D2D078B8839554F36FC8158D0A37C2DCA6302CB7)
+2022-09-02 16:51:02.505 +02:00 [INF] Now listening on: https://localhost:7127
+2022-09-02 16:51:02.506 +02:00 [INF] Now listening on: http://localhost:5127
+2022-09-02 16:51:02.507 +02:00 [DBG] Loaded hosting startup assembly FoodIdea.API
+2022-09-02 16:51:02.508 +02:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-09-02 16:51:02.509 +02:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-09-02 16:51:02.510 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-02 16:51:02.511 +02:00 [INF] Hosting environment: Development
+2022-09-02 16:51:02.511 +02:00 [INF] Content root path: C:\Users\dell\Desktop\programming\FoodIdea.API\FoodIdea.API\
+2022-09-02 16:51:02.512 +02:00 [DBG] Hosting started
+2022-09-02 16:51:02.940 +02:00 [DBG] Connection id "0HMKCUA7A5VHS" accepted.
+2022-09-02 16:51:02.940 +02:00 [DBG] Connection id "0HMKCUA7A5VHR" accepted.
+2022-09-02 16:51:02.942 +02:00 [DBG] Connection id "0HMKCUA7A5VHS" started.
+2022-09-02 16:51:02.942 +02:00 [DBG] Connection id "0HMKCUA7A5VHR" started.
+2022-09-02 16:51:02.976 +02:00 [DBG] Connection id "0HMKCUA7A5VHR" received FIN.
+2022-09-02 16:51:02.976 +02:00 [DBG] Connection id "0HMKCUA7A5VHS" received FIN.
+2022-09-02 16:51:02.987 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-09-02 16:51:02.987 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-09-02 16:51:03.047 +02:00 [DBG] Connection id "0HMKCUA7A5VHS" stopped.
+2022-09-02 16:51:03.047 +02:00 [DBG] Connection id "0HMKCUA7A5VHR" stopped.
+2022-09-02 16:51:03.052 +02:00 [DBG] Connection id "0HMKCUA7A5VHS" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-09-02 16:51:03.053 +02:00 [DBG] Connection id "0HMKCUA7A5VHR" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-09-02 16:51:03.454 +02:00 [DBG] Connection id "0HMKCUA7A5VHT" accepted.
+2022-09-02 16:51:03.456 +02:00 [DBG] Connection id "0HMKCUA7A5VHT" started.
+2022-09-02 16:51:03.511 +02:00 [DBG] Connection 0HMKCUA7A5VHT established using the following protocol: "Tls12"
+2022-09-02 16:51:03.626 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/swagger/index.html - -
+2022-09-02 16:51:03.691 +02:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-09-02 16:51:03.921 +02:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-09-02 16:51:04.078 +02:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-09-02 16:51:04.089 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/swagger/index.html - - - 200 - text/html;charset=utf-8 471.2311ms
+2022-09-02 16:51:04.112 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/_framework/aspnetcore-browser-refresh.js - -
+2022-09-02 16:51:04.122 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 9.8851ms
+2022-09-02 16:51:04.147 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/_vs/browserLink - -
+2022-09-02 16:51:04.176 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 28.3521ms
+2022-09-02 16:51:04.335 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/swagger/v1/swagger.json - -
+2022-09-02 16:51:04.535 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 200.2010ms
+2022-09-02 16:58:20.821 +02:00 [DBG] An additional 'IServiceProvider' was created for internal use by Entity Framework. An existing service provider was not used due to the following configuration changes: configuration changed for 'Core:ConfigureWarnings', configuration added for 'Pomelo.EntityFrameworkCore.MySql:ServerVersion', configuration added for 'Pomelo.EntityFrameworkCore.MySql:DisableBackslashEscaping', configuration added for 'Pomelo.EntityFrameworkCore.MySql:SetSqlModeOnOpen', configuration added for 'Pomelo.EntityFrameworkCore.MySql:DisableLineBreakToCharSubstition', configuration added for 'Pomelo.EntityFrameworkCore.MySql:DefaultDataTypeMappings', configuration added for 'Pomelo.EntityFrameworkCore.MySql:SchemaBehavior', configuration added for 'Pomelo.EntityFrameworkCore.MySql:SchemaNameTranslator', configuration added for 'Pomelo.EntityFrameworkCore.MySql:EnableIndexOptimizedBooleanColumns', configuration added for 'Pomelo.EntityFrameworkCore.MySql:LimitKeyedOrIndexedStringColumnLength', configuration added for 'Pomelo.EntityFrameworkCore.MySql:EnableStringComparisonTranslations'.
+2022-09-02 16:58:51.090 +02:00 [DBG] An additional 'IServiceProvider' was created for internal use by Entity Framework. An existing service provider was not used due to the following configuration changes: configuration changed for 'Core:ConfigureWarnings', configuration added for 'Pomelo.EntityFrameworkCore.MySql:ServerVersion', configuration added for 'Pomelo.EntityFrameworkCore.MySql:DisableBackslashEscaping', configuration added for 'Pomelo.EntityFrameworkCore.MySql:SetSqlModeOnOpen', configuration added for 'Pomelo.EntityFrameworkCore.MySql:DisableLineBreakToCharSubstition', configuration added for 'Pomelo.EntityFrameworkCore.MySql:DefaultDataTypeMappings', configuration added for 'Pomelo.EntityFrameworkCore.MySql:SchemaBehavior', configuration added for 'Pomelo.EntityFrameworkCore.MySql:SchemaNameTranslator', configuration added for 'Pomelo.EntityFrameworkCore.MySql:EnableIndexOptimizedBooleanColumns', configuration added for 'Pomelo.EntityFrameworkCore.MySql:LimitKeyedOrIndexedStringColumnLength', configuration added for 'Pomelo.EntityFrameworkCore.MySql:EnableStringComparisonTranslations'.
+2022-09-02 17:00:25.215 +02:00 [DBG] An additional 'IServiceProvider' was created for internal use by Entity Framework. An existing service provider was not used due to the following configuration changes: configuration changed for 'Core:ConfigureWarnings', configuration added for 'Pomelo.EntityFrameworkCore.MySql:ServerVersion', configuration added for 'Pomelo.EntityFrameworkCore.MySql:DisableBackslashEscaping', configuration added for 'Pomelo.EntityFrameworkCore.MySql:SetSqlModeOnOpen', configuration added for 'Pomelo.EntityFrameworkCore.MySql:DisableLineBreakToCharSubstition', configuration added for 'Pomelo.EntityFrameworkCore.MySql:DefaultDataTypeMappings', configuration added for 'Pomelo.EntityFrameworkCore.MySql:SchemaBehavior', configuration added for 'Pomelo.EntityFrameworkCore.MySql:SchemaNameTranslator', configuration added for 'Pomelo.EntityFrameworkCore.MySql:EnableIndexOptimizedBooleanColumns', configuration added for 'Pomelo.EntityFrameworkCore.MySql:LimitKeyedOrIndexedStringColumnLength', configuration added for 'Pomelo.EntityFrameworkCore.MySql:EnableStringComparisonTranslations'.
+2022-09-02 17:01:37.561 +02:00 [DBG] An additional 'IServiceProvider' was created for internal use by Entity Framework. An existing service provider was not used due to the following configuration changes: configuration changed for 'Core:ConfigureWarnings', configuration added for 'Pomelo.EntityFrameworkCore.MySql:ServerVersion', configuration added for 'Pomelo.EntityFrameworkCore.MySql:DisableBackslashEscaping', configuration added for 'Pomelo.EntityFrameworkCore.MySql:SetSqlModeOnOpen', configuration added for 'Pomelo.EntityFrameworkCore.MySql:DisableLineBreakToCharSubstition', configuration added for 'Pomelo.EntityFrameworkCore.MySql:DefaultDataTypeMappings', configuration added for 'Pomelo.EntityFrameworkCore.MySql:SchemaBehavior', configuration added for 'Pomelo.EntityFrameworkCore.MySql:SchemaNameTranslator', configuration added for 'Pomelo.EntityFrameworkCore.MySql:EnableIndexOptimizedBooleanColumns', configuration added for 'Pomelo.EntityFrameworkCore.MySql:LimitKeyedOrIndexedStringColumnLength', configuration added for 'Pomelo.EntityFrameworkCore.MySql:EnableStringComparisonTranslations'.
+2022-09-02 17:05:58.583 +02:00 [DBG] An additional 'IServiceProvider' was created for internal use by Entity Framework. An existing service provider was not used due to the following configuration changes: configuration changed for 'Core:ConfigureWarnings', configuration added for 'Pomelo.EntityFrameworkCore.MySql:ServerVersion', configuration added for 'Pomelo.EntityFrameworkCore.MySql:DisableBackslashEscaping', configuration added for 'Pomelo.EntityFrameworkCore.MySql:SetSqlModeOnOpen', configuration added for 'Pomelo.EntityFrameworkCore.MySql:DisableLineBreakToCharSubstition', configuration added for 'Pomelo.EntityFrameworkCore.MySql:DefaultDataTypeMappings', configuration added for 'Pomelo.EntityFrameworkCore.MySql:SchemaBehavior', configuration added for 'Pomelo.EntityFrameworkCore.MySql:SchemaNameTranslator', configuration added for 'Pomelo.EntityFrameworkCore.MySql:EnableIndexOptimizedBooleanColumns', configuration added for 'Pomelo.EntityFrameworkCore.MySql:LimitKeyedOrIndexedStringColumnLength', configuration added for 'Pomelo.EntityFrameworkCore.MySql:EnableStringComparisonTranslations'.
+2022-09-02 17:09:49.993 +02:00 [DBG] An additional 'IServiceProvider' was created for internal use by Entity Framework. An existing service provider was not used due to the following configuration changes: configuration changed for 'Core:ConfigureWarnings', configuration added for 'Pomelo.EntityFrameworkCore.MySql:ServerVersion', configuration added for 'Pomelo.EntityFrameworkCore.MySql:DisableBackslashEscaping', configuration added for 'Pomelo.EntityFrameworkCore.MySql:SetSqlModeOnOpen', configuration added for 'Pomelo.EntityFrameworkCore.MySql:DisableLineBreakToCharSubstition', configuration added for 'Pomelo.EntityFrameworkCore.MySql:DefaultDataTypeMappings', configuration added for 'Pomelo.EntityFrameworkCore.MySql:SchemaBehavior', configuration added for 'Pomelo.EntityFrameworkCore.MySql:SchemaNameTranslator', configuration added for 'Pomelo.EntityFrameworkCore.MySql:EnableIndexOptimizedBooleanColumns', configuration added for 'Pomelo.EntityFrameworkCore.MySql:LimitKeyedOrIndexedStringColumnLength', configuration added for 'Pomelo.EntityFrameworkCore.MySql:EnableStringComparisonTranslations'.
+2022-09-02 17:10:41.129 +02:00 [DBG] An additional 'IServiceProvider' was created for internal use by Entity Framework. An existing service provider was not used due to the following configuration changes: configuration changed for 'Core:ConfigureWarnings', configuration added for 'Pomelo.EntityFrameworkCore.MySql:ServerVersion', configuration added for 'Pomelo.EntityFrameworkCore.MySql:DisableBackslashEscaping', configuration added for 'Pomelo.EntityFrameworkCore.MySql:SetSqlModeOnOpen', configuration added for 'Pomelo.EntityFrameworkCore.MySql:DisableLineBreakToCharSubstition', configuration added for 'Pomelo.EntityFrameworkCore.MySql:DefaultDataTypeMappings', configuration added for 'Pomelo.EntityFrameworkCore.MySql:SchemaBehavior', configuration added for 'Pomelo.EntityFrameworkCore.MySql:SchemaNameTranslator', configuration added for 'Pomelo.EntityFrameworkCore.MySql:EnableIndexOptimizedBooleanColumns', configuration added for 'Pomelo.EntityFrameworkCore.MySql:LimitKeyedOrIndexedStringColumnLength', configuration added for 'Pomelo.EntityFrameworkCore.MySql:EnableStringComparisonTranslations'.
+2022-09-02 17:10:56.924 +02:00 [DBG] An additional 'IServiceProvider' was created for internal use by Entity Framework. An existing service provider was not used due to the following configuration changes: configuration changed for 'Core:ConfigureWarnings', configuration added for 'Pomelo.EntityFrameworkCore.MySql:ServerVersion', configuration added for 'Pomelo.EntityFrameworkCore.MySql:DisableBackslashEscaping', configuration added for 'Pomelo.EntityFrameworkCore.MySql:SetSqlModeOnOpen', configuration added for 'Pomelo.EntityFrameworkCore.MySql:DisableLineBreakToCharSubstition', configuration added for 'Pomelo.EntityFrameworkCore.MySql:DefaultDataTypeMappings', configuration added for 'Pomelo.EntityFrameworkCore.MySql:SchemaBehavior', configuration added for 'Pomelo.EntityFrameworkCore.MySql:SchemaNameTranslator', configuration added for 'Pomelo.EntityFrameworkCore.MySql:EnableIndexOptimizedBooleanColumns', configuration added for 'Pomelo.EntityFrameworkCore.MySql:LimitKeyedOrIndexedStringColumnLength', configuration added for 'Pomelo.EntityFrameworkCore.MySql:EnableStringComparisonTranslations'.
+2022-09-02 17:11:21.485 +02:00 [DBG] An additional 'IServiceProvider' was created for internal use by Entity Framework. An existing service provider was not used due to the following configuration changes: configuration changed for 'Core:ConfigureWarnings', configuration added for 'Pomelo.EntityFrameworkCore.MySql:ServerVersion', configuration added for 'Pomelo.EntityFrameworkCore.MySql:DisableBackslashEscaping', configuration added for 'Pomelo.EntityFrameworkCore.MySql:SetSqlModeOnOpen', configuration added for 'Pomelo.EntityFrameworkCore.MySql:DisableLineBreakToCharSubstition', configuration added for 'Pomelo.EntityFrameworkCore.MySql:DefaultDataTypeMappings', configuration added for 'Pomelo.EntityFrameworkCore.MySql:SchemaBehavior', configuration added for 'Pomelo.EntityFrameworkCore.MySql:SchemaNameTranslator', configuration added for 'Pomelo.EntityFrameworkCore.MySql:EnableIndexOptimizedBooleanColumns', configuration added for 'Pomelo.EntityFrameworkCore.MySql:LimitKeyedOrIndexedStringColumnLength', configuration added for 'Pomelo.EntityFrameworkCore.MySql:EnableStringComparisonTranslations'.
+2022-09-02 17:11:22.068 +02:00 [INF] Entity Framework Core 6.0.8 initialized 'FoodIdeaContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.30-mysql 
+2022-09-02 17:11:22.211 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Food' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-02 17:11:22.212 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Food' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-02 17:11:22.212 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Food' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-02 17:11:22.230 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Recipe' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-02 17:11:22.230 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Recipe' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-02 17:11:22.230 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Recipe' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-02 17:11:22.250 +02:00 [DBG] DetectChanges starting for 'FoodIdeaContext'.
+2022-09-02 17:11:22.252 +02:00 [DBG] DetectChanges completed for 'FoodIdeaContext'.
+2022-09-02 17:11:22.253 +02:00 [DBG] DetectChanges starting for 'FoodIdeaContext'.
+2022-09-02 17:11:22.261 +02:00 [DBG] DetectChanges completed for 'FoodIdeaContext'.
+2022-09-02 17:11:22.306 +02:00 [DBG] Executing update commands individually as the number of batchable commands (3) is smaller than the minimum batch size (4).
+2022-09-02 17:11:22.310 +02:00 [DBG] Executing update commands individually as the number of batchable commands (3) is smaller than the minimum batch size (4).
+2022-09-02 17:11:22.336 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Food' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-02 17:11:22.336 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Food' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-02 17:11:22.336 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Food' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-02 17:11:22.336 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Recipe' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-02 17:11:22.336 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Recipe' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-02 17:11:22.336 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Recipe' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-02 17:11:22.342 +02:00 [DBG] An entity of type 'Food' tracked by 'FoodIdeaContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-02 17:11:22.345 +02:00 [DBG] An entity of type 'Food' tracked by 'FoodIdeaContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-02 17:11:22.345 +02:00 [DBG] An entity of type 'Food' tracked by 'FoodIdeaContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-02 17:11:22.345 +02:00 [DBG] An entity of type 'Recipe' tracked by 'FoodIdeaContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-02 17:11:22.345 +02:00 [DBG] An entity of type 'Recipe' tracked by 'FoodIdeaContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-02 17:11:22.345 +02:00 [DBG] An entity of type 'Recipe' tracked by 'FoodIdeaContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-02 17:11:22.346 +02:00 [DBG] DetectChanges starting for 'FoodIdeaContext'.
+2022-09-02 17:11:22.346 +02:00 [DBG] DetectChanges completed for 'FoodIdeaContext'.
+2022-09-02 17:11:22.351 +02:00 [DBG] Executing update commands individually as the number of batchable commands (3) is smaller than the minimum batch size (4).
+2022-09-02 17:11:22.352 +02:00 [DBG] Executing update commands individually as the number of batchable commands (3) is smaller than the minimum batch size (4).
+2022-09-02 17:11:22.352 +02:00 [DBG] DetectChanges starting for 'FoodIdeaContext'.
+2022-09-02 17:11:22.352 +02:00 [DBG] DetectChanges completed for 'FoodIdeaContext'.
+2022-09-02 17:11:22.475 +02:00 [DBG] 'FoodIdeaContext' disposed.
+2022-09-02 17:12:05.504 +02:00 [DBG] An additional 'IServiceProvider' was created for internal use by Entity Framework. An existing service provider was not used due to the following configuration changes: configuration changed for 'Core:ConfigureWarnings', configuration added for 'Pomelo.EntityFrameworkCore.MySql:ServerVersion', configuration added for 'Pomelo.EntityFrameworkCore.MySql:DisableBackslashEscaping', configuration added for 'Pomelo.EntityFrameworkCore.MySql:SetSqlModeOnOpen', configuration added for 'Pomelo.EntityFrameworkCore.MySql:DisableLineBreakToCharSubstition', configuration added for 'Pomelo.EntityFrameworkCore.MySql:DefaultDataTypeMappings', configuration added for 'Pomelo.EntityFrameworkCore.MySql:SchemaBehavior', configuration added for 'Pomelo.EntityFrameworkCore.MySql:SchemaNameTranslator', configuration added for 'Pomelo.EntityFrameworkCore.MySql:EnableIndexOptimizedBooleanColumns', configuration added for 'Pomelo.EntityFrameworkCore.MySql:LimitKeyedOrIndexedStringColumnLength', configuration added for 'Pomelo.EntityFrameworkCore.MySql:EnableStringComparisonTranslations'.
+2022-09-02 17:12:06.296 +02:00 [INF] Entity Framework Core 6.0.8 initialized 'FoodIdeaContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.30-mysql 
+2022-09-02 17:12:06.316 +02:00 [DBG] 'FoodIdeaContext' disposed.
+2022-09-02 17:12:37.721 +02:00 [DBG] An additional 'IServiceProvider' was created for internal use by Entity Framework. An existing service provider was not used due to the following configuration changes: configuration changed for 'Core:ConfigureWarnings', configuration added for 'Pomelo.EntityFrameworkCore.MySql:ServerVersion', configuration added for 'Pomelo.EntityFrameworkCore.MySql:DisableBackslashEscaping', configuration added for 'Pomelo.EntityFrameworkCore.MySql:SetSqlModeOnOpen', configuration added for 'Pomelo.EntityFrameworkCore.MySql:DisableLineBreakToCharSubstition', configuration added for 'Pomelo.EntityFrameworkCore.MySql:DefaultDataTypeMappings', configuration added for 'Pomelo.EntityFrameworkCore.MySql:SchemaBehavior', configuration added for 'Pomelo.EntityFrameworkCore.MySql:SchemaNameTranslator', configuration added for 'Pomelo.EntityFrameworkCore.MySql:EnableIndexOptimizedBooleanColumns', configuration added for 'Pomelo.EntityFrameworkCore.MySql:LimitKeyedOrIndexedStringColumnLength', configuration added for 'Pomelo.EntityFrameworkCore.MySql:EnableStringComparisonTranslations'.
+2022-09-02 17:12:38.298 +02:00 [INF] Entity Framework Core 6.0.8 initialized 'FoodIdeaContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.30-mysql 
+2022-09-02 17:12:38.312 +02:00 [DBG] 'FoodIdeaContext' disposed.
+2022-09-02 17:15:30.318 +02:00 [DBG] An additional 'IServiceProvider' was created for internal use by Entity Framework. An existing service provider was not used due to the following configuration changes: configuration changed for 'Core:ConfigureWarnings', configuration added for 'Pomelo.EntityFrameworkCore.MySql:ServerVersion', configuration added for 'Pomelo.EntityFrameworkCore.MySql:DisableBackslashEscaping', configuration added for 'Pomelo.EntityFrameworkCore.MySql:SetSqlModeOnOpen', configuration added for 'Pomelo.EntityFrameworkCore.MySql:DisableLineBreakToCharSubstition', configuration added for 'Pomelo.EntityFrameworkCore.MySql:DefaultDataTypeMappings', configuration added for 'Pomelo.EntityFrameworkCore.MySql:SchemaBehavior', configuration added for 'Pomelo.EntityFrameworkCore.MySql:SchemaNameTranslator', configuration added for 'Pomelo.EntityFrameworkCore.MySql:EnableIndexOptimizedBooleanColumns', configuration added for 'Pomelo.EntityFrameworkCore.MySql:LimitKeyedOrIndexedStringColumnLength', configuration added for 'Pomelo.EntityFrameworkCore.MySql:EnableStringComparisonTranslations'.
+2022-09-02 17:15:30.899 +02:00 [INF] Entity Framework Core 6.0.8 initialized 'FoodIdeaContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.30-mysql 
+2022-09-02 17:15:30.913 +02:00 [DBG] 'FoodIdeaContext' disposed.
+2022-09-02 17:15:45.426 +02:00 [DBG] An additional 'IServiceProvider' was created for internal use by Entity Framework. An existing service provider was not used due to the following configuration changes: configuration changed for 'Core:ConfigureWarnings', configuration added for 'Pomelo.EntityFrameworkCore.MySql:ServerVersion', configuration added for 'Pomelo.EntityFrameworkCore.MySql:DisableBackslashEscaping', configuration added for 'Pomelo.EntityFrameworkCore.MySql:SetSqlModeOnOpen', configuration added for 'Pomelo.EntityFrameworkCore.MySql:DisableLineBreakToCharSubstition', configuration added for 'Pomelo.EntityFrameworkCore.MySql:DefaultDataTypeMappings', configuration added for 'Pomelo.EntityFrameworkCore.MySql:SchemaBehavior', configuration added for 'Pomelo.EntityFrameworkCore.MySql:SchemaNameTranslator', configuration added for 'Pomelo.EntityFrameworkCore.MySql:EnableIndexOptimizedBooleanColumns', configuration added for 'Pomelo.EntityFrameworkCore.MySql:LimitKeyedOrIndexedStringColumnLength', configuration added for 'Pomelo.EntityFrameworkCore.MySql:EnableStringComparisonTranslations'.
+2022-09-02 17:15:46.018 +02:00 [INF] Entity Framework Core 6.0.8 initialized 'FoodIdeaContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.30-mysql 
+2022-09-02 17:15:46.034 +02:00 [DBG] 'FoodIdeaContext' disposed.
+2022-09-02 17:38:51.763 +02:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-09-02 17:38:51.908 +02:00 [DBG] Hosting starting
+2022-09-02 17:38:52.118 +02:00 [DBG] Using development certificate: CN=localhost (Thumbprint: D2D078B8839554F36FC8158D0A37C2DCA6302CB7)
+2022-09-02 17:38:52.176 +02:00 [INF] Now listening on: https://localhost:7127
+2022-09-02 17:38:52.177 +02:00 [INF] Now listening on: http://localhost:5127
+2022-09-02 17:38:52.178 +02:00 [DBG] Loaded hosting startup assembly FoodIdea.API
+2022-09-02 17:38:52.179 +02:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-09-02 17:38:52.180 +02:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-09-02 17:38:52.181 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-02 17:38:52.182 +02:00 [INF] Hosting environment: Development
+2022-09-02 17:38:52.183 +02:00 [INF] Content root path: C:\Users\dell\Desktop\programming\FoodIdea.API\FoodIdea.API\
+2022-09-02 17:38:52.184 +02:00 [DBG] Hosting started
+2022-09-02 17:38:52.563 +02:00 [DBG] Connection id "0HMKCV4UH2HDN" received FIN.
+2022-09-02 17:38:52.563 +02:00 [DBG] Connection id "0HMKCV4UH2HDM" received FIN.
+2022-09-02 17:38:52.579 +02:00 [DBG] Connection id "0HMKCV4UH2HDM" accepted.
+2022-09-02 17:38:52.579 +02:00 [DBG] Connection id "0HMKCV4UH2HDN" accepted.
+2022-09-02 17:38:52.582 +02:00 [DBG] Connection id "0HMKCV4UH2HDN" started.
+2022-09-02 17:38:52.582 +02:00 [DBG] Connection id "0HMKCV4UH2HDM" started.
+2022-09-02 17:38:52.608 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-09-02 17:38:52.607 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-09-02 17:38:52.649 +02:00 [DBG] Connection id "0HMKCV4UH2HDO" accepted.
+2022-09-02 17:38:52.669 +02:00 [DBG] Connection id "0HMKCV4UH2HDO" started.
+2022-09-02 17:38:52.673 +02:00 [DBG] Connection id "0HMKCV4UH2HDM" stopped.
+2022-09-02 17:38:52.673 +02:00 [DBG] Connection id "0HMKCV4UH2HDN" stopped.
+2022-09-02 17:38:52.684 +02:00 [DBG] Connection id "0HMKCV4UH2HDM" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-09-02 17:38:52.684 +02:00 [DBG] Connection id "0HMKCV4UH2HDN" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-09-02 17:38:52.730 +02:00 [DBG] Connection 0HMKCV4UH2HDO established using the following protocol: "Tls12"
+2022-09-02 17:38:52.791 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/swagger/index.html - -
+2022-09-02 17:38:52.834 +02:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-09-02 17:38:52.966 +02:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-09-02 17:38:53.125 +02:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-09-02 17:38:53.134 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/swagger/index.html - - - 200 - text/html;charset=utf-8 345.4406ms
+2022-09-02 17:38:53.152 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/_framework/aspnetcore-browser-refresh.js - -
+2022-09-02 17:38:53.159 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 7.6284ms
+2022-09-02 17:38:53.182 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/_vs/browserLink - -
+2022-09-02 17:38:53.212 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 30.1763ms
+2022-09-02 17:38:53.391 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/swagger/v1/swagger.json - -
+2022-09-02 17:38:53.594 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 202.4629ms
+2022-09-02 17:39:02.135 +02:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-09-02 17:39:02.722 +02:00 [INF] Entity Framework Core 6.0.8 initialized 'FoodIdeaContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.29-mysql 
+2022-09-02 17:39:02.749 +02:00 [DBG] Migrating using database 'FoodIdea_db' on server 'localhost'.
+2022-09-02 17:39:02.754 +02:00 [DBG] Opening connection to database '' on server 'localhost'.
+2022-09-02 17:39:02.893 +02:00 [DBG] Opened connection to database '' on server 'localhost'.
+2022-09-02 17:39:02.946 +02:00 [DBG] Opening connection to database '' on server 'localhost'.
+2022-09-02 17:39:02.950 +02:00 [DBG] Opened connection to database '' on server 'localhost'.
+2022-09-02 17:39:02.974 +02:00 [DBG] Opening connection to database '' on server 'localhost'.
+2022-09-02 17:39:02.978 +02:00 [DBG] Opened connection to database '' on server 'localhost'.
+2022-09-02 17:39:02.983 +02:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2022-09-02 17:39:02.988 +02:00 [DBG] Began transaction with isolation level 'Unspecified'.
+2022-09-02 17:39:02.992 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-02 17:39:02.998 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (1ms).
+2022-09-02 17:39:03.007 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE DATABASE `FoodIdea_db`;
+2022-09-02 17:39:03.020 +02:00 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE DATABASE `FoodIdea_db`;
+2022-09-02 17:39:03.022 +02:00 [DBG] Committing transaction.
+2022-09-02 17:39:03.023 +02:00 [DBG] Committed transaction.
+2022-09-02 17:39:03.024 +02:00 [DBG] Disposing transaction.
+2022-09-02 17:39:03.025 +02:00 [DBG] Closing connection to database '' on server 'localhost'.
+2022-09-02 17:39:03.026 +02:00 [DBG] Closed connection to database '' on server 'localhost'.
+2022-09-02 17:39:03.037 +02:00 [DBG] Opening connection to database '' on server 'localhost'.
+2022-09-02 17:39:03.040 +02:00 [DBG] Opened connection to database '' on server 'localhost'.
+2022-09-02 17:39:03.127 +02:00 [DBG] DetectChanges starting for 'FoodIdeaContext'.
+2022-09-02 17:39:03.129 +02:00 [DBG] DetectChanges completed for 'FoodIdeaContext'.
+2022-09-02 17:39:03.148 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-02 17:39:03.148 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-02 17:39:03.148 +02:00 [DBG] Opening connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-02 17:39:03.154 +02:00 [DBG] Opened connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-02 17:39:03.154 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `__EFMigrationsHistory` (
+    `MigrationId` varchar(150) CHARACTER SET utf8mb4 NOT NULL,
+    `ProductVersion` varchar(32) CHARACTER SET utf8mb4 NOT NULL,
+    CONSTRAINT `PK___EFMigrationsHistory` PRIMARY KEY (`MigrationId`)
+) CHARACTER SET=utf8mb4;
+2022-09-02 17:39:03.261 +02:00 [INF] Executed DbCommand (107ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `__EFMigrationsHistory` (
+    `MigrationId` varchar(150) CHARACTER SET utf8mb4 NOT NULL,
+    `ProductVersion` varchar(32) CHARACTER SET utf8mb4 NOT NULL,
+    CONSTRAINT `PK___EFMigrationsHistory` PRIMARY KEY (`MigrationId`)
+) CHARACTER SET=utf8mb4;
+2022-09-02 17:39:03.261 +02:00 [DBG] Closing connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-02 17:39:03.262 +02:00 [DBG] Closed connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-02 17:39:03.263 +02:00 [DBG] Opening connection to database '' on server 'localhost'.
+2022-09-02 17:39:03.267 +02:00 [DBG] Opened connection to database '' on server 'localhost'.
+2022-09-02 17:39:03.269 +02:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2022-09-02 17:39:03.269 +02:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2022-09-02 17:39:03.269 +02:00 [DBG] Opening connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-02 17:39:03.271 +02:00 [DBG] Opened connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-02 17:39:03.271 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='FoodIdea_db' AND TABLE_NAME='__EFMigrationsHistory';
+2022-09-02 17:39:03.280 +02:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='FoodIdea_db' AND TABLE_NAME='__EFMigrationsHistory';
+2022-09-02 17:39:03.280 +02:00 [DBG] Closing connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-02 17:39:03.280 +02:00 [DBG] Closed connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-02 17:39:03.282 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-09-02 17:39:03.282 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2022-09-02 17:39:03.282 +02:00 [DBG] Opening connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-02 17:39:03.282 +02:00 [DBG] Opened connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-02 17:39:03.282 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;
+2022-09-02 17:39:03.287 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;
+2022-09-02 17:39:03.288 +02:00 [DBG] A data reader was disposed.
+2022-09-02 17:39:03.288 +02:00 [DBG] Closing connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-02 17:39:03.288 +02:00 [DBG] Closed connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-02 17:39:03.298 +02:00 [INF] Applying migration '20220902124615_FoodIdeaDBInitialMigration'.
+2022-09-02 17:39:03.321 +02:00 [DBG] Opening connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-02 17:39:03.322 +02:00 [DBG] Opened connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-02 17:39:03.322 +02:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2022-09-02 17:39:03.322 +02:00 [DBG] Began transaction with isolation level 'Unspecified'.
+2022-09-02 17:39:03.322 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-02 17:39:03.322 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-02 17:39:03.322 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER DATABASE CHARACTER SET utf8mb4;
+2022-09-02 17:39:03.328 +02:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER DATABASE CHARACTER SET utf8mb4;
+2022-09-02 17:39:03.328 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-02 17:39:03.328 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-02 17:39:03.687 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `Foods` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `Name` varchar(50) CHARACTER SET utf8mb4 NOT NULL,
+    `Description` longtext CHARACTER SET utf8mb4 NULL,
+    CONSTRAINT `PK_Foods` PRIMARY KEY (`Id`)
+) CHARACTER SET=utf8mb4;
+2022-09-02 17:39:03.714 +02:00 [INF] Executed DbCommand (27ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `Foods` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `Name` varchar(50) CHARACTER SET utf8mb4 NOT NULL,
+    `Description` longtext CHARACTER SET utf8mb4 NULL,
+    CONSTRAINT `PK_Foods` PRIMARY KEY (`Id`)
+) CHARACTER SET=utf8mb4;
+2022-09-02 17:39:03.714 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-02 17:39:03.714 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-02 17:39:03.715 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `Recipes` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `PreparationTime` int NOT NULL,
+    `IsHardToDo` tinyint(1) NOT NULL,
+    `TasteRate` double NOT NULL,
+    `FoodId` int NOT NULL,
+    CONSTRAINT `PK_Recipes` PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_Recipes_Foods_FoodId` FOREIGN KEY (`FoodId`) REFERENCES `Foods` (`Id`) ON DELETE CASCADE
+) CHARACTER SET=utf8mb4;
+2022-09-02 17:39:03.749 +02:00 [INF] Executed DbCommand (34ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `Recipes` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `PreparationTime` int NOT NULL,
+    `IsHardToDo` tinyint(1) NOT NULL,
+    `TasteRate` double NOT NULL,
+    `FoodId` int NOT NULL,
+    CONSTRAINT `PK_Recipes` PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_Recipes_Foods_FoodId` FOREIGN KEY (`FoodId`) REFERENCES `Foods` (`Id`) ON DELETE CASCADE
+) CHARACTER SET=utf8mb4;
+2022-09-02 17:39:03.749 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-02 17:39:03.749 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-02 17:39:03.749 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `IngredientsClass` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `Ingredient` longtext CHARACTER SET utf8mb4 NOT NULL,
+    `RecipeId` int NULL,
+    CONSTRAINT `PK_IngredientsClass` PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_IngredientsClass_Recipes_RecipeId` FOREIGN KEY (`RecipeId`) REFERENCES `Recipes` (`Id`)
+) CHARACTER SET=utf8mb4;
+2022-09-02 17:39:03.789 +02:00 [INF] Executed DbCommand (39ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `IngredientsClass` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `Ingredient` longtext CHARACTER SET utf8mb4 NOT NULL,
+    `RecipeId` int NULL,
+    CONSTRAINT `PK_IngredientsClass` PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_IngredientsClass_Recipes_RecipeId` FOREIGN KEY (`RecipeId`) REFERENCES `Recipes` (`Id`)
+) CHARACTER SET=utf8mb4;
+2022-09-02 17:39:03.789 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-02 17:39:03.789 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-02 17:39:03.789 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_IngredientsClass_RecipeId` ON `IngredientsClass` (`RecipeId`);
+2022-09-02 17:39:03.823 +02:00 [INF] Executed DbCommand (34ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_IngredientsClass_RecipeId` ON `IngredientsClass` (`RecipeId`);
+2022-09-02 17:39:03.823 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-02 17:39:03.823 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-02 17:39:03.824 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_Recipes_FoodId` ON `Recipes` (`FoodId`);
+2022-09-02 17:39:03.841 +02:00 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_Recipes_FoodId` ON `Recipes` (`FoodId`);
+2022-09-02 17:39:03.841 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-02 17:39:03.841 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-02 17:39:03.841 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `__EFMigrationsHistory` (`MigrationId`, `ProductVersion`)
+VALUES ('20220902124615_FoodIdeaDBInitialMigration', '6.0.8');
+2022-09-02 17:39:03.850 +02:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `__EFMigrationsHistory` (`MigrationId`, `ProductVersion`)
+VALUES ('20220902124615_FoodIdeaDBInitialMigration', '6.0.8');
+2022-09-02 17:39:05.475 +02:00 [DBG] Committing transaction.
+2022-09-02 17:39:05.475 +02:00 [DBG] Committed transaction.
+2022-09-02 17:39:05.475 +02:00 [DBG] Disposing transaction.
+2022-09-02 17:39:05.475 +02:00 [DBG] Closing connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-02 17:39:05.475 +02:00 [DBG] Closed connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-02 17:39:05.475 +02:00 [INF] Applying migration '20220902151122_DataSeed'.
+2022-09-02 17:39:05.488 +02:00 [DBG] Opening connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-02 17:39:05.488 +02:00 [DBG] Opened connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-02 17:39:05.488 +02:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2022-09-02 17:39:05.489 +02:00 [DBG] Began transaction with isolation level 'Unspecified'.
+2022-09-02 17:39:05.489 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-02 17:39:05.489 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-02 17:39:05.489 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DROP TABLE `IngredientsClass`;
+2022-09-02 17:39:05.505 +02:00 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DROP TABLE `IngredientsClass`;
+2022-09-02 17:39:05.505 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-02 17:39:05.505 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-02 17:39:05.505 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `Foods` (`Id`, `Description`, `Name`)
+VALUES (1, 'Włoskie danie z makaronem i mięsem mielonym', 'Spaghetti');
+2022-09-02 17:39:05.510 +02:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `Foods` (`Id`, `Description`, `Name`)
+VALUES (1, 'Włoskie danie z makaronem i mięsem mielonym', 'Spaghetti');
+2022-09-02 17:39:05.510 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-02 17:39:05.510 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-02 17:39:05.510 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `Foods` (`Id`, `Description`, `Name`)
+VALUES (2, 'Meksykańskie danie z fasoli czerwonej, białej, mięsa mielonego oraz kukurydzy', 'Chilli con-carne');
+2022-09-02 17:39:05.515 +02:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `Foods` (`Id`, `Description`, `Name`)
+VALUES (2, 'Meksykańskie danie z fasoli czerwonej, białej, mięsa mielonego oraz kukurydzy', 'Chilli con-carne');
+2022-09-02 17:39:05.516 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-02 17:39:05.516 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-02 17:39:05.516 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `Foods` (`Id`, `Description`, `Name`)
+VALUES (3, 'Danie składające się z losowych warzyw, ryżu, opcjonalnie jakieś mięso', 'Mix warzywny');
+2022-09-02 17:39:05.520 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `Foods` (`Id`, `Description`, `Name`)
+VALUES (3, 'Danie składające się z losowych warzyw, ryżu, opcjonalnie jakieś mięso', 'Mix warzywny');
+2022-09-02 17:39:05.520 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-02 17:39:05.520 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-02 17:39:05.520 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `Recipes` (`Id`, `FoodId`, `IsHardToDo`, `PreparationTime`, `TasteRate`)
+VALUES (1, 1, FALSE, 30, 8.0);
+2022-09-02 17:39:05.526 +02:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `Recipes` (`Id`, `FoodId`, `IsHardToDo`, `PreparationTime`, `TasteRate`)
+VALUES (1, 1, FALSE, 30, 8.0);
+2022-09-02 17:39:05.526 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-02 17:39:05.526 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-02 17:39:05.526 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `Recipes` (`Id`, `FoodId`, `IsHardToDo`, `PreparationTime`, `TasteRate`)
+VALUES (2, 2, FALSE, 20, 8.5);
+2022-09-02 17:39:05.531 +02:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `Recipes` (`Id`, `FoodId`, `IsHardToDo`, `PreparationTime`, `TasteRate`)
+VALUES (2, 2, FALSE, 20, 8.5);
+2022-09-02 17:39:07.221 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-02 17:39:07.221 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-02 17:39:07.221 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `Recipes` (`Id`, `FoodId`, `IsHardToDo`, `PreparationTime`, `TasteRate`)
+VALUES (3, 3, FALSE, 20, 7.0);
+2022-09-02 17:39:07.228 +02:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `Recipes` (`Id`, `FoodId`, `IsHardToDo`, `PreparationTime`, `TasteRate`)
+VALUES (3, 3, FALSE, 20, 7.0);
+2022-09-02 17:39:07.228 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-02 17:39:07.228 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-02 17:39:07.228 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `__EFMigrationsHistory` (`MigrationId`, `ProductVersion`)
+VALUES ('20220902151122_DataSeed', '6.0.8');
+2022-09-02 17:39:07.232 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `__EFMigrationsHistory` (`MigrationId`, `ProductVersion`)
+VALUES ('20220902151122_DataSeed', '6.0.8');
+2022-09-02 17:39:07.232 +02:00 [DBG] Committing transaction.
+2022-09-02 17:39:07.232 +02:00 [DBG] Committed transaction.
+2022-09-02 17:39:07.233 +02:00 [DBG] Disposing transaction.
+2022-09-02 17:39:07.233 +02:00 [DBG] Closing connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-02 17:39:07.233 +02:00 [DBG] Closed connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-02 17:39:07.234 +02:00 [DBG] 'FoodIdeaContext' disposed.
+2022-09-02 17:41:31.154 +02:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-09-02 17:42:32.818 +02:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-09-02 17:42:45.986 +02:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-09-02 17:43:28.139 +02:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-09-02 17:43:28.629 +02:00 [DBG] The property 'IngredientsClass.RecipeId' was created in shadow state because there are no eligible CLR members with a matching name.
+2022-09-02 17:43:28.764 +02:00 [INF] Entity Framework Core 6.0.8 initialized 'FoodIdeaContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.29-mysql 
+2022-09-02 17:43:28.788 +02:00 [DBG] Migrating using database 'FoodIdea_db' on server 'localhost'.
+2022-09-02 17:43:28.793 +02:00 [DBG] Opening connection to database '' on server 'localhost'.
+2022-09-02 17:43:28.933 +02:00 [DBG] Opened connection to database '' on server 'localhost'.
+2022-09-02 17:43:28.990 +02:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2022-09-02 17:43:28.996 +02:00 [DBG] Created DbCommand for 'ExecuteScalar' (3ms).
+2022-09-02 17:43:28.997 +02:00 [DBG] Opening connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-02 17:43:29.005 +02:00 [DBG] Opened connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-02 17:43:29.011 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='FoodIdea_db' AND TABLE_NAME='__EFMigrationsHistory';
+2022-09-02 17:43:29.026 +02:00 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='FoodIdea_db' AND TABLE_NAME='__EFMigrationsHistory';
+2022-09-02 17:43:29.028 +02:00 [DBG] Closing connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-02 17:43:29.030 +02:00 [DBG] Closed connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-02 17:43:29.031 +02:00 [DBG] Opening connection to database '' on server 'localhost'.
+2022-09-02 17:43:29.034 +02:00 [DBG] Opened connection to database '' on server 'localhost'.
+2022-09-02 17:43:29.035 +02:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2022-09-02 17:43:29.035 +02:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2022-09-02 17:43:29.035 +02:00 [DBG] Opening connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-02 17:43:29.038 +02:00 [DBG] Opened connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-02 17:43:29.038 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='FoodIdea_db' AND TABLE_NAME='__EFMigrationsHistory';
+2022-09-02 17:43:29.040 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='FoodIdea_db' AND TABLE_NAME='__EFMigrationsHistory';
+2022-09-02 17:43:29.040 +02:00 [DBG] Closing connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-02 17:43:29.040 +02:00 [DBG] Closed connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-02 17:43:29.064 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-09-02 17:43:29.064 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2022-09-02 17:43:29.064 +02:00 [DBG] Opening connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-02 17:43:29.065 +02:00 [DBG] Opened connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-02 17:43:29.065 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;
+2022-09-02 17:43:29.067 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;
+2022-09-02 17:43:29.069 +02:00 [DBG] A data reader was disposed.
+2022-09-02 17:43:29.069 +02:00 [DBG] Closing connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-02 17:43:29.069 +02:00 [DBG] Closed connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-02 17:43:29.081 +02:00 [INF] No migrations were applied. The database is already up to date.
+2022-09-02 17:43:29.082 +02:00 [DBG] 'FoodIdeaContext' disposed.
+2022-09-02 18:25:18.593 +02:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-09-02 18:35:33.697 +02:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-09-02 18:35:57.926 +02:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-09-02 18:40:45.181 +02:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-09-02 18:44:29.761 +02:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-09-02 18:44:59.855 +02:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-09-02 18:45:45.149 +02:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-09-02 19:04:24.386 +02:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-09-02 19:23:19.914 +02:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.

@@ -1,0 +1,1204 @@
+2022-09-03 11:47:52.826 +02:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-09-03 11:47:53.237 +02:00 [DBG] Hosting starting
+2022-09-03 11:47:53.521 +02:00 [DBG] Using development certificate: CN=localhost (Thumbprint: D2D078B8839554F36FC8158D0A37C2DCA6302CB7)
+2022-09-03 11:47:53.588 +02:00 [INF] Now listening on: https://localhost:7127
+2022-09-03 11:47:53.590 +02:00 [INF] Now listening on: http://localhost:5127
+2022-09-03 11:47:53.592 +02:00 [DBG] Loaded hosting startup assembly FoodIdea.API
+2022-09-03 11:47:53.593 +02:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-09-03 11:47:53.594 +02:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-09-03 11:47:53.596 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-03 11:47:53.597 +02:00 [INF] Hosting environment: Development
+2022-09-03 11:47:53.597 +02:00 [INF] Content root path: C:\Users\dell\Desktop\programming\FoodIdea.API\FoodIdea.API\
+2022-09-03 11:47:53.599 +02:00 [DBG] Hosting started
+2022-09-03 11:47:54.070 +02:00 [DBG] Connection id "0HMKDI5FQ5KC5" accepted.
+2022-09-03 11:47:54.070 +02:00 [DBG] Connection id "0HMKDI5FQ5KC6" accepted.
+2022-09-03 11:47:54.077 +02:00 [DBG] Connection id "0HMKDI5FQ5KC5" started.
+2022-09-03 11:47:54.077 +02:00 [DBG] Connection id "0HMKDI5FQ5KC6" started.
+2022-09-03 11:47:54.383 +02:00 [DBG] Connection id "0HMKDI5FQ5KC7" accepted.
+2022-09-03 11:47:54.385 +02:00 [DBG] Connection id "0HMKDI5FQ5KC7" started.
+2022-09-03 11:47:54.444 +02:00 [DBG] Connection 0HMKDI5FQ5KC7 established using the following protocol: "Tls12"
+2022-09-03 11:47:54.513 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/swagger/index.html - -
+2022-09-03 11:47:54.564 +02:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-09-03 11:47:54.685 +02:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-09-03 11:47:55.006 +02:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-09-03 11:47:55.016 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/swagger/index.html - - - 200 - text/html;charset=utf-8 504.8729ms
+2022-09-03 11:47:55.037 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/_framework/aspnetcore-browser-refresh.js - -
+2022-09-03 11:47:55.046 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 8.5515ms
+2022-09-03 11:47:55.074 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/_vs/browserLink - -
+2022-09-03 11:47:55.135 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 61.1855ms
+2022-09-03 11:47:55.273 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/swagger/v1/swagger.json - -
+2022-09-03 11:47:55.467 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 194.5861ms
+2022-09-03 11:48:04.103 +02:00 [DBG] Authentication of the HTTPS connection timed out.
+2022-09-03 11:48:04.103 +02:00 [DBG] Authentication of the HTTPS connection timed out.
+2022-09-03 11:48:04.116 +02:00 [DBG] Connection id "0HMKDI5FQ5KC5" stopped.
+2022-09-03 11:48:04.116 +02:00 [DBG] Connection id "0HMKDI5FQ5KC6" stopped.
+2022-09-03 11:48:04.123 +02:00 [DBG] Connection id "0HMKDI5FQ5KC5" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-09-03 11:48:04.123 +02:00 [DBG] Connection id "0HMKDI5FQ5KC6" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-09-03 11:48:52.125 +02:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-09-03 11:49:42.599 +02:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-09-03 11:49:42.804 +02:00 [DBG] Hosting starting
+2022-09-03 11:49:43.024 +02:00 [DBG] Using development certificate: CN=localhost (Thumbprint: D2D078B8839554F36FC8158D0A37C2DCA6302CB7)
+2022-09-03 11:49:43.083 +02:00 [INF] Now listening on: https://localhost:7127
+2022-09-03 11:49:43.084 +02:00 [INF] Now listening on: http://localhost:5127
+2022-09-03 11:49:43.085 +02:00 [DBG] Loaded hosting startup assembly FoodIdea.API
+2022-09-03 11:49:43.086 +02:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-09-03 11:49:43.087 +02:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-09-03 11:49:43.089 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-03 11:49:43.090 +02:00 [INF] Hosting environment: Development
+2022-09-03 11:49:43.091 +02:00 [INF] Content root path: C:\Users\dell\Desktop\programming\FoodIdea.API\FoodIdea.API\
+2022-09-03 11:49:43.092 +02:00 [DBG] Hosting started
+2022-09-03 11:49:43.532 +02:00 [DBG] Connection id "0HMKDI6GE4SDD" received FIN.
+2022-09-03 11:49:43.532 +02:00 [DBG] Connection id "0HMKDI6GE4SDC" received FIN.
+2022-09-03 11:49:43.558 +02:00 [DBG] Connection id "0HMKDI6GE4SDD" accepted.
+2022-09-03 11:49:43.558 +02:00 [DBG] Connection id "0HMKDI6GE4SDC" accepted.
+2022-09-03 11:49:43.565 +02:00 [DBG] Connection id "0HMKDI6GE4SDD" started.
+2022-09-03 11:49:43.567 +02:00 [DBG] Connection id "0HMKDI6GE4SDC" started.
+2022-09-03 11:49:43.605 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-09-03 11:49:43.605 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-09-03 11:49:43.721 +02:00 [DBG] Connection id "0HMKDI6GE4SDD" stopped.
+2022-09-03 11:49:43.721 +02:00 [DBG] Connection id "0HMKDI6GE4SDC" stopped.
+2022-09-03 11:49:43.728 +02:00 [DBG] Connection id "0HMKDI6GE4SDD" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-09-03 11:49:43.728 +02:00 [DBG] Connection id "0HMKDI6GE4SDC" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-09-03 11:49:43.785 +02:00 [DBG] Connection id "0HMKDI6GE4SDE" accepted.
+2022-09-03 11:49:43.787 +02:00 [DBG] Connection id "0HMKDI6GE4SDE" started.
+2022-09-03 11:49:43.835 +02:00 [DBG] Connection 0HMKDI6GE4SDE established using the following protocol: "Tls12"
+2022-09-03 11:49:43.904 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/swagger/index.html - -
+2022-09-03 11:49:43.958 +02:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-09-03 11:49:44.160 +02:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-09-03 11:49:44.390 +02:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-09-03 11:49:44.400 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/swagger/index.html - - - 200 - text/html;charset=utf-8 503.7195ms
+2022-09-03 11:49:44.420 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/_framework/aspnetcore-browser-refresh.js - -
+2022-09-03 11:49:44.427 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 7.1577ms
+2022-09-03 11:49:44.449 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/_vs/browserLink - -
+2022-09-03 11:49:44.478 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 29.1492ms
+2022-09-03 11:49:44.786 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/swagger/v1/swagger.json - -
+2022-09-03 11:49:45.038 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 252.1887ms
+2022-09-03 11:49:52.910 +02:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-09-03 12:00:09.099 +02:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-09-03 12:00:09.300 +02:00 [DBG] Hosting starting
+2022-09-03 12:00:09.656 +02:00 [DBG] Using development certificate: CN=localhost (Thumbprint: D2D078B8839554F36FC8158D0A37C2DCA6302CB7)
+2022-09-03 12:00:09.775 +02:00 [INF] Now listening on: https://localhost:7127
+2022-09-03 12:00:09.779 +02:00 [INF] Now listening on: http://localhost:5127
+2022-09-03 12:00:09.783 +02:00 [DBG] Loaded hosting startup assembly FoodIdea.API
+2022-09-03 12:00:09.786 +02:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-09-03 12:00:09.790 +02:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-09-03 12:00:09.794 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-03 12:00:09.798 +02:00 [INF] Hosting environment: Development
+2022-09-03 12:00:09.802 +02:00 [INF] Content root path: C:\Users\dell\Desktop\programming\FoodIdea.API\FoodIdea.API\
+2022-09-03 12:00:09.806 +02:00 [DBG] Hosting started
+2022-09-03 12:00:10.271 +02:00 [DBG] Connection id "0HMKDICB76G9M" received FIN.
+2022-09-03 12:00:10.271 +02:00 [DBG] Connection id "0HMKDICB76G9N" received FIN.
+2022-09-03 12:00:10.303 +02:00 [DBG] Connection id "0HMKDICB76G9N" accepted.
+2022-09-03 12:00:10.303 +02:00 [DBG] Connection id "0HMKDICB76G9M" accepted.
+2022-09-03 12:00:10.311 +02:00 [DBG] Connection id "0HMKDICB76G9N" started.
+2022-09-03 12:00:10.314 +02:00 [DBG] Connection id "0HMKDICB76G9M" started.
+2022-09-03 12:00:10.362 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-09-03 12:00:10.362 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-09-03 12:00:10.459 +02:00 [DBG] Connection id "0HMKDICB76G9N" stopped.
+2022-09-03 12:00:10.459 +02:00 [DBG] Connection id "0HMKDICB76G9M" stopped.
+2022-09-03 12:00:10.467 +02:00 [DBG] Connection id "0HMKDICB76G9M" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-09-03 12:00:10.467 +02:00 [DBG] Connection id "0HMKDICB76G9N" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-09-03 12:00:10.560 +02:00 [DBG] Connection id "0HMKDICB76G9O" accepted.
+2022-09-03 12:00:10.561 +02:00 [DBG] Connection id "0HMKDICB76G9O" started.
+2022-09-03 12:00:10.612 +02:00 [DBG] Connection 0HMKDICB76G9O established using the following protocol: "Tls12"
+2022-09-03 12:00:10.689 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/swagger/index.html - -
+2022-09-03 12:00:10.746 +02:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-09-03 12:00:10.867 +02:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-09-03 12:00:11.061 +02:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-09-03 12:00:11.073 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/swagger/index.html - - - 200 - text/html;charset=utf-8 389.4755ms
+2022-09-03 12:00:11.097 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/_framework/aspnetcore-browser-refresh.js - -
+2022-09-03 12:00:11.108 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 11.2179ms
+2022-09-03 12:00:11.132 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/_vs/browserLink - -
+2022-09-03 12:00:11.157 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 24.8243ms
+2022-09-03 12:00:11.399 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/swagger/v1/swagger.json - -
+2022-09-03 12:00:11.617 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 217.8864ms
+2022-09-03 12:04:30.359 +02:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-09-03 12:04:30.647 +02:00 [DBG] No relationship from 'Ingredient' to 'Recipe' has been configured by convention because there are multiple properties on one entity type - {'Recipe'} that could be matched with the properties on the other entity type - {'Ingredient', 'Ingredients'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2022-09-03 12:04:30.657 +02:00 [DBG] No relationship from 'Recipe' to 'Ingredient' has been configured by convention because there are multiple properties on one entity type - {'Ingredient', 'Ingredients'} that could be matched with the properties on the other entity type - {'Recipe'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2022-09-03 12:43:46.292 +02:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-09-03 12:43:46.620 +02:00 [DBG] No relationship from 'Ingredient' to 'Recipe' has been configured by convention because there are multiple properties on one entity type - {'Recipe'} that could be matched with the properties on the other entity type - {'Ingredient', 'Ingredients'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2022-09-03 12:43:46.630 +02:00 [DBG] No relationship from 'Recipe' to 'Ingredient' has been configured by convention because there are multiple properties on one entity type - {'Ingredient', 'Ingredients'} that could be matched with the properties on the other entity type - {'Recipe'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2022-09-03 12:45:46.847 +02:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-09-03 12:45:47.132 +02:00 [DBG] No relationship from 'Ingredient' to 'Recipe' has been configured by convention because there are multiple properties on one entity type - {'Recipe'} that could be matched with the properties on the other entity type - {'Ingredient', 'Ingredients'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2022-09-03 12:45:47.141 +02:00 [DBG] No relationship from 'Recipe' to 'Ingredient' has been configured by convention because there are multiple properties on one entity type - {'Ingredient', 'Ingredients'} that could be matched with the properties on the other entity type - {'Recipe'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2022-09-03 12:57:46.281 +02:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-09-03 12:57:46.463 +02:00 [DBG] Hosting starting
+2022-09-03 12:57:46.767 +02:00 [DBG] Using development certificate: CN=localhost (Thumbprint: D2D078B8839554F36FC8158D0A37C2DCA6302CB7)
+2022-09-03 12:57:46.818 +02:00 [INF] Now listening on: https://localhost:7127
+2022-09-03 12:57:46.820 +02:00 [INF] Now listening on: http://localhost:5127
+2022-09-03 12:57:46.821 +02:00 [DBG] Loaded hosting startup assembly FoodIdea.API
+2022-09-03 12:57:46.822 +02:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-09-03 12:57:46.823 +02:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-09-03 12:57:46.824 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-03 12:57:46.825 +02:00 [INF] Hosting environment: Development
+2022-09-03 12:57:46.826 +02:00 [INF] Content root path: C:\Users\dell\Desktop\programming\FoodIdea.API\FoodIdea.API\
+2022-09-03 12:57:46.826 +02:00 [DBG] Hosting started
+2022-09-03 12:57:47.216 +02:00 [DBG] Connection id "0HMKDJCHF6DV9" received FIN.
+2022-09-03 12:57:47.216 +02:00 [DBG] Connection id "0HMKDJCHF6DV8" received FIN.
+2022-09-03 12:57:47.246 +02:00 [DBG] Connection id "0HMKDJCHF6DV9" accepted.
+2022-09-03 12:57:47.246 +02:00 [DBG] Connection id "0HMKDJCHF6DV8" accepted.
+2022-09-03 12:57:47.251 +02:00 [DBG] Connection id "0HMKDJCHF6DV9" started.
+2022-09-03 12:57:47.252 +02:00 [DBG] Connection id "0HMKDJCHF6DV8" started.
+2022-09-03 12:57:47.280 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-09-03 12:57:47.280 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-09-03 12:57:47.382 +02:00 [DBG] Connection id "0HMKDJCHF6DV8" stopped.
+2022-09-03 12:57:47.382 +02:00 [DBG] Connection id "0HMKDJCHF6DV9" stopped.
+2022-09-03 12:57:47.403 +02:00 [DBG] Connection id "0HMKDJCHF6DV9" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-09-03 12:57:47.403 +02:00 [DBG] Connection id "0HMKDJCHF6DV8" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-09-03 12:57:47.466 +02:00 [DBG] Connection id "0HMKDJCHF6DVA" accepted.
+2022-09-03 12:57:47.468 +02:00 [DBG] Connection id "0HMKDJCHF6DVA" started.
+2022-09-03 12:57:47.530 +02:00 [DBG] Connection 0HMKDJCHF6DVA established using the following protocol: "Tls12"
+2022-09-03 12:57:47.585 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/swagger/index.html - -
+2022-09-03 12:57:47.628 +02:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-09-03 12:57:47.746 +02:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-09-03 12:57:47.900 +02:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-09-03 12:57:47.907 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/swagger/index.html - - - 200 - text/html;charset=utf-8 324.4930ms
+2022-09-03 12:57:47.924 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/_framework/aspnetcore-browser-refresh.js - -
+2022-09-03 12:57:47.929 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 5.6907ms
+2022-09-03 12:57:47.963 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/_vs/browserLink - -
+2022-09-03 12:57:47.988 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 25.4684ms
+2022-09-03 12:57:48.205 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/swagger/v1/swagger.json - -
+2022-09-03 12:57:48.384 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 178.9471ms
+2022-09-03 12:58:54.379 +02:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-09-03 12:58:54.652 +02:00 [DBG] No relationship from 'Ingredient' to 'Recipe' has been configured by convention because there are multiple properties on one entity type - {'Recipe'} that could be matched with the properties on the other entity type - {'Ingredients', 'IngredientsList'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2022-09-03 12:58:54.661 +02:00 [DBG] No relationship from 'Recipe' to 'Ingredient' has been configured by convention because there are multiple properties on one entity type - {'Ingredients', 'IngredientsList'} that could be matched with the properties on the other entity type - {'Recipe'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2022-09-03 12:58:54.772 +02:00 [DBG] No relationship from 'Ingredient' to 'Recipe' has been configured by convention because there are multiple properties on one entity type - {'Recipe'} that could be matched with the properties on the other entity type - {'Ingredients', 'IngredientsList'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2022-09-03 12:58:54.773 +02:00 [DBG] No relationship from 'Recipe' to 'Ingredient' has been configured by convention because there are multiple properties on one entity type - {'Ingredients', 'IngredientsList'} that could be matched with the properties on the other entity type - {'Recipe'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2022-09-03 13:01:26.976 +02:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-09-03 13:01:27.249 +02:00 [DBG] No relationship from 'Ingredient' to 'Recipe' has been configured by convention because there are multiple properties on one entity type - {'Recipe'} that could be matched with the properties on the other entity type - {'Ingredients', 'IngredientsList'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2022-09-03 13:01:27.257 +02:00 [DBG] No relationship from 'Recipe' to 'Ingredient' has been configured by convention because there are multiple properties on one entity type - {'Ingredients', 'IngredientsList'} that could be matched with the properties on the other entity type - {'Recipe'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2022-09-03 13:01:27.365 +02:00 [DBG] No relationship from 'Ingredient' to 'Recipe' has been configured by convention because there are multiple properties on one entity type - {'Recipe'} that could be matched with the properties on the other entity type - {'Ingredients', 'IngredientsList'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2022-09-03 13:01:27.366 +02:00 [DBG] No relationship from 'Recipe' to 'Ingredient' has been configured by convention because there are multiple properties on one entity type - {'Ingredients', 'IngredientsList'} that could be matched with the properties on the other entity type - {'Recipe'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2022-09-03 13:04:53.342 +02:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-09-03 13:04:53.641 +02:00 [DBG] No relationship from 'Ingredient' to 'Recipe' has been configured by convention because there are multiple properties on one entity type - {'Recipe'} that could be matched with the properties on the other entity type - {'Ingredients', 'IngredientsList'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2022-09-03 13:04:53.650 +02:00 [DBG] No relationship from 'Recipe' to 'Ingredient' has been configured by convention because there are multiple properties on one entity type - {'Ingredients', 'IngredientsList'} that could be matched with the properties on the other entity type - {'Recipe'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2022-09-03 13:04:53.759 +02:00 [DBG] No relationship from 'Ingredient' to 'Recipe' has been configured by convention because there are multiple properties on one entity type - {'Recipe'} that could be matched with the properties on the other entity type - {'Ingredients', 'IngredientsList'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2022-09-03 13:04:53.760 +02:00 [DBG] No relationship from 'Recipe' to 'Ingredient' has been configured by convention because there are multiple properties on one entity type - {'Ingredients', 'IngredientsList'} that could be matched with the properties on the other entity type - {'Recipe'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2022-09-03 13:05:10.020 +02:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-09-03 13:05:10.232 +02:00 [DBG] Hosting starting
+2022-09-03 13:05:10.438 +02:00 [DBG] Using development certificate: CN=localhost (Thumbprint: D2D078B8839554F36FC8158D0A37C2DCA6302CB7)
+2022-09-03 13:05:10.499 +02:00 [INF] Now listening on: https://localhost:7127
+2022-09-03 13:05:10.500 +02:00 [INF] Now listening on: http://localhost:5127
+2022-09-03 13:05:10.501 +02:00 [DBG] Loaded hosting startup assembly FoodIdea.API
+2022-09-03 13:05:10.502 +02:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-09-03 13:05:10.503 +02:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-09-03 13:05:10.505 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-03 13:05:10.507 +02:00 [INF] Hosting environment: Development
+2022-09-03 13:05:10.509 +02:00 [INF] Content root path: C:\Users\dell\Desktop\programming\FoodIdea.API\FoodIdea.API\
+2022-09-03 13:05:10.510 +02:00 [DBG] Hosting started
+2022-09-03 13:05:10.967 +02:00 [DBG] Connection id "0HMKDJGLN4A0G" received FIN.
+2022-09-03 13:05:10.967 +02:00 [DBG] Connection id "0HMKDJGLN4A0H" received FIN.
+2022-09-03 13:05:11.001 +02:00 [DBG] Connection id "0HMKDJGLN4A0H" accepted.
+2022-09-03 13:05:11.001 +02:00 [DBG] Connection id "0HMKDJGLN4A0G" accepted.
+2022-09-03 13:05:11.006 +02:00 [DBG] Connection id "0HMKDJGLN4A0H" started.
+2022-09-03 13:05:11.007 +02:00 [DBG] Connection id "0HMKDJGLN4A0G" started.
+2022-09-03 13:05:11.034 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-09-03 13:05:11.034 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-09-03 13:05:11.091 +02:00 [DBG] Connection id "0HMKDJGLN4A0G" stopped.
+2022-09-03 13:05:11.091 +02:00 [DBG] Connection id "0HMKDJGLN4A0H" stopped.
+2022-09-03 13:05:11.098 +02:00 [DBG] Connection id "0HMKDJGLN4A0G" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-09-03 13:05:11.098 +02:00 [DBG] Connection id "0HMKDJGLN4A0H" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-09-03 13:05:11.193 +02:00 [DBG] Connection id "0HMKDJGLN4A0I" accepted.
+2022-09-03 13:05:11.195 +02:00 [DBG] Connection id "0HMKDJGLN4A0I" started.
+2022-09-03 13:05:11.247 +02:00 [DBG] Connection 0HMKDJGLN4A0I established using the following protocol: "Tls12"
+2022-09-03 13:05:11.313 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/swagger/index.html - -
+2022-09-03 13:05:11.351 +02:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-09-03 13:05:11.469 +02:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-09-03 13:05:11.688 +02:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-09-03 13:05:11.696 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/swagger/index.html - - - 200 - text/html;charset=utf-8 386.0648ms
+2022-09-03 13:05:11.719 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/_framework/aspnetcore-browser-refresh.js - -
+2022-09-03 13:05:11.726 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 6.8157ms
+2022-09-03 13:05:11.752 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/_vs/browserLink - -
+2022-09-03 13:05:11.778 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 26.3495ms
+2022-09-03 13:05:11.941 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/swagger/v1/swagger.json - -
+2022-09-03 13:05:12.175 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 234.1828ms
+2022-09-03 14:56:41.756 +02:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-09-03 14:56:42.035 +02:00 [DBG] No relationship from 'Ingredient' to 'Recipe' has been configured by convention because there are multiple properties on one entity type - {'Recipe'} that could be matched with the properties on the other entity type - {'Ingredients', 'IngredientsList'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2022-09-03 14:56:42.047 +02:00 [DBG] No relationship from 'Recipe' to 'Ingredient' has been configured by convention because there are multiple properties on one entity type - {'Ingredients', 'IngredientsList'} that could be matched with the properties on the other entity type - {'Recipe'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2022-09-03 14:56:42.179 +02:00 [DBG] No relationship from 'Ingredient' to 'Recipe' has been configured by convention because there are multiple properties on one entity type - {'Recipe'} that could be matched with the properties on the other entity type - {'Ingredients', 'IngredientsList'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2022-09-03 14:56:42.181 +02:00 [DBG] No relationship from 'Recipe' to 'Ingredient' has been configured by convention because there are multiple properties on one entity type - {'Ingredients', 'IngredientsList'} that could be matched with the properties on the other entity type - {'Recipe'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2022-09-03 14:57:38.226 +02:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-09-03 14:57:38.488 +02:00 [DBG] No relationship from 'Ingredient' to 'Recipe' has been configured by convention because there are multiple properties on one entity type - {'Recipe'} that could be matched with the properties on the other entity type - {'Ingredients', 'IngredientsList'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2022-09-03 14:57:38.497 +02:00 [DBG] No relationship from 'Recipe' to 'Ingredient' has been configured by convention because there are multiple properties on one entity type - {'Ingredients', 'IngredientsList'} that could be matched with the properties on the other entity type - {'Recipe'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2022-09-03 14:57:38.607 +02:00 [DBG] No relationship from 'Ingredient' to 'Recipe' has been configured by convention because there are multiple properties on one entity type - {'Recipe'} that could be matched with the properties on the other entity type - {'Ingredients', 'IngredientsList'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2022-09-03 14:57:38.609 +02:00 [DBG] No relationship from 'Recipe' to 'Ingredient' has been configured by convention because there are multiple properties on one entity type - {'Ingredients', 'IngredientsList'} that could be matched with the properties on the other entity type - {'Recipe'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2022-09-03 14:57:59.444 +02:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-09-03 14:57:59.699 +02:00 [DBG] No relationship from 'Ingredient' to 'Recipe' has been configured by convention because there are multiple properties on one entity type - {'Recipe'} that could be matched with the properties on the other entity type - {'Ingredients', 'IngredientsList'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2022-09-03 14:57:59.710 +02:00 [DBG] No relationship from 'Recipe' to 'Ingredient' has been configured by convention because there are multiple properties on one entity type - {'Ingredients', 'IngredientsList'} that could be matched with the properties on the other entity type - {'Recipe'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2022-09-03 14:57:59.823 +02:00 [DBG] No relationship from 'Ingredient' to 'Recipe' has been configured by convention because there are multiple properties on one entity type - {'Recipe'} that could be matched with the properties on the other entity type - {'Ingredients', 'IngredientsList'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2022-09-03 14:57:59.824 +02:00 [DBG] No relationship from 'Recipe' to 'Ingredient' has been configured by convention because there are multiple properties on one entity type - {'Ingredients', 'IngredientsList'} that could be matched with the properties on the other entity type - {'Recipe'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2022-09-03 14:59:27.532 +02:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-09-03 14:59:27.833 +02:00 [DBG] No relationship from 'Ingredient' to 'Recipe' has been configured by convention because there are multiple properties on one entity type - {'Recipe'} that could be matched with the properties on the other entity type - {'Ingredients', 'IngredientsList'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2022-09-03 14:59:27.843 +02:00 [DBG] No relationship from 'Recipe' to 'Ingredient' has been configured by convention because there are multiple properties on one entity type - {'Ingredients', 'IngredientsList'} that could be matched with the properties on the other entity type - {'Recipe'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2022-09-03 14:59:27.958 +02:00 [DBG] No relationship from 'Ingredient' to 'Recipe' has been configured by convention because there are multiple properties on one entity type - {'Recipe'} that could be matched with the properties on the other entity type - {'Ingredients', 'IngredientsList'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2022-09-03 14:59:27.959 +02:00 [DBG] No relationship from 'Recipe' to 'Ingredient' has been configured by convention because there are multiple properties on one entity type - {'Ingredients', 'IngredientsList'} that could be matched with the properties on the other entity type - {'Recipe'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2022-09-03 14:59:47.917 +02:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-09-03 14:59:48.204 +02:00 [DBG] No relationship from 'Ingredient' to 'Recipe' has been configured by convention because there are multiple properties on one entity type - {'Recipe'} that could be matched with the properties on the other entity type - {'Ingredients', 'IngredientsList'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2022-09-03 14:59:48.213 +02:00 [DBG] No relationship from 'Recipe' to 'Ingredient' has been configured by convention because there are multiple properties on one entity type - {'Ingredients', 'IngredientsList'} that could be matched with the properties on the other entity type - {'Recipe'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2022-09-03 14:59:48.341 +02:00 [DBG] No relationship from 'Ingredient' to 'Recipe' has been configured by convention because there are multiple properties on one entity type - {'Recipe'} that could be matched with the properties on the other entity type - {'Ingredients', 'IngredientsList'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2022-09-03 14:59:48.342 +02:00 [DBG] No relationship from 'Recipe' to 'Ingredient' has been configured by convention because there are multiple properties on one entity type - {'Ingredients', 'IngredientsList'} that could be matched with the properties on the other entity type - {'Recipe'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2022-09-03 15:00:30.818 +02:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-09-03 15:00:31.093 +02:00 [DBG] No relationship from 'Ingredient' to 'Recipe' has been configured by convention because there are multiple properties on one entity type - {'Recipe'} that could be matched with the properties on the other entity type - {'Ingredients', 'IngredientsList'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2022-09-03 15:00:31.107 +02:00 [DBG] No relationship from 'Recipe' to 'Ingredient' has been configured by convention because there are multiple properties on one entity type - {'Ingredients', 'IngredientsList'} that could be matched with the properties on the other entity type - {'Recipe'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2022-09-03 15:00:31.232 +02:00 [DBG] No relationship from 'Ingredient' to 'Recipe' has been configured by convention because there are multiple properties on one entity type - {'Recipe'} that could be matched with the properties on the other entity type - {'Ingredients', 'IngredientsList'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2022-09-03 15:00:31.234 +02:00 [DBG] No relationship from 'Recipe' to 'Ingredient' has been configured by convention because there are multiple properties on one entity type - {'Ingredients', 'IngredientsList'} that could be matched with the properties on the other entity type - {'Recipe'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2022-09-03 15:01:17.996 +02:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-09-03 15:01:18.257 +02:00 [DBG] No relationship from 'Ingredient' to 'Recipe' has been configured by convention because there are multiple properties on one entity type - {'Recipe'} that could be matched with the properties on the other entity type - {'Ingredients', 'IngredientsList'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2022-09-03 15:01:18.267 +02:00 [DBG] No relationship from 'Recipe' to 'Ingredient' has been configured by convention because there are multiple properties on one entity type - {'Ingredients', 'IngredientsList'} that could be matched with the properties on the other entity type - {'Recipe'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2022-09-03 15:01:18.373 +02:00 [DBG] No relationship from 'Ingredient' to 'Recipe' has been configured by convention because there are multiple properties on one entity type - {'Recipe'} that could be matched with the properties on the other entity type - {'Ingredients', 'IngredientsList'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2022-09-03 15:01:18.374 +02:00 [DBG] No relationship from 'Recipe' to 'Ingredient' has been configured by convention because there are multiple properties on one entity type - {'Ingredients', 'IngredientsList'} that could be matched with the properties on the other entity type - {'Recipe'}. This message can be disregarded if explicit configuration has been specified in 'OnModelCreating'.
+2022-09-03 15:03:18.677 +02:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-09-03 15:03:18.817 +02:00 [DBG] Hosting starting
+2022-09-03 15:03:18.995 +02:00 [DBG] Using development certificate: CN=localhost (Thumbprint: D2D078B8839554F36FC8158D0A37C2DCA6302CB7)
+2022-09-03 15:03:19.042 +02:00 [INF] Now listening on: https://localhost:7127
+2022-09-03 15:03:19.043 +02:00 [INF] Now listening on: http://localhost:5127
+2022-09-03 15:03:19.045 +02:00 [DBG] Loaded hosting startup assembly FoodIdea.API
+2022-09-03 15:03:19.046 +02:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-09-03 15:03:19.047 +02:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-09-03 15:03:19.049 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-03 15:03:19.050 +02:00 [INF] Hosting environment: Development
+2022-09-03 15:03:19.051 +02:00 [INF] Content root path: C:\Users\dell\Desktop\programming\FoodIdea.API\FoodIdea.API\
+2022-09-03 15:03:19.051 +02:00 [DBG] Hosting started
+2022-09-03 15:03:19.271 +02:00 [DBG] Connection id "0HMKDLIM6DB6C" accepted.
+2022-09-03 15:03:19.271 +02:00 [DBG] Connection id "0HMKDLIM6DB6B" accepted.
+2022-09-03 15:03:19.277 +02:00 [DBG] Connection id "0HMKDLIM6DB6C" started.
+2022-09-03 15:03:19.277 +02:00 [DBG] Connection id "0HMKDLIM6DB6B" started.
+2022-09-03 15:03:19.682 +02:00 [DBG] Connection id "0HMKDLIM6DB6D" accepted.
+2022-09-03 15:03:19.684 +02:00 [DBG] Connection id "0HMKDLIM6DB6D" started.
+2022-09-03 15:03:19.736 +02:00 [DBG] Connection 0HMKDLIM6DB6D established using the following protocol: "Tls12"
+2022-09-03 15:03:20.381 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/swagger/index.html - -
+2022-09-03 15:03:20.464 +02:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-09-03 15:03:20.799 +02:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-09-03 15:03:21.146 +02:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-09-03 15:03:21.155 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/_framework/aspnetcore-browser-refresh.js - -
+2022-09-03 15:03:21.166 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/swagger/index.html - - - 200 - text/html;charset=utf-8 790.7045ms
+2022-09-03 15:03:21.168 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 12.3373ms
+2022-09-03 15:03:21.221 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/_vs/browserLink - -
+2022-09-03 15:03:21.366 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 145.7157ms
+2022-09-03 15:03:21.558 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/swagger/v1/swagger.json - -
+2022-09-03 15:03:21.811 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 253.2374ms
+2022-09-03 15:03:30.790 +02:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-09-03 15:03:31.569 +02:00 [INF] Entity Framework Core 6.0.8 initialized 'FoodIdeaContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.29-mysql 
+2022-09-03 15:03:31.609 +02:00 [DBG] Migrating using database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:03:31.615 +02:00 [DBG] Opening connection to database '' on server 'localhost'.
+2022-09-03 15:03:31.843 +02:00 [DBG] Opened connection to database '' on server 'localhost'.
+2022-09-03 15:03:31.926 +02:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2022-09-03 15:03:31.931 +02:00 [DBG] Created DbCommand for 'ExecuteScalar' (4ms).
+2022-09-03 15:03:31.933 +02:00 [DBG] Opening connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:03:31.940 +02:00 [DBG] Opened connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:03:31.947 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='FoodIdea_db' AND TABLE_NAME='__EFMigrationsHistory';
+2022-09-03 15:03:32.010 +02:00 [INF] Executed DbCommand (64ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='FoodIdea_db' AND TABLE_NAME='__EFMigrationsHistory';
+2022-09-03 15:03:32.012 +02:00 [DBG] Closing connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:03:32.014 +02:00 [DBG] Closed connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:03:32.016 +02:00 [DBG] Opening connection to database '' on server 'localhost'.
+2022-09-03 15:03:32.019 +02:00 [DBG] Opened connection to database '' on server 'localhost'.
+2022-09-03 15:03:32.020 +02:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2022-09-03 15:03:32.020 +02:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2022-09-03 15:03:32.020 +02:00 [DBG] Opening connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:03:32.022 +02:00 [DBG] Opened connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:03:32.022 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='FoodIdea_db' AND TABLE_NAME='__EFMigrationsHistory';
+2022-09-03 15:03:32.024 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='FoodIdea_db' AND TABLE_NAME='__EFMigrationsHistory';
+2022-09-03 15:03:32.024 +02:00 [DBG] Closing connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:03:32.024 +02:00 [DBG] Closed connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:03:32.041 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-09-03 15:03:32.041 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2022-09-03 15:03:32.041 +02:00 [DBG] Opening connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:03:32.042 +02:00 [DBG] Opened connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:03:32.042 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;
+2022-09-03 15:03:32.060 +02:00 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;
+2022-09-03 15:03:32.062 +02:00 [DBG] A data reader was disposed.
+2022-09-03 15:03:32.062 +02:00 [DBG] Closing connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:03:32.062 +02:00 [DBG] Closed connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:03:32.074 +02:00 [INF] No migrations were applied. The database is already up to date.
+2022-09-03 15:03:32.075 +02:00 [DBG] 'FoodIdeaContext' disposed.
+2022-09-03 15:04:46.243 +02:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-09-03 15:04:46.937 +02:00 [INF] Entity Framework Core 6.0.8 initialized 'FoodIdeaContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.29-mysql 
+2022-09-03 15:04:46.973 +02:00 [DBG] Migrating using database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:04:46.979 +02:00 [DBG] Opening connection to database '' on server 'localhost'.
+2022-09-03 15:04:47.210 +02:00 [DBG] Opened connection to database '' on server 'localhost'.
+2022-09-03 15:04:47.316 +02:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2022-09-03 15:04:47.325 +02:00 [DBG] Created DbCommand for 'ExecuteScalar' (6ms).
+2022-09-03 15:04:47.327 +02:00 [DBG] Opening connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:04:47.340 +02:00 [DBG] Opened connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:04:47.349 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='FoodIdea_db' AND TABLE_NAME='__EFMigrationsHistory';
+2022-09-03 15:04:47.375 +02:00 [INF] Executed DbCommand (26ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='FoodIdea_db' AND TABLE_NAME='__EFMigrationsHistory';
+2022-09-03 15:04:47.378 +02:00 [DBG] Closing connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:04:47.381 +02:00 [DBG] Closed connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:04:47.384 +02:00 [DBG] Opening connection to database '' on server 'localhost'.
+2022-09-03 15:04:47.387 +02:00 [DBG] Opened connection to database '' on server 'localhost'.
+2022-09-03 15:04:47.388 +02:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2022-09-03 15:04:47.389 +02:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2022-09-03 15:04:47.389 +02:00 [DBG] Opening connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:04:47.392 +02:00 [DBG] Opened connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:04:47.392 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='FoodIdea_db' AND TABLE_NAME='__EFMigrationsHistory';
+2022-09-03 15:04:47.394 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='FoodIdea_db' AND TABLE_NAME='__EFMigrationsHistory';
+2022-09-03 15:04:47.394 +02:00 [DBG] Closing connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:04:47.394 +02:00 [DBG] Closed connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:04:47.424 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-09-03 15:04:47.425 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2022-09-03 15:04:47.425 +02:00 [DBG] Opening connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:04:47.425 +02:00 [DBG] Opened connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:04:47.426 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;
+2022-09-03 15:04:47.428 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;
+2022-09-03 15:04:47.430 +02:00 [DBG] A data reader was disposed.
+2022-09-03 15:04:47.430 +02:00 [DBG] Closing connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:04:47.430 +02:00 [DBG] Closed connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:04:47.441 +02:00 [INF] No migrations were applied. The database is already up to date.
+2022-09-03 15:04:47.442 +02:00 [DBG] 'FoodIdeaContext' disposed.
+2022-09-03 15:05:29.371 +02:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-09-03 15:05:30.056 +02:00 [INF] Entity Framework Core 6.0.8 initialized 'FoodIdeaContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.29-mysql 
+2022-09-03 15:05:30.083 +02:00 [DBG] Migrating using database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:05:30.088 +02:00 [DBG] Opening connection to database '' on server 'localhost'.
+2022-09-03 15:05:30.250 +02:00 [DBG] Opened connection to database '' on server 'localhost'.
+2022-09-03 15:05:30.309 +02:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2022-09-03 15:05:30.314 +02:00 [DBG] Created DbCommand for 'ExecuteScalar' (3ms).
+2022-09-03 15:05:30.315 +02:00 [DBG] Opening connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:05:30.324 +02:00 [DBG] Opened connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:05:30.330 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='FoodIdea_db' AND TABLE_NAME='__EFMigrationsHistory';
+2022-09-03 15:05:30.346 +02:00 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='FoodIdea_db' AND TABLE_NAME='__EFMigrationsHistory';
+2022-09-03 15:05:30.348 +02:00 [DBG] Closing connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:05:30.349 +02:00 [DBG] Closed connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:05:30.350 +02:00 [DBG] Opening connection to database '' on server 'localhost'.
+2022-09-03 15:05:30.353 +02:00 [DBG] Opened connection to database '' on server 'localhost'.
+2022-09-03 15:05:30.354 +02:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2022-09-03 15:05:30.354 +02:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2022-09-03 15:05:30.354 +02:00 [DBG] Opening connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:05:30.357 +02:00 [DBG] Opened connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:05:30.357 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='FoodIdea_db' AND TABLE_NAME='__EFMigrationsHistory';
+2022-09-03 15:05:30.358 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='FoodIdea_db' AND TABLE_NAME='__EFMigrationsHistory';
+2022-09-03 15:05:30.358 +02:00 [DBG] Closing connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:05:30.358 +02:00 [DBG] Closed connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:05:30.381 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-09-03 15:05:30.381 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2022-09-03 15:05:30.381 +02:00 [DBG] Opening connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:05:30.382 +02:00 [DBG] Opened connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:05:30.382 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;
+2022-09-03 15:05:30.386 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;
+2022-09-03 15:05:30.389 +02:00 [DBG] A data reader was disposed.
+2022-09-03 15:05:30.389 +02:00 [DBG] Closing connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:05:30.389 +02:00 [DBG] Closed connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:05:30.408 +02:00 [INF] No migrations were applied. The database is already up to date.
+2022-09-03 15:05:30.410 +02:00 [DBG] 'FoodIdeaContext' disposed.
+2022-09-03 15:05:48.099 +02:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-09-03 15:05:48.736 +02:00 [INF] Entity Framework Core 6.0.8 initialized 'FoodIdeaContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.29-mysql 
+2022-09-03 15:05:48.762 +02:00 [DBG] Migrating using database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:05:48.768 +02:00 [DBG] Opening connection to database '' on server 'localhost'.
+2022-09-03 15:05:48.911 +02:00 [DBG] Opened connection to database '' on server 'localhost'.
+2022-09-03 15:05:48.980 +02:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2022-09-03 15:05:48.985 +02:00 [DBG] Created DbCommand for 'ExecuteScalar' (4ms).
+2022-09-03 15:05:48.987 +02:00 [DBG] Opening connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:05:48.994 +02:00 [DBG] Opened connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:05:49.001 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='FoodIdea_db' AND TABLE_NAME='__EFMigrationsHistory';
+2022-09-03 15:05:49.018 +02:00 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='FoodIdea_db' AND TABLE_NAME='__EFMigrationsHistory';
+2022-09-03 15:05:49.020 +02:00 [DBG] Closing connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:05:49.022 +02:00 [DBG] Closed connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:05:49.023 +02:00 [DBG] Opening connection to database '' on server 'localhost'.
+2022-09-03 15:05:49.026 +02:00 [DBG] Opened connection to database '' on server 'localhost'.
+2022-09-03 15:05:49.027 +02:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2022-09-03 15:05:49.027 +02:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2022-09-03 15:05:49.027 +02:00 [DBG] Opening connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:05:49.029 +02:00 [DBG] Opened connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:05:49.029 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='FoodIdea_db' AND TABLE_NAME='__EFMigrationsHistory';
+2022-09-03 15:05:49.031 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='FoodIdea_db' AND TABLE_NAME='__EFMigrationsHistory';
+2022-09-03 15:05:49.031 +02:00 [DBG] Closing connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:05:49.031 +02:00 [DBG] Closed connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:05:49.053 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-09-03 15:05:49.053 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2022-09-03 15:05:49.053 +02:00 [DBG] Opening connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:05:49.054 +02:00 [DBG] Opened connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:05:49.054 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;
+2022-09-03 15:05:49.056 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;
+2022-09-03 15:05:49.058 +02:00 [DBG] A data reader was disposed.
+2022-09-03 15:05:49.058 +02:00 [DBG] Closing connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:05:49.058 +02:00 [DBG] Closed connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:05:49.070 +02:00 [INF] No migrations were applied. The database is already up to date.
+2022-09-03 15:05:49.071 +02:00 [DBG] 'FoodIdeaContext' disposed.
+2022-09-03 15:06:18.051 +02:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-09-03 15:06:18.328 +02:00 [DBG] An additional 'IServiceProvider' was created for internal use by Entity Framework. An existing service provider was not used due to the following configuration changes: configuration changed for 'Pomelo.EntityFrameworkCore.MySql:ServerVersion'.
+2022-09-03 15:06:18.922 +02:00 [INF] Entity Framework Core 6.0.8 initialized 'FoodIdeaContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.30-mysql 
+2022-09-03 15:06:18.942 +02:00 [DBG] Migrating using database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:06:18.948 +02:00 [DBG] Opening connection to database '' on server 'localhost'.
+2022-09-03 15:06:18.953 +02:00 [DBG] Opened connection to database '' on server 'localhost'.
+2022-09-03 15:06:19.016 +02:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2022-09-03 15:06:19.021 +02:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2022-09-03 15:06:19.023 +02:00 [DBG] Opening connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:06:19.025 +02:00 [DBG] Opened connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:06:19.031 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='FoodIdea_db' AND TABLE_NAME='__EFMigrationsHistory';
+2022-09-03 15:06:19.046 +02:00 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='FoodIdea_db' AND TABLE_NAME='__EFMigrationsHistory';
+2022-09-03 15:06:19.048 +02:00 [DBG] Closing connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:06:19.049 +02:00 [DBG] Closed connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:06:19.050 +02:00 [DBG] Opening connection to database '' on server 'localhost'.
+2022-09-03 15:06:19.053 +02:00 [DBG] Opened connection to database '' on server 'localhost'.
+2022-09-03 15:06:19.054 +02:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2022-09-03 15:06:19.054 +02:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2022-09-03 15:06:19.054 +02:00 [DBG] Opening connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:06:19.056 +02:00 [DBG] Opened connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:06:19.056 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='FoodIdea_db' AND TABLE_NAME='__EFMigrationsHistory';
+2022-09-03 15:06:19.057 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='FoodIdea_db' AND TABLE_NAME='__EFMigrationsHistory';
+2022-09-03 15:06:19.057 +02:00 [DBG] Closing connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:06:19.057 +02:00 [DBG] Closed connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:06:19.089 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-09-03 15:06:19.089 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2022-09-03 15:06:19.089 +02:00 [DBG] Opening connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:06:19.090 +02:00 [DBG] Opened connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:06:19.091 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;
+2022-09-03 15:06:19.094 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;
+2022-09-03 15:06:19.095 +02:00 [DBG] A data reader was disposed.
+2022-09-03 15:06:19.095 +02:00 [DBG] Closing connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:06:19.095 +02:00 [DBG] Closed connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:06:19.105 +02:00 [INF] No migrations were applied. The database is already up to date.
+2022-09-03 15:06:19.106 +02:00 [DBG] 'FoodIdeaContext' disposed.
+2022-09-03 15:06:52.139 +02:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-09-03 15:06:52.861 +02:00 [INF] Entity Framework Core 6.0.8 initialized 'FoodIdeaContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.29-mysql 
+2022-09-03 15:06:52.891 +02:00 [DBG] Migrating using database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:06:52.896 +02:00 [DBG] Opening connection to database '' on server 'localhost'.
+2022-09-03 15:06:53.132 +02:00 [DBG] Opened connection to database '' on server 'localhost'.
+2022-09-03 15:06:53.269 +02:00 [DBG] Opening connection to database '' on server 'localhost'.
+2022-09-03 15:06:53.272 +02:00 [DBG] Opened connection to database '' on server 'localhost'.
+2022-09-03 15:06:53.297 +02:00 [DBG] Opening connection to database '' on server 'localhost'.
+2022-09-03 15:06:53.299 +02:00 [DBG] Opened connection to database '' on server 'localhost'.
+2022-09-03 15:06:53.304 +02:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2022-09-03 15:06:53.309 +02:00 [DBG] Began transaction with isolation level 'Unspecified'.
+2022-09-03 15:06:53.313 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-03 15:06:53.318 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-03 15:06:53.329 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE DATABASE `FoodIdea_db`;
+2022-09-03 15:06:53.354 +02:00 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE DATABASE `FoodIdea_db`;
+2022-09-03 15:06:53.358 +02:00 [DBG] Committing transaction.
+2022-09-03 15:06:53.362 +02:00 [DBG] Committed transaction.
+2022-09-03 15:06:53.364 +02:00 [DBG] Disposing transaction.
+2022-09-03 15:06:53.366 +02:00 [DBG] Closing connection to database '' on server 'localhost'.
+2022-09-03 15:06:53.368 +02:00 [DBG] Closed connection to database '' on server 'localhost'.
+2022-09-03 15:06:53.390 +02:00 [DBG] Opening connection to database '' on server 'localhost'.
+2022-09-03 15:06:53.395 +02:00 [DBG] Opened connection to database '' on server 'localhost'.
+2022-09-03 15:06:53.522 +02:00 [DBG] DetectChanges starting for 'FoodIdeaContext'.
+2022-09-03 15:06:53.524 +02:00 [DBG] DetectChanges completed for 'FoodIdeaContext'.
+2022-09-03 15:06:53.541 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-03 15:06:53.541 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-03 15:06:53.541 +02:00 [DBG] Opening connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:06:53.547 +02:00 [DBG] Opened connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:06:53.547 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `__EFMigrationsHistory` (
+    `MigrationId` varchar(150) CHARACTER SET utf8mb4 NOT NULL,
+    `ProductVersion` varchar(32) CHARACTER SET utf8mb4 NOT NULL,
+    CONSTRAINT `PK___EFMigrationsHistory` PRIMARY KEY (`MigrationId`)
+) CHARACTER SET=utf8mb4;
+2022-09-03 15:06:53.573 +02:00 [INF] Executed DbCommand (26ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `__EFMigrationsHistory` (
+    `MigrationId` varchar(150) CHARACTER SET utf8mb4 NOT NULL,
+    `ProductVersion` varchar(32) CHARACTER SET utf8mb4 NOT NULL,
+    CONSTRAINT `PK___EFMigrationsHistory` PRIMARY KEY (`MigrationId`)
+) CHARACTER SET=utf8mb4;
+2022-09-03 15:06:53.573 +02:00 [DBG] Closing connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:06:53.575 +02:00 [DBG] Closed connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:06:53.576 +02:00 [DBG] Opening connection to database '' on server 'localhost'.
+2022-09-03 15:06:53.579 +02:00 [DBG] Opened connection to database '' on server 'localhost'.
+2022-09-03 15:06:53.581 +02:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2022-09-03 15:06:53.582 +02:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2022-09-03 15:06:53.582 +02:00 [DBG] Opening connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:06:53.584 +02:00 [DBG] Opened connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:06:53.584 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='FoodIdea_db' AND TABLE_NAME='__EFMigrationsHistory';
+2022-09-03 15:06:53.594 +02:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='FoodIdea_db' AND TABLE_NAME='__EFMigrationsHistory';
+2022-09-03 15:06:53.594 +02:00 [DBG] Closing connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:06:53.594 +02:00 [DBG] Closed connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:06:53.596 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-09-03 15:06:53.596 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2022-09-03 15:06:53.596 +02:00 [DBG] Opening connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:06:53.596 +02:00 [DBG] Opened connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:06:53.596 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;
+2022-09-03 15:06:53.599 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;
+2022-09-03 15:06:53.600 +02:00 [DBG] A data reader was disposed.
+2022-09-03 15:06:53.600 +02:00 [DBG] Closing connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:06:53.600 +02:00 [DBG] Closed connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:06:53.611 +02:00 [INF] Applying migration '20220902124615_FoodIdeaDBInitialMigration'.
+2022-09-03 15:06:53.634 +02:00 [DBG] Opening connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:06:53.635 +02:00 [DBG] Opened connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:06:53.635 +02:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2022-09-03 15:06:53.635 +02:00 [DBG] Began transaction with isolation level 'Unspecified'.
+2022-09-03 15:06:53.635 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-03 15:06:53.635 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-03 15:06:53.635 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER DATABASE CHARACTER SET utf8mb4;
+2022-09-03 15:06:53.640 +02:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER DATABASE CHARACTER SET utf8mb4;
+2022-09-03 15:06:53.640 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-03 15:06:53.640 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-03 15:06:53.922 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `Foods` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `Name` varchar(50) CHARACTER SET utf8mb4 NOT NULL,
+    `Description` longtext CHARACTER SET utf8mb4 NULL,
+    CONSTRAINT `PK_Foods` PRIMARY KEY (`Id`)
+) CHARACTER SET=utf8mb4;
+2022-09-03 15:06:53.962 +02:00 [INF] Executed DbCommand (40ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `Foods` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `Name` varchar(50) CHARACTER SET utf8mb4 NOT NULL,
+    `Description` longtext CHARACTER SET utf8mb4 NULL,
+    CONSTRAINT `PK_Foods` PRIMARY KEY (`Id`)
+) CHARACTER SET=utf8mb4;
+2022-09-03 15:06:53.962 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-03 15:06:53.962 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-03 15:06:53.963 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `Recipes` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `PreparationTime` int NOT NULL,
+    `IsHardToDo` tinyint(1) NOT NULL,
+    `TasteRate` double NOT NULL,
+    `FoodId` int NOT NULL,
+    CONSTRAINT `PK_Recipes` PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_Recipes_Foods_FoodId` FOREIGN KEY (`FoodId`) REFERENCES `Foods` (`Id`) ON DELETE CASCADE
+) CHARACTER SET=utf8mb4;
+2022-09-03 15:06:54.033 +02:00 [INF] Executed DbCommand (70ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `Recipes` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `PreparationTime` int NOT NULL,
+    `IsHardToDo` tinyint(1) NOT NULL,
+    `TasteRate` double NOT NULL,
+    `FoodId` int NOT NULL,
+    CONSTRAINT `PK_Recipes` PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_Recipes_Foods_FoodId` FOREIGN KEY (`FoodId`) REFERENCES `Foods` (`Id`) ON DELETE CASCADE
+) CHARACTER SET=utf8mb4;
+2022-09-03 15:06:54.033 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-03 15:06:54.033 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-03 15:06:54.033 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `IngredientsClass` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `Ingredient` longtext CHARACTER SET utf8mb4 NOT NULL,
+    `RecipeId` int NULL,
+    CONSTRAINT `PK_IngredientsClass` PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_IngredientsClass_Recipes_RecipeId` FOREIGN KEY (`RecipeId`) REFERENCES `Recipes` (`Id`)
+) CHARACTER SET=utf8mb4;
+2022-09-03 15:06:54.099 +02:00 [INF] Executed DbCommand (65ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE `IngredientsClass` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `Ingredient` longtext CHARACTER SET utf8mb4 NOT NULL,
+    `RecipeId` int NULL,
+    CONSTRAINT `PK_IngredientsClass` PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_IngredientsClass_Recipes_RecipeId` FOREIGN KEY (`RecipeId`) REFERENCES `Recipes` (`Id`)
+) CHARACTER SET=utf8mb4;
+2022-09-03 15:06:54.099 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-03 15:06:54.099 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-03 15:06:54.099 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_IngredientsClass_RecipeId` ON `IngredientsClass` (`RecipeId`);
+2022-09-03 15:06:54.132 +02:00 [INF] Executed DbCommand (33ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_IngredientsClass_RecipeId` ON `IngredientsClass` (`RecipeId`);
+2022-09-03 15:06:54.132 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-03 15:06:54.133 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-03 15:06:54.133 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_Recipes_FoodId` ON `Recipes` (`FoodId`);
+2022-09-03 15:06:54.170 +02:00 [INF] Executed DbCommand (37ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX `IX_Recipes_FoodId` ON `Recipes` (`FoodId`);
+2022-09-03 15:06:54.170 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-03 15:06:54.170 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-03 15:06:54.170 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `__EFMigrationsHistory` (`MigrationId`, `ProductVersion`)
+VALUES ('20220902124615_FoodIdeaDBInitialMigration', '6.0.8');
+2022-09-03 15:06:54.179 +02:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `__EFMigrationsHistory` (`MigrationId`, `ProductVersion`)
+VALUES ('20220902124615_FoodIdeaDBInitialMigration', '6.0.8');
+2022-09-03 15:06:56.073 +02:00 [DBG] Committing transaction.
+2022-09-03 15:06:56.074 +02:00 [DBG] Committed transaction.
+2022-09-03 15:06:56.074 +02:00 [DBG] Disposing transaction.
+2022-09-03 15:06:56.074 +02:00 [DBG] Closing connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:06:56.074 +02:00 [DBG] Closed connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:06:56.074 +02:00 [INF] Applying migration '20220902151122_DataSeed'.
+2022-09-03 15:06:56.113 +02:00 [DBG] Opening connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:06:56.114 +02:00 [DBG] Opened connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:06:56.114 +02:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2022-09-03 15:06:56.114 +02:00 [DBG] Began transaction with isolation level 'Unspecified'.
+2022-09-03 15:06:56.114 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-03 15:06:56.115 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-03 15:06:56.115 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DROP TABLE `IngredientsClass`;
+2022-09-03 15:06:56.162 +02:00 [INF] Executed DbCommand (47ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DROP TABLE `IngredientsClass`;
+2022-09-03 15:06:56.162 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-03 15:06:56.162 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-03 15:06:56.163 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `Foods` (`Id`, `Description`, `Name`)
+VALUES (1, 'Włoskie danie z makaronem i mięsem mielonym', 'Spaghetti');
+2022-09-03 15:06:56.170 +02:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `Foods` (`Id`, `Description`, `Name`)
+VALUES (1, 'Włoskie danie z makaronem i mięsem mielonym', 'Spaghetti');
+2022-09-03 15:06:56.170 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-03 15:06:56.170 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-03 15:06:56.171 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `Foods` (`Id`, `Description`, `Name`)
+VALUES (2, 'Meksykańskie danie z fasoli czerwonej, białej, mięsa mielonego oraz kukurydzy', 'Chilli con-carne');
+2022-09-03 15:06:56.176 +02:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `Foods` (`Id`, `Description`, `Name`)
+VALUES (2, 'Meksykańskie danie z fasoli czerwonej, białej, mięsa mielonego oraz kukurydzy', 'Chilli con-carne');
+2022-09-03 15:06:56.176 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-03 15:06:56.176 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-03 15:06:56.176 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `Foods` (`Id`, `Description`, `Name`)
+VALUES (3, 'Danie składające się z losowych warzyw, ryżu, opcjonalnie jakieś mięso', 'Mix warzywny');
+2022-09-03 15:06:56.182 +02:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `Foods` (`Id`, `Description`, `Name`)
+VALUES (3, 'Danie składające się z losowych warzyw, ryżu, opcjonalnie jakieś mięso', 'Mix warzywny');
+2022-09-03 15:06:56.182 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-03 15:06:56.182 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-03 15:06:56.183 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `Recipes` (`Id`, `FoodId`, `IsHardToDo`, `PreparationTime`, `TasteRate`)
+VALUES (1, 1, FALSE, 30, 8.0);
+2022-09-03 15:06:56.190 +02:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `Recipes` (`Id`, `FoodId`, `IsHardToDo`, `PreparationTime`, `TasteRate`)
+VALUES (1, 1, FALSE, 30, 8.0);
+2022-09-03 15:06:56.190 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-03 15:06:56.191 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-03 15:06:56.191 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `Recipes` (`Id`, `FoodId`, `IsHardToDo`, `PreparationTime`, `TasteRate`)
+VALUES (2, 2, FALSE, 20, 8.5);
+2022-09-03 15:06:56.196 +02:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `Recipes` (`Id`, `FoodId`, `IsHardToDo`, `PreparationTime`, `TasteRate`)
+VALUES (2, 2, FALSE, 20, 8.5);
+2022-09-03 15:06:59.414 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-03 15:06:59.414 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-03 15:06:59.414 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `Recipes` (`Id`, `FoodId`, `IsHardToDo`, `PreparationTime`, `TasteRate`)
+VALUES (3, 3, FALSE, 20, 7.0);
+2022-09-03 15:06:59.420 +02:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `Recipes` (`Id`, `FoodId`, `IsHardToDo`, `PreparationTime`, `TasteRate`)
+VALUES (3, 3, FALSE, 20, 7.0);
+2022-09-03 15:06:59.420 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-03 15:06:59.420 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-03 15:06:59.420 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `__EFMigrationsHistory` (`MigrationId`, `ProductVersion`)
+VALUES ('20220902151122_DataSeed', '6.0.8');
+2022-09-03 15:06:59.425 +02:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `__EFMigrationsHistory` (`MigrationId`, `ProductVersion`)
+VALUES ('20220902151122_DataSeed', '6.0.8');
+2022-09-03 15:06:59.426 +02:00 [DBG] Committing transaction.
+2022-09-03 15:06:59.426 +02:00 [DBG] Committed transaction.
+2022-09-03 15:06:59.426 +02:00 [DBG] Disposing transaction.
+2022-09-03 15:06:59.426 +02:00 [DBG] Closing connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:06:59.427 +02:00 [DBG] Closed connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:06:59.430 +02:00 [DBG] 'FoodIdeaContext' disposed.
+2022-09-03 15:07:27.239 +02:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-09-03 15:07:27.897 +02:00 [INF] Entity Framework Core 6.0.8 initialized 'FoodIdeaContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.29-mysql 
+2022-09-03 15:07:27.930 +02:00 [DBG] Migrating using database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:07:27.935 +02:00 [DBG] Opening connection to database '' on server 'localhost'.
+2022-09-03 15:07:28.101 +02:00 [DBG] Opened connection to database '' on server 'localhost'.
+2022-09-03 15:07:28.167 +02:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2022-09-03 15:07:28.171 +02:00 [DBG] Created DbCommand for 'ExecuteScalar' (3ms).
+2022-09-03 15:07:28.173 +02:00 [DBG] Opening connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:07:28.180 +02:00 [DBG] Opened connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:07:28.186 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='FoodIdea_db' AND TABLE_NAME='__EFMigrationsHistory';
+2022-09-03 15:07:28.200 +02:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='FoodIdea_db' AND TABLE_NAME='__EFMigrationsHistory';
+2022-09-03 15:07:28.202 +02:00 [DBG] Closing connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:07:28.203 +02:00 [DBG] Closed connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:07:28.204 +02:00 [DBG] Opening connection to database '' on server 'localhost'.
+2022-09-03 15:07:28.207 +02:00 [DBG] Opened connection to database '' on server 'localhost'.
+2022-09-03 15:07:28.208 +02:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2022-09-03 15:07:28.208 +02:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2022-09-03 15:07:28.208 +02:00 [DBG] Opening connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:07:28.210 +02:00 [DBG] Opened connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:07:28.210 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='FoodIdea_db' AND TABLE_NAME='__EFMigrationsHistory';
+2022-09-03 15:07:28.211 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='FoodIdea_db' AND TABLE_NAME='__EFMigrationsHistory';
+2022-09-03 15:07:28.211 +02:00 [DBG] Closing connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:07:28.211 +02:00 [DBG] Closed connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:07:28.229 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-09-03 15:07:28.230 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2022-09-03 15:07:28.230 +02:00 [DBG] Opening connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:07:28.230 +02:00 [DBG] Opened connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:07:28.230 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;
+2022-09-03 15:07:28.232 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;
+2022-09-03 15:07:28.234 +02:00 [DBG] A data reader was disposed.
+2022-09-03 15:07:28.234 +02:00 [DBG] Closing connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:07:28.234 +02:00 [DBG] Closed connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:07:28.244 +02:00 [INF] No migrations were applied. The database is already up to date.
+2022-09-03 15:07:28.246 +02:00 [DBG] 'FoodIdeaContext' disposed.
+2022-09-03 15:08:35.161 +02:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-09-03 15:08:35.876 +02:00 [INF] Entity Framework Core 6.0.8 initialized 'FoodIdeaContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.29-mysql 
+2022-09-03 15:08:36.151 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Food' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:08:36.151 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Food' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:08:36.151 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Food' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:08:36.176 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Recipe' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:08:36.176 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Recipe' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:08:36.176 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Recipe' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:08:36.198 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Food' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:08:36.198 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Food' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:08:36.198 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Food' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:08:36.218 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Recipe' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:08:36.218 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Recipe' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:08:36.218 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Recipe' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:08:36.242 +02:00 [DBG] An entity of type 'Food' tracked by 'FoodIdeaContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:08:36.248 +02:00 [DBG] An entity of type 'Food' tracked by 'FoodIdeaContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:08:36.248 +02:00 [DBG] An entity of type 'Food' tracked by 'FoodIdeaContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:08:36.249 +02:00 [DBG] An entity of type 'Recipe' tracked by 'FoodIdeaContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:08:36.255 +02:00 [DBG] An entity of type 'Recipe' tracked by 'FoodIdeaContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:08:36.255 +02:00 [DBG] An entity of type 'Recipe' tracked by 'FoodIdeaContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:08:36.256 +02:00 [DBG] An entity of type 'Recipe' tracked by 'FoodIdeaContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:08:36.269 +02:00 [DBG] DetectChanges starting for 'FoodIdeaContext'.
+2022-09-03 15:08:36.277 +02:00 [DBG] DetectChanges completed for 'FoodIdeaContext'.
+2022-09-03 15:08:36.278 +02:00 [DBG] DetectChanges starting for 'FoodIdeaContext'.
+2022-09-03 15:08:36.278 +02:00 [DBG] DetectChanges completed for 'FoodIdeaContext'.
+2022-09-03 15:08:36.328 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Food' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:08:36.328 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Food' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:08:36.328 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Food' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:08:36.328 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Recipe' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:08:36.329 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Recipe' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:08:36.329 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Recipe' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:08:36.329 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Food' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:08:36.329 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Food' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:08:36.329 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Food' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:08:36.329 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Recipe' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:08:36.330 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Recipe' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:08:36.330 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Recipe' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:08:36.330 +02:00 [DBG] An entity of type 'Food' tracked by 'FoodIdeaContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:08:36.330 +02:00 [DBG] An entity of type 'Food' tracked by 'FoodIdeaContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:08:36.330 +02:00 [DBG] An entity of type 'Food' tracked by 'FoodIdeaContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:08:36.511 +02:00 [DBG] An entity of type 'Recipe' tracked by 'FoodIdeaContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:08:36.512 +02:00 [DBG] An entity of type 'Recipe' tracked by 'FoodIdeaContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:08:36.512 +02:00 [DBG] An entity of type 'Recipe' tracked by 'FoodIdeaContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:08:36.512 +02:00 [DBG] An entity of type 'Recipe' tracked by 'FoodIdeaContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:08:36.513 +02:00 [DBG] DetectChanges starting for 'FoodIdeaContext'.
+2022-09-03 15:08:36.513 +02:00 [DBG] DetectChanges completed for 'FoodIdeaContext'.
+2022-09-03 15:08:36.513 +02:00 [DBG] DetectChanges starting for 'FoodIdeaContext'.
+2022-09-03 15:08:36.513 +02:00 [DBG] DetectChanges completed for 'FoodIdeaContext'.
+2022-09-03 15:08:36.603 +02:00 [DBG] 'FoodIdeaContext' disposed.
+2022-09-03 15:08:54.528 +02:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-09-03 15:08:55.328 +02:00 [INF] Entity Framework Core 6.0.8 initialized 'FoodIdeaContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.29-mysql 
+2022-09-03 15:08:55.359 +02:00 [DBG] Migrating using database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:08:55.364 +02:00 [DBG] Opening connection to database '' on server 'localhost'.
+2022-09-03 15:08:55.531 +02:00 [DBG] Opened connection to database '' on server 'localhost'.
+2022-09-03 15:08:55.593 +02:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2022-09-03 15:08:55.599 +02:00 [DBG] Created DbCommand for 'ExecuteScalar' (3ms).
+2022-09-03 15:08:55.600 +02:00 [DBG] Opening connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:08:55.616 +02:00 [DBG] Opened connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:08:55.631 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='FoodIdea_db' AND TABLE_NAME='__EFMigrationsHistory';
+2022-09-03 15:08:55.671 +02:00 [INF] Executed DbCommand (37ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='FoodIdea_db' AND TABLE_NAME='__EFMigrationsHistory';
+2022-09-03 15:08:55.675 +02:00 [DBG] Closing connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:08:55.680 +02:00 [DBG] Closed connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:08:55.683 +02:00 [DBG] Opening connection to database '' on server 'localhost'.
+2022-09-03 15:08:55.691 +02:00 [DBG] Opened connection to database '' on server 'localhost'.
+2022-09-03 15:08:55.692 +02:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2022-09-03 15:08:55.692 +02:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2022-09-03 15:08:55.693 +02:00 [DBG] Opening connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:08:55.698 +02:00 [DBG] Opened connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:08:55.698 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='FoodIdea_db' AND TABLE_NAME='__EFMigrationsHistory';
+2022-09-03 15:08:55.700 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='FoodIdea_db' AND TABLE_NAME='__EFMigrationsHistory';
+2022-09-03 15:08:55.700 +02:00 [DBG] Closing connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:08:55.700 +02:00 [DBG] Closed connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:08:55.729 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-09-03 15:08:55.729 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2022-09-03 15:08:55.729 +02:00 [DBG] Opening connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:08:55.730 +02:00 [DBG] Opened connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:08:55.730 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;
+2022-09-03 15:08:55.732 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;
+2022-09-03 15:08:55.734 +02:00 [DBG] A data reader was disposed.
+2022-09-03 15:08:55.734 +02:00 [DBG] Closing connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:08:55.734 +02:00 [DBG] Closed connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:08:55.745 +02:00 [INF] Applying migration '20220903130836_DataSeedv2'.
+2022-09-03 15:08:55.776 +02:00 [DBG] Opening connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:08:55.777 +02:00 [DBG] Opened connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:08:55.778 +02:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2022-09-03 15:08:55.780 +02:00 [DBG] Began transaction with isolation level 'Unspecified'.
+2022-09-03 15:08:55.782 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-03 15:08:55.782 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-03 15:08:55.783 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE `Recipes` SET `TasteRate` = 1.0
+WHERE `Id` = 3;
+SELECT ROW_COUNT();
+2022-09-03 15:08:55.786 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE `Recipes` SET `TasteRate` = 1.0
+WHERE `Id` = 3;
+SELECT ROW_COUNT();
+2022-09-03 15:08:55.787 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-03 15:08:55.787 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-03 15:08:55.787 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `__EFMigrationsHistory` (`MigrationId`, `ProductVersion`)
+VALUES ('20220903130836_DataSeedv2', '6.0.8');
+2022-09-03 15:08:55.788 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `__EFMigrationsHistory` (`MigrationId`, `ProductVersion`)
+VALUES ('20220903130836_DataSeedv2', '6.0.8');
+2022-09-03 15:08:55.790 +02:00 [DBG] Committing transaction.
+2022-09-03 15:08:55.799 +02:00 [DBG] Committed transaction.
+2022-09-03 15:08:55.803 +02:00 [DBG] Disposing transaction.
+2022-09-03 15:08:55.803 +02:00 [DBG] Closing connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:08:55.803 +02:00 [DBG] Closed connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:08:55.806 +02:00 [DBG] 'FoodIdeaContext' disposed.
+2022-09-03 15:28:19.325 +02:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-09-03 15:28:20.059 +02:00 [INF] Entity Framework Core 6.0.8 initialized 'FoodIdeaContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.29-mysql 
+2022-09-03 15:28:20.220 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Food' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:28:20.221 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Food' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:28:20.221 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Food' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:28:20.249 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Recipe' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:28:20.249 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Recipe' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:28:20.249 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Recipe' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:28:20.273 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Food' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:28:20.273 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Food' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:28:20.273 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Food' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:28:20.291 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Recipe' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:28:20.291 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Recipe' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:28:20.291 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Recipe' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:28:20.316 +02:00 [DBG] An entity of type 'Food' tracked by 'FoodIdeaContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:28:20.323 +02:00 [DBG] An entity of type 'Food' tracked by 'FoodIdeaContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:28:20.323 +02:00 [DBG] An entity of type 'Food' tracked by 'FoodIdeaContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:28:20.323 +02:00 [DBG] An entity of type 'Recipe' tracked by 'FoodIdeaContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:28:20.330 +02:00 [DBG] An entity of type 'Recipe' tracked by 'FoodIdeaContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:28:20.330 +02:00 [DBG] An entity of type 'Recipe' tracked by 'FoodIdeaContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:28:20.330 +02:00 [DBG] An entity of type 'Recipe' tracked by 'FoodIdeaContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:28:20.341 +02:00 [DBG] DetectChanges starting for 'FoodIdeaContext'.
+2022-09-03 15:28:20.349 +02:00 [DBG] DetectChanges completed for 'FoodIdeaContext'.
+2022-09-03 15:28:20.350 +02:00 [DBG] DetectChanges starting for 'FoodIdeaContext'.
+2022-09-03 15:28:20.351 +02:00 [DBG] The unchanged property 'Recipe.HowToMake' was detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2022-09-03 15:28:20.351 +02:00 [DBG] The unchanged property 'Recipe.HowToMake' was detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2022-09-03 15:28:20.351 +02:00 [DBG] An entity of type 'Recipe' tracked by 'FoodIdeaContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:28:20.351 +02:00 [DBG] The unchanged property 'Recipe.HowToMake' was detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2022-09-03 15:28:20.351 +02:00 [DBG] An entity of type 'Recipe' tracked by 'FoodIdeaContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:28:20.351 +02:00 [DBG] DetectChanges completed for 'FoodIdeaContext'.
+2022-09-03 15:28:20.425 +02:00 [DBG] Executing update commands individually as the number of batchable commands (3) is smaller than the minimum batch size (4).
+2022-09-03 15:28:20.436 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Food' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:28:20.436 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Food' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:28:20.436 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Food' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:28:20.436 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Recipe' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:28:20.436 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Recipe' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:28:20.436 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Recipe' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:28:20.436 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Food' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:28:20.436 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Food' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:28:20.591 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Food' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:28:20.591 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Recipe' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:28:20.592 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Recipe' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:28:20.592 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Recipe' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:28:20.593 +02:00 [DBG] An entity of type 'Food' tracked by 'FoodIdeaContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:28:20.594 +02:00 [DBG] An entity of type 'Food' tracked by 'FoodIdeaContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:28:20.594 +02:00 [DBG] An entity of type 'Food' tracked by 'FoodIdeaContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:28:20.596 +02:00 [DBG] An entity of type 'Recipe' tracked by 'FoodIdeaContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:28:20.597 +02:00 [DBG] An entity of type 'Recipe' tracked by 'FoodIdeaContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:28:20.597 +02:00 [DBG] An entity of type 'Recipe' tracked by 'FoodIdeaContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:28:20.598 +02:00 [DBG] An entity of type 'Recipe' tracked by 'FoodIdeaContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:28:20.598 +02:00 [DBG] DetectChanges starting for 'FoodIdeaContext'.
+2022-09-03 15:28:20.599 +02:00 [DBG] DetectChanges completed for 'FoodIdeaContext'.
+2022-09-03 15:28:20.599 +02:00 [DBG] DetectChanges starting for 'FoodIdeaContext'.
+2022-09-03 15:28:20.599 +02:00 [DBG] DetectChanges completed for 'FoodIdeaContext'.
+2022-09-03 15:28:20.763 +02:00 [DBG] 'FoodIdeaContext' disposed.
+2022-09-03 15:28:26.119 +02:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-09-03 15:28:27.175 +02:00 [INF] Entity Framework Core 6.0.8 initialized 'FoodIdeaContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.29-mysql 
+2022-09-03 15:28:27.206 +02:00 [DBG] Migrating using database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:28:27.211 +02:00 [DBG] Opening connection to database '' on server 'localhost'.
+2022-09-03 15:28:27.433 +02:00 [DBG] Opened connection to database '' on server 'localhost'.
+2022-09-03 15:28:27.515 +02:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2022-09-03 15:28:27.520 +02:00 [DBG] Created DbCommand for 'ExecuteScalar' (4ms).
+2022-09-03 15:28:27.522 +02:00 [DBG] Opening connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:28:27.531 +02:00 [DBG] Opened connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:28:27.537 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='FoodIdea_db' AND TABLE_NAME='__EFMigrationsHistory';
+2022-09-03 15:28:27.553 +02:00 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='FoodIdea_db' AND TABLE_NAME='__EFMigrationsHistory';
+2022-09-03 15:28:27.554 +02:00 [DBG] Closing connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:28:27.556 +02:00 [DBG] Closed connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:28:27.557 +02:00 [DBG] Opening connection to database '' on server 'localhost'.
+2022-09-03 15:28:27.560 +02:00 [DBG] Opened connection to database '' on server 'localhost'.
+2022-09-03 15:28:27.561 +02:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2022-09-03 15:28:27.561 +02:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2022-09-03 15:28:27.561 +02:00 [DBG] Opening connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:28:27.563 +02:00 [DBG] Opened connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:28:27.563 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='FoodIdea_db' AND TABLE_NAME='__EFMigrationsHistory';
+2022-09-03 15:28:27.564 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='FoodIdea_db' AND TABLE_NAME='__EFMigrationsHistory';
+2022-09-03 15:28:27.564 +02:00 [DBG] Closing connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:28:27.564 +02:00 [DBG] Closed connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:28:27.584 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-09-03 15:28:27.584 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2022-09-03 15:28:27.584 +02:00 [DBG] Opening connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:28:27.584 +02:00 [DBG] Opened connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:28:27.585 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;
+2022-09-03 15:28:27.586 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;
+2022-09-03 15:28:27.588 +02:00 [DBG] A data reader was disposed.
+2022-09-03 15:28:27.588 +02:00 [DBG] Closing connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:28:27.588 +02:00 [DBG] Closed connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:28:27.598 +02:00 [INF] Applying migration '20220903132820_AddSeedV2'.
+2022-09-03 15:28:27.654 +02:00 [DBG] Opening connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:28:27.655 +02:00 [DBG] Opened connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:28:27.656 +02:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2022-09-03 15:28:27.659 +02:00 [DBG] Began transaction with isolation level 'Unspecified'.
+2022-09-03 15:28:27.660 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-03 15:28:27.660 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-03 15:28:27.661 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE `Recipes` ADD `HowToMake` longtext CHARACTER SET utf8mb4 NOT NULL;
+2022-09-03 15:28:27.676 +02:00 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE `Recipes` ADD `HowToMake` longtext CHARACTER SET utf8mb4 NOT NULL;
+2022-09-03 15:28:27.676 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-03 15:28:27.676 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-03 15:28:27.676 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE `Recipes` SET `HowToMake` = 'Ugotuj makaron, usmaz mieso, dodaj sos'
+WHERE `Id` = 1;
+SELECT ROW_COUNT();
+2022-09-03 15:28:27.681 +02:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE `Recipes` SET `HowToMake` = 'Ugotuj makaron, usmaz mieso, dodaj sos'
+WHERE `Id` = 1;
+SELECT ROW_COUNT();
+2022-09-03 15:28:27.681 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-03 15:28:27.681 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-03 15:28:27.681 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE `Recipes` SET `HowToMake` = 'Usmaz mieso, dodaj fasole, zrob sos'
+WHERE `Id` = 2;
+SELECT ROW_COUNT();
+2022-09-03 15:28:27.686 +02:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE `Recipes` SET `HowToMake` = 'Usmaz mieso, dodaj fasole, zrob sos'
+WHERE `Id` = 2;
+SELECT ROW_COUNT();
+2022-09-03 15:28:27.686 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-03 15:28:27.687 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-03 15:28:27.687 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE `Recipes` SET `HowToMake` = 'Usmaz mieso, dodaj warzywa, zrob sos', `TasteRate` = 7.0
+WHERE `Id` = 3;
+SELECT ROW_COUNT();
+2022-09-03 15:28:27.692 +02:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE `Recipes` SET `HowToMake` = 'Usmaz mieso, dodaj warzywa, zrob sos', `TasteRate` = 7.0
+WHERE `Id` = 3;
+SELECT ROW_COUNT();
+2022-09-03 15:28:27.692 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-03 15:28:27.692 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-03 15:28:27.693 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `__EFMigrationsHistory` (`MigrationId`, `ProductVersion`)
+VALUES ('20220903132820_AddSeedV2', '6.0.8');
+2022-09-03 15:28:27.697 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `__EFMigrationsHistory` (`MigrationId`, `ProductVersion`)
+VALUES ('20220903132820_AddSeedV2', '6.0.8');
+2022-09-03 15:28:27.699 +02:00 [DBG] Committing transaction.
+2022-09-03 15:28:27.703 +02:00 [DBG] Committed transaction.
+2022-09-03 15:28:27.705 +02:00 [DBG] Disposing transaction.
+2022-09-03 15:28:27.705 +02:00 [DBG] Closing connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:28:27.705 +02:00 [DBG] Closed connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:28:27.707 +02:00 [DBG] 'FoodIdeaContext' disposed.
+2022-09-03 15:53:29.734 +02:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-09-03 15:53:30.381 +02:00 [INF] Entity Framework Core 6.0.8 initialized 'FoodIdeaContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.30-mysql 
+2022-09-03 15:53:30.532 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Food' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:53:30.532 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Food' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:53:30.532 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Food' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:53:30.555 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Recipe' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:53:30.556 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Recipe' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:53:30.556 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Recipe' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:53:30.574 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Food' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:53:30.574 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Food' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:53:30.574 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Food' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:53:30.591 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Recipe' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:53:30.591 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Recipe' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:53:30.591 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Recipe' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:53:30.609 +02:00 [DBG] An entity of type 'Food' tracked by 'FoodIdeaContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:53:30.615 +02:00 [DBG] An entity of type 'Food' tracked by 'FoodIdeaContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:53:30.615 +02:00 [DBG] An entity of type 'Food' tracked by 'FoodIdeaContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:53:30.615 +02:00 [DBG] An entity of type 'Recipe' tracked by 'FoodIdeaContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:53:30.622 +02:00 [DBG] An entity of type 'Recipe' tracked by 'FoodIdeaContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:53:30.622 +02:00 [DBG] An entity of type 'Recipe' tracked by 'FoodIdeaContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:53:30.623 +02:00 [DBG] An entity of type 'Recipe' tracked by 'FoodIdeaContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:53:30.634 +02:00 [DBG] DetectChanges starting for 'FoodIdeaContext'.
+2022-09-03 15:53:30.642 +02:00 [DBG] DetectChanges completed for 'FoodIdeaContext'.
+2022-09-03 15:53:30.642 +02:00 [DBG] DetectChanges starting for 'FoodIdeaContext'.
+2022-09-03 15:53:30.643 +02:00 [DBG] DetectChanges completed for 'FoodIdeaContext'.
+2022-09-03 15:53:30.685 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Food' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:53:30.685 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Food' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:53:30.685 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Food' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:53:30.685 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Recipe' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:53:30.685 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Recipe' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:53:30.685 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Recipe' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:53:30.685 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Food' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:53:30.686 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Food' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:53:30.686 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Food' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:53:30.686 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Recipe' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:53:30.686 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Recipe' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:53:30.686 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Recipe' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:53:30.686 +02:00 [DBG] An entity of type 'Food' tracked by 'FoodIdeaContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:53:30.686 +02:00 [DBG] An entity of type 'Food' tracked by 'FoodIdeaContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:53:30.686 +02:00 [DBG] An entity of type 'Food' tracked by 'FoodIdeaContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:53:30.891 +02:00 [DBG] An entity of type 'Recipe' tracked by 'FoodIdeaContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:53:30.892 +02:00 [DBG] An entity of type 'Recipe' tracked by 'FoodIdeaContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:53:30.892 +02:00 [DBG] An entity of type 'Recipe' tracked by 'FoodIdeaContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:53:30.892 +02:00 [DBG] An entity of type 'Recipe' tracked by 'FoodIdeaContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-03 15:53:30.892 +02:00 [DBG] DetectChanges starting for 'FoodIdeaContext'.
+2022-09-03 15:53:30.892 +02:00 [DBG] DetectChanges completed for 'FoodIdeaContext'.
+2022-09-03 15:53:30.893 +02:00 [DBG] DetectChanges starting for 'FoodIdeaContext'.
+2022-09-03 15:53:30.893 +02:00 [DBG] DetectChanges completed for 'FoodIdeaContext'.
+2022-09-03 15:53:30.982 +02:00 [DBG] 'FoodIdeaContext' disposed.
+2022-09-03 15:53:38.213 +02:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-09-03 15:53:38.894 +02:00 [INF] Entity Framework Core 6.0.8 initialized 'FoodIdeaContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.30-mysql 
+2022-09-03 15:53:38.914 +02:00 [DBG] Migrating using database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:53:38.918 +02:00 [DBG] Opening connection to database '' on server 'localhost'.
+2022-09-03 15:53:38.924 +02:00 [DBG] Opened connection to database '' on server 'localhost'.
+2022-09-03 15:53:38.984 +02:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2022-09-03 15:53:38.989 +02:00 [DBG] Created DbCommand for 'ExecuteScalar' (3ms).
+2022-09-03 15:53:38.990 +02:00 [DBG] Opening connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:53:38.993 +02:00 [DBG] Opened connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:53:38.999 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='FoodIdea_db' AND TABLE_NAME='__EFMigrationsHistory';
+2022-09-03 15:53:39.013 +02:00 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='FoodIdea_db' AND TABLE_NAME='__EFMigrationsHistory';
+2022-09-03 15:53:39.015 +02:00 [DBG] Closing connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:53:39.016 +02:00 [DBG] Closed connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:53:39.017 +02:00 [DBG] Opening connection to database '' on server 'localhost'.
+2022-09-03 15:53:39.019 +02:00 [DBG] Opened connection to database '' on server 'localhost'.
+2022-09-03 15:53:39.020 +02:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2022-09-03 15:53:39.020 +02:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2022-09-03 15:53:39.020 +02:00 [DBG] Opening connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:53:39.022 +02:00 [DBG] Opened connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:53:39.022 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='FoodIdea_db' AND TABLE_NAME='__EFMigrationsHistory';
+2022-09-03 15:53:39.023 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='FoodIdea_db' AND TABLE_NAME='__EFMigrationsHistory';
+2022-09-03 15:53:39.023 +02:00 [DBG] Closing connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:53:39.023 +02:00 [DBG] Closed connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:53:39.041 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-09-03 15:53:39.041 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2022-09-03 15:53:39.041 +02:00 [DBG] Opening connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:53:39.041 +02:00 [DBG] Opened connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:53:39.042 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;
+2022-09-03 15:53:39.043 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;
+2022-09-03 15:53:39.045 +02:00 [DBG] A data reader was disposed.
+2022-09-03 15:53:39.045 +02:00 [DBG] Closing connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:53:39.045 +02:00 [DBG] Closed connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:53:39.054 +02:00 [INF] Applying migration '20220903135330_DatabaseSeedV3'.
+2022-09-03 15:53:39.084 +02:00 [DBG] Opening connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:53:39.085 +02:00 [DBG] Opened connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:53:39.086 +02:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2022-09-03 15:53:39.089 +02:00 [DBG] Began transaction with isolation level 'Unspecified'.
+2022-09-03 15:53:39.090 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-03 15:53:39.090 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-03 15:53:39.090 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE `Recipes` SET `HowToMake` = 'Usmaz mieso, dodaj warzywa, dodaj odpowiednie przyprawy'
+WHERE `Id` = 3;
+SELECT ROW_COUNT();
+2022-09-03 15:53:39.092 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE `Recipes` SET `HowToMake` = 'Usmaz mieso, dodaj warzywa, dodaj odpowiednie przyprawy'
+WHERE `Id` = 3;
+SELECT ROW_COUNT();
+2022-09-03 15:53:39.092 +02:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-09-03 15:53:39.092 +02:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-09-03 15:53:39.092 +02:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `__EFMigrationsHistory` (`MigrationId`, `ProductVersion`)
+VALUES ('20220903135330_DatabaseSeedV3', '6.0.8');
+2022-09-03 15:53:39.092 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `__EFMigrationsHistory` (`MigrationId`, `ProductVersion`)
+VALUES ('20220903135330_DatabaseSeedV3', '6.0.8');
+2022-09-03 15:53:39.093 +02:00 [DBG] Committing transaction.
+2022-09-03 15:53:39.101 +02:00 [DBG] Committed transaction.
+2022-09-03 15:53:39.102 +02:00 [DBG] Disposing transaction.
+2022-09-03 15:53:39.102 +02:00 [DBG] Closing connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:53:39.102 +02:00 [DBG] Closed connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-03 15:53:39.104 +02:00 [DBG] 'FoodIdeaContext' disposed.

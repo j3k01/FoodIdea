@@ -1,0 +1,1242 @@
+2022-08-31 17:11:48.089 +02:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-08-31 17:11:48.304 +02:00 [DBG] Hosting starting
+2022-08-31 17:11:48.534 +02:00 [DBG] Using development certificate: CN=localhost (Thumbprint: D2D078B8839554F36FC8158D0A37C2DCA6302CB7)
+2022-08-31 17:11:48.601 +02:00 [INF] Now listening on: https://localhost:7127
+2022-08-31 17:11:48.603 +02:00 [INF] Now listening on: http://localhost:5127
+2022-08-31 17:11:48.604 +02:00 [DBG] Loaded hosting startup assembly FoodIdea.API
+2022-08-31 17:11:48.606 +02:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-08-31 17:11:48.614 +02:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-08-31 17:11:48.615 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-31 17:11:48.616 +02:00 [INF] Hosting environment: Development
+2022-08-31 17:11:48.617 +02:00 [INF] Content root path: C:\Users\dell\source\repos\FoodIdea.API\FoodIdea.API\
+2022-08-31 17:11:48.618 +02:00 [DBG] Hosting started
+2022-08-31 17:11:48.630 +02:00 [DBG] Connection id "0HMKBCCG4P65I" accepted.
+2022-08-31 17:11:48.630 +02:00 [DBG] Connection id "0HMKBCCG4P65H" accepted.
+2022-08-31 17:11:48.632 +02:00 [DBG] Connection id "0HMKBCCG4P65H" received FIN.
+2022-08-31 17:11:48.632 +02:00 [DBG] Connection id "0HMKBCCG4P65I" received FIN.
+2022-08-31 17:11:48.633 +02:00 [DBG] Connection id "0HMKBCCG4P65H" started.
+2022-08-31 17:11:48.633 +02:00 [DBG] Connection id "0HMKBCCG4P65I" started.
+2022-08-31 17:11:48.662 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-08-31 17:11:48.662 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-08-31 17:11:48.724 +02:00 [DBG] Connection id "0HMKBCCG4P65H" stopped.
+2022-08-31 17:11:48.724 +02:00 [DBG] Connection id "0HMKBCCG4P65I" stopped.
+2022-08-31 17:11:48.729 +02:00 [DBG] Connection id "0HMKBCCG4P65H" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-08-31 17:11:48.729 +02:00 [DBG] Connection id "0HMKBCCG4P65I" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-08-31 17:11:48.980 +02:00 [DBG] Connection id "0HMKBCCG4P65J" accepted.
+2022-08-31 17:11:48.984 +02:00 [DBG] Connection id "0HMKBCCG4P65J" started.
+2022-08-31 17:11:49.067 +02:00 [DBG] Connection 0HMKBCCG4P65J established using the following protocol: "Tls12"
+2022-08-31 17:11:49.167 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/swagger/index.html - -
+2022-08-31 17:11:49.233 +02:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-08-31 17:11:49.391 +02:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-08-31 17:11:49.575 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/_framework/aspnetcore-browser-refresh.js - -
+2022-08-31 17:11:49.580 +02:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-08-31 17:11:49.587 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 10.5980ms
+2022-08-31 17:11:49.588 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/swagger/index.html - - - 200 - text/html;charset=utf-8 428.5420ms
+2022-08-31 17:11:50.254 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/_vs/browserLink - -
+2022-08-31 17:11:50.280 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 26.1162ms
+2022-08-31 17:11:50.676 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/swagger/v1/swagger.json - -
+2022-08-31 17:11:50.898 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 221.7869ms
+2022-08-31 17:12:23.351 +02:00 [DBG] Connection id "0HMKBCCG4P65K" accepted.
+2022-08-31 17:12:23.355 +02:00 [DBG] Connection id "0HMKBCCG4P65K" received FIN.
+2022-08-31 17:12:23.357 +02:00 [DBG] Connection id "0HMKBCCG4P65K" started.
+2022-08-31 17:12:23.358 +02:00 [DBG] Connection id "0HMKBCCG4P65L" accepted.
+2022-08-31 17:12:23.360 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-08-31 17:12:23.361 +02:00 [DBG] Connection id "0HMKBCCG4P65L" started.
+2022-08-31 17:12:23.364 +02:00 [DBG] Connection id "0HMKBCCG4P65K" stopped.
+2022-08-31 17:12:23.366 +02:00 [DBG] Connection id "0HMKBCCG4P65K" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-08-31 17:12:23.370 +02:00 [DBG] Connection 0HMKBCCG4P65L established using the following protocol: "Tls12"
+2022-08-31 17:12:23.384 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7127/api/foods/1/recipe/13 - -
+2022-08-31 17:12:23.388 +02:00 [DBG] The request path  does not match the path filter
+2022-08-31 17:12:23.419 +02:00 [DBG] 1 candidate(s) found for the request path '/api/foods/1/recipe/13'
+2022-08-31 17:12:23.427 +02:00 [DBG] Endpoint 'FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API)' with route pattern 'api/foods/{foodId}/recipe/{recipeid}' is valid for the request path '/api/foods/1/recipe/13'
+2022-08-31 17:12:23.433 +02:00 [DBG] Request matched endpoint 'FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API)'
+2022-08-31 17:12:23.437 +02:00 [INF] Executing endpoint 'FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API)'
+2022-08-31 17:12:23.468 +02:00 [INF] Route matched with {action = "GetRecipe", controller = "Recipe"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[FoodIdea.API.Models.RecipeDto] GetRecipe(Int32, Int32) on controller FoodIdea.API.Controllers.RecipeController (FoodIdea.API).
+2022-08-31 17:12:23.475 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-08-31 17:12:23.477 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-08-31 17:12:23.479 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-08-31 17:12:23.481 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-08-31 17:12:23.483 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-08-31 17:12:23.488 +02:00 [DBG] Executing controller factory for controller FoodIdea.API.Controllers.RecipeController (FoodIdea.API)
+2022-08-31 17:12:23.493 +02:00 [DBG] Executed controller factory for controller FoodIdea.API.Controllers.RecipeController (FoodIdea.API)
+2022-08-31 17:12:23.508 +02:00 [DBG] Attempting to bind parameter 'foodId' of type 'System.Int32' ...
+2022-08-31 17:12:23.512 +02:00 [DBG] Attempting to bind parameter 'foodId' of type 'System.Int32' using the name 'foodId' in request data ...
+2022-08-31 17:12:23.514 +02:00 [DBG] Done attempting to bind parameter 'foodId' of type 'System.Int32'.
+2022-08-31 17:12:23.517 +02:00 [DBG] Done attempting to bind parameter 'foodId' of type 'System.Int32'.
+2022-08-31 17:12:23.518 +02:00 [DBG] Attempting to validate the bound parameter 'foodId' of type 'System.Int32' ...
+2022-08-31 17:12:23.524 +02:00 [DBG] Done attempting to validate the bound parameter 'foodId' of type 'System.Int32'.
+2022-08-31 17:12:23.527 +02:00 [DBG] Attempting to bind parameter 'recipeId' of type 'System.Int32' ...
+2022-08-31 17:12:23.528 +02:00 [DBG] Attempting to bind parameter 'recipeId' of type 'System.Int32' using the name 'recipeId' in request data ...
+2022-08-31 17:12:23.530 +02:00 [DBG] Done attempting to bind parameter 'recipeId' of type 'System.Int32'.
+2022-08-31 17:12:23.533 +02:00 [DBG] Done attempting to bind parameter 'recipeId' of type 'System.Int32'.
+2022-08-31 17:12:23.534 +02:00 [DBG] Attempting to validate the bound parameter 'recipeId' of type 'System.Int32' ...
+2022-08-31 17:12:23.537 +02:00 [DBG] Done attempting to validate the bound parameter 'recipeId' of type 'System.Int32'.
+2022-08-31 17:12:23.542 +02:00 [INF] Podany przepis nie istnieje.
+2022-08-31 17:12:23.544 +02:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2022-08-31 17:12:23.554 +02:00 [DBG] No information found on request to perform content negotiation.
+2022-08-31 17:12:23.555 +02:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2022-08-31 17:12:23.560 +02:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2022-08-31 17:12:23.562 +02:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2022-08-31 17:12:23.573 +02:00 [INF] Executed action FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API) in 80.6547ms
+2022-08-31 17:12:23.576 +02:00 [INF] Executed endpoint 'FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API)'
+2022-08-31 17:12:23.577 +02:00 [DBG] Connection id "0HMKBCCG4P65L" completed keep alive response.
+2022-08-31 17:12:23.580 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7127/api/foods/1/recipe/13 - - - 404 - application/problem+json;+charset=utf-8 196.2846ms
+2022-08-31 17:12:42.452 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7127/api/foods/1/recipe/13 - -
+2022-08-31 17:12:42.454 +02:00 [DBG] The request path  does not match the path filter
+2022-08-31 17:12:42.456 +02:00 [DBG] 1 candidate(s) found for the request path '/api/foods/1/recipe/13'
+2022-08-31 17:12:42.458 +02:00 [DBG] Endpoint 'FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API)' with route pattern 'api/foods/{foodId}/recipe/{recipeid}' is valid for the request path '/api/foods/1/recipe/13'
+2022-08-31 17:12:42.461 +02:00 [DBG] Request matched endpoint 'FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API)'
+2022-08-31 17:12:42.462 +02:00 [INF] Executing endpoint 'FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API)'
+2022-08-31 17:12:42.464 +02:00 [INF] Route matched with {action = "GetRecipe", controller = "Recipe"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[FoodIdea.API.Models.RecipeDto] GetRecipe(Int32, Int32) on controller FoodIdea.API.Controllers.RecipeController (FoodIdea.API).
+2022-08-31 17:12:42.465 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-08-31 17:12:42.466 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-08-31 17:12:42.468 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-08-31 17:12:42.474 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-08-31 17:12:42.478 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-08-31 17:12:42.480 +02:00 [DBG] Executing controller factory for controller FoodIdea.API.Controllers.RecipeController (FoodIdea.API)
+2022-08-31 17:12:42.482 +02:00 [DBG] Executed controller factory for controller FoodIdea.API.Controllers.RecipeController (FoodIdea.API)
+2022-08-31 17:12:42.484 +02:00 [DBG] Attempting to bind parameter 'foodId' of type 'System.Int32' ...
+2022-08-31 17:12:42.487 +02:00 [DBG] Attempting to bind parameter 'foodId' of type 'System.Int32' using the name 'foodId' in request data ...
+2022-08-31 17:12:42.489 +02:00 [DBG] Done attempting to bind parameter 'foodId' of type 'System.Int32'.
+2022-08-31 17:12:42.493 +02:00 [DBG] Done attempting to bind parameter 'foodId' of type 'System.Int32'.
+2022-08-31 17:12:42.495 +02:00 [DBG] Attempting to validate the bound parameter 'foodId' of type 'System.Int32' ...
+2022-08-31 17:12:42.497 +02:00 [DBG] Done attempting to validate the bound parameter 'foodId' of type 'System.Int32'.
+2022-08-31 17:12:42.499 +02:00 [DBG] Attempting to bind parameter 'recipeId' of type 'System.Int32' ...
+2022-08-31 17:12:42.502 +02:00 [DBG] Attempting to bind parameter 'recipeId' of type 'System.Int32' using the name 'recipeId' in request data ...
+2022-08-31 17:12:42.505 +02:00 [DBG] Done attempting to bind parameter 'recipeId' of type 'System.Int32'.
+2022-08-31 17:12:42.507 +02:00 [DBG] Done attempting to bind parameter 'recipeId' of type 'System.Int32'.
+2022-08-31 17:12:42.509 +02:00 [DBG] Attempting to validate the bound parameter 'recipeId' of type 'System.Int32' ...
+2022-08-31 17:12:42.510 +02:00 [DBG] Done attempting to validate the bound parameter 'recipeId' of type 'System.Int32'.
+2022-08-31 17:12:42.512 +02:00 [INF] Podany przepis nie istnieje.
+2022-08-31 17:12:42.513 +02:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2022-08-31 17:12:42.519 +02:00 [DBG] No information found on request to perform content negotiation.
+2022-08-31 17:12:42.521 +02:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2022-08-31 17:12:42.528 +02:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2022-08-31 17:12:42.532 +02:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2022-08-31 17:12:42.534 +02:00 [INF] Executed action FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API) in 53.3816ms
+2022-08-31 17:12:42.536 +02:00 [INF] Executed endpoint 'FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API)'
+2022-08-31 17:12:42.538 +02:00 [DBG] Connection id "0HMKBCCG4P65L" completed keep alive response.
+2022-08-31 17:12:42.540 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7127/api/foods/1/recipe/13 - - - 404 - application/problem+json;+charset=utf-8 87.4991ms
+2022-08-31 17:13:38.414 +02:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-08-31 17:13:38.592 +02:00 [DBG] Hosting starting
+2022-08-31 17:13:38.824 +02:00 [DBG] Using development certificate: CN=localhost (Thumbprint: D2D078B8839554F36FC8158D0A37C2DCA6302CB7)
+2022-08-31 17:13:38.917 +02:00 [INF] Now listening on: https://localhost:7127
+2022-08-31 17:13:38.919 +02:00 [INF] Now listening on: http://localhost:5127
+2022-08-31 17:13:38.920 +02:00 [DBG] Loaded hosting startup assembly FoodIdea.API
+2022-08-31 17:13:38.922 +02:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-08-31 17:13:38.923 +02:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-08-31 17:13:38.925 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-31 17:13:38.926 +02:00 [INF] Hosting environment: Development
+2022-08-31 17:13:38.927 +02:00 [INF] Content root path: C:\Users\dell\source\repos\FoodIdea.API\FoodIdea.API\
+2022-08-31 17:13:38.928 +02:00 [DBG] Hosting started
+2022-08-31 17:13:38.995 +02:00 [DBG] Connection id "0HMKBCDH1B2LP" received FIN.
+2022-08-31 17:13:39.013 +02:00 [DBG] Connection id "0HMKBCDH1B2LP" accepted.
+2022-08-31 17:13:39.017 +02:00 [DBG] Connection id "0HMKBCDH1B2LP" started.
+2022-08-31 17:13:39.050 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-08-31 17:13:39.104 +02:00 [DBG] Connection id "0HMKBCDH1B2LP" stopped.
+2022-08-31 17:13:39.114 +02:00 [DBG] Connection id "0HMKBCDH1B2LP" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-08-31 17:13:39.333 +02:00 [DBG] Connection id "0HMKBCDH1B2LQ" accepted.
+2022-08-31 17:13:39.339 +02:00 [DBG] Connection id "0HMKBCDH1B2LQ" started.
+2022-08-31 17:13:39.399 +02:00 [DBG] Connection 0HMKBCDH1B2LQ established using the following protocol: "Tls12"
+2022-08-31 17:13:39.487 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/swagger/index.html - -
+2022-08-31 17:13:39.548 +02:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-08-31 17:13:39.693 +02:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-08-31 17:13:39.861 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/_framework/aspnetcore-browser-refresh.js - -
+2022-08-31 17:13:39.867 +02:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-08-31 17:13:39.871 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 8.9064ms
+2022-08-31 17:13:39.872 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/swagger/index.html - - - 200 - text/html;charset=utf-8 391.8970ms
+2022-08-31 17:13:40.580 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/_vs/browserLink - -
+2022-08-31 17:13:40.618 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 37.9456ms
+2022-08-31 17:13:40.950 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/swagger/v1/swagger.json - -
+2022-08-31 17:13:41.222 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 271.3261ms
+2022-08-31 17:13:51.114 +02:00 [DBG] Connection id "0HMKBCDH1B2LR" accepted.
+2022-08-31 17:13:51.115 +02:00 [DBG] Connection id "0HMKBCDH1B2LR" received FIN.
+2022-08-31 17:13:51.116 +02:00 [DBG] Connection id "0HMKBCDH1B2LR" started.
+2022-08-31 17:13:51.117 +02:00 [DBG] Connection id "0HMKBCDH1B2LS" accepted.
+2022-08-31 17:13:51.120 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-08-31 17:13:51.121 +02:00 [DBG] Connection id "0HMKBCDH1B2LS" started.
+2022-08-31 17:13:51.127 +02:00 [DBG] Connection id "0HMKBCDH1B2LR" stopped.
+2022-08-31 17:13:51.130 +02:00 [DBG] Connection id "0HMKBCDH1B2LR" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-08-31 17:13:51.138 +02:00 [DBG] Connection 0HMKBCDH1B2LS established using the following protocol: "Tls12"
+2022-08-31 17:13:51.161 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7127/api/foods/1/recipe/13 - -
+2022-08-31 17:13:51.167 +02:00 [DBG] The request path  does not match the path filter
+2022-08-31 17:13:51.208 +02:00 [DBG] 1 candidate(s) found for the request path '/api/foods/1/recipe/13'
+2022-08-31 17:13:51.216 +02:00 [DBG] Endpoint 'FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API)' with route pattern 'api/foods/{foodId}/recipe/{recipeid}' is valid for the request path '/api/foods/1/recipe/13'
+2022-08-31 17:13:51.220 +02:00 [DBG] Request matched endpoint 'FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API)'
+2022-08-31 17:13:51.224 +02:00 [INF] Executing endpoint 'FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API)'
+2022-08-31 17:13:51.256 +02:00 [INF] Route matched with {action = "GetRecipe", controller = "Recipe"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[FoodIdea.API.Models.RecipeDto] GetRecipe(Int32, Int32) on controller FoodIdea.API.Controllers.RecipeController (FoodIdea.API).
+2022-08-31 17:13:51.261 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-08-31 17:13:51.263 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-08-31 17:13:51.267 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-08-31 17:13:51.271 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-08-31 17:13:51.273 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-08-31 17:13:51.276 +02:00 [DBG] Executing controller factory for controller FoodIdea.API.Controllers.RecipeController (FoodIdea.API)
+2022-08-31 17:13:51.278 +02:00 [DBG] Executed controller factory for controller FoodIdea.API.Controllers.RecipeController (FoodIdea.API)
+2022-08-31 17:13:51.298 +02:00 [DBG] Attempting to bind parameter 'foodId' of type 'System.Int32' ...
+2022-08-31 17:13:51.303 +02:00 [DBG] Attempting to bind parameter 'foodId' of type 'System.Int32' using the name 'foodId' in request data ...
+2022-08-31 17:13:51.306 +02:00 [DBG] Done attempting to bind parameter 'foodId' of type 'System.Int32'.
+2022-08-31 17:13:51.308 +02:00 [DBG] Done attempting to bind parameter 'foodId' of type 'System.Int32'.
+2022-08-31 17:13:51.311 +02:00 [DBG] Attempting to validate the bound parameter 'foodId' of type 'System.Int32' ...
+2022-08-31 17:13:51.321 +02:00 [DBG] Done attempting to validate the bound parameter 'foodId' of type 'System.Int32'.
+2022-08-31 17:13:51.324 +02:00 [DBG] Attempting to bind parameter 'recipeId' of type 'System.Int32' ...
+2022-08-31 17:13:51.327 +02:00 [DBG] Attempting to bind parameter 'recipeId' of type 'System.Int32' using the name 'recipeId' in request data ...
+2022-08-31 17:13:51.335 +02:00 [DBG] Done attempting to bind parameter 'recipeId' of type 'System.Int32'.
+2022-08-31 17:13:51.337 +02:00 [DBG] Done attempting to bind parameter 'recipeId' of type 'System.Int32'.
+2022-08-31 17:13:51.338 +02:00 [DBG] Attempting to validate the bound parameter 'recipeId' of type 'System.Int32' ...
+2022-08-31 17:13:51.340 +02:00 [DBG] Done attempting to validate the bound parameter 'recipeId' of type 'System.Int32'.
+2022-08-31 17:13:51.347 +02:00 [INF] Podany przepis nie istnieje.
+2022-08-31 17:13:51.351 +02:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2022-08-31 17:13:51.360 +02:00 [DBG] No information found on request to perform content negotiation.
+2022-08-31 17:13:51.362 +02:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2022-08-31 17:13:51.372 +02:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2022-08-31 17:13:51.379 +02:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2022-08-31 17:13:51.603 +02:00 [INF] Executed action FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API) in 319.4142ms
+2022-08-31 17:13:51.607 +02:00 [INF] Executed endpoint 'FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API)'
+2022-08-31 17:13:51.610 +02:00 [DBG] Connection id "0HMKBCDH1B2LS" completed keep alive response.
+2022-08-31 17:13:51.613 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7127/api/foods/1/recipe/13 - - - 404 161 application/problem+json;+charset=utf-8 452.0384ms
+2022-08-31 17:15:13.518 +02:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-08-31 17:15:13.745 +02:00 [DBG] Hosting starting
+2022-08-31 17:15:13.933 +02:00 [DBG] Using development certificate: CN=localhost (Thumbprint: D2D078B8839554F36FC8158D0A37C2DCA6302CB7)
+2022-08-31 17:15:13.984 +02:00 [INF] Now listening on: https://localhost:7127
+2022-08-31 17:15:13.985 +02:00 [INF] Now listening on: http://localhost:5127
+2022-08-31 17:15:13.986 +02:00 [DBG] Loaded hosting startup assembly FoodIdea.API
+2022-08-31 17:15:13.987 +02:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-08-31 17:15:13.988 +02:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-08-31 17:15:13.990 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-31 17:15:13.991 +02:00 [INF] Hosting environment: Development
+2022-08-31 17:15:13.992 +02:00 [INF] Content root path: C:\Users\dell\source\repos\FoodIdea.API\FoodIdea.API\
+2022-08-31 17:15:13.993 +02:00 [DBG] Hosting started
+2022-08-31 17:15:14.409 +02:00 [DBG] Connection id "0HMKBCEDF818C" accepted.
+2022-08-31 17:15:14.409 +02:00 [DBG] Connection id "0HMKBCEDF818D" accepted.
+2022-08-31 17:15:14.412 +02:00 [DBG] Connection id "0HMKBCEDF818C" started.
+2022-08-31 17:15:14.413 +02:00 [DBG] Connection id "0HMKBCEDF818D" started.
+2022-08-31 17:15:14.442 +02:00 [DBG] Connection id "0HMKBCEDF818C" received FIN.
+2022-08-31 17:15:14.443 +02:00 [DBG] Connection id "0HMKBCEDF818D" received FIN.
+2022-08-31 17:15:14.472 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-08-31 17:15:14.472 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-08-31 17:15:14.533 +02:00 [DBG] Connection id "0HMKBCEDF818C" stopped.
+2022-08-31 17:15:14.533 +02:00 [DBG] Connection id "0HMKBCEDF818D" stopped.
+2022-08-31 17:15:14.541 +02:00 [DBG] Connection id "0HMKBCEDF818D" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-08-31 17:15:14.541 +02:00 [DBG] Connection id "0HMKBCEDF818C" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-08-31 17:15:14.769 +02:00 [DBG] Connection id "0HMKBCEDF818E" accepted.
+2022-08-31 17:15:14.771 +02:00 [DBG] Connection id "0HMKBCEDF818E" started.
+2022-08-31 17:15:14.842 +02:00 [DBG] Connection 0HMKBCEDF818E established using the following protocol: "Tls12"
+2022-08-31 17:15:14.920 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/swagger/index.html - -
+2022-08-31 17:15:14.990 +02:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-08-31 17:15:15.150 +02:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-08-31 17:15:15.343 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/_framework/aspnetcore-browser-refresh.js - -
+2022-08-31 17:15:15.345 +02:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-08-31 17:15:15.353 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 8.5196ms
+2022-08-31 17:15:15.353 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/swagger/index.html - - - 200 - text/html;charset=utf-8 437.7489ms
+2022-08-31 17:15:16.098 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/_vs/browserLink - -
+2022-08-31 17:15:16.126 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 28.7530ms
+2022-08-31 17:15:16.470 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/swagger/v1/swagger.json - -
+2022-08-31 17:15:16.695 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 224.8317ms
+2022-08-31 17:15:25.255 +02:00 [DBG] Connection id "0HMKBCEDF818F" accepted.
+2022-08-31 17:15:25.256 +02:00 [DBG] Connection id "0HMKBCEDF818F" received FIN.
+2022-08-31 17:15:25.257 +02:00 [DBG] Connection id "0HMKBCEDF818F" started.
+2022-08-31 17:15:25.258 +02:00 [DBG] Connection id "0HMKBCEDF818G" accepted.
+2022-08-31 17:15:25.260 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-08-31 17:15:25.261 +02:00 [DBG] Connection id "0HMKBCEDF818G" started.
+2022-08-31 17:15:25.276 +02:00 [DBG] Connection id "0HMKBCEDF818F" stopped.
+2022-08-31 17:15:25.282 +02:00 [DBG] Connection id "0HMKBCEDF818F" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-08-31 17:15:25.289 +02:00 [DBG] Connection 0HMKBCEDF818G established using the following protocol: "Tls12"
+2022-08-31 17:15:25.305 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7127/api/foods/1/recipe/13 - -
+2022-08-31 17:15:25.309 +02:00 [DBG] The request path  does not match the path filter
+2022-08-31 17:15:25.341 +02:00 [DBG] 1 candidate(s) found for the request path '/api/foods/1/recipe/13'
+2022-08-31 17:15:25.347 +02:00 [DBG] Endpoint 'FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API)' with route pattern 'api/foods/{foodId}/recipe/{recipeid}' is valid for the request path '/api/foods/1/recipe/13'
+2022-08-31 17:15:25.352 +02:00 [DBG] Request matched endpoint 'FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API)'
+2022-08-31 17:15:25.356 +02:00 [INF] Executing endpoint 'FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API)'
+2022-08-31 17:15:25.390 +02:00 [INF] Route matched with {action = "GetRecipe", controller = "Recipe"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[FoodIdea.API.Models.RecipeDto] GetRecipe(Int32, Int32) on controller FoodIdea.API.Controllers.RecipeController (FoodIdea.API).
+2022-08-31 17:15:25.398 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-08-31 17:15:25.401 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-08-31 17:15:25.410 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-08-31 17:15:25.427 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-08-31 17:15:25.438 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-08-31 17:15:25.445 +02:00 [DBG] Executing controller factory for controller FoodIdea.API.Controllers.RecipeController (FoodIdea.API)
+2022-08-31 17:15:25.450 +02:00 [DBG] Executed controller factory for controller FoodIdea.API.Controllers.RecipeController (FoodIdea.API)
+2022-08-31 17:15:25.475 +02:00 [DBG] Attempting to bind parameter 'foodId' of type 'System.Int32' ...
+2022-08-31 17:15:25.480 +02:00 [DBG] Attempting to bind parameter 'foodId' of type 'System.Int32' using the name 'foodId' in request data ...
+2022-08-31 17:15:25.487 +02:00 [DBG] Done attempting to bind parameter 'foodId' of type 'System.Int32'.
+2022-08-31 17:15:25.489 +02:00 [DBG] Done attempting to bind parameter 'foodId' of type 'System.Int32'.
+2022-08-31 17:15:25.492 +02:00 [DBG] Attempting to validate the bound parameter 'foodId' of type 'System.Int32' ...
+2022-08-31 17:15:25.496 +02:00 [DBG] Done attempting to validate the bound parameter 'foodId' of type 'System.Int32'.
+2022-08-31 17:15:25.503 +02:00 [DBG] Attempting to bind parameter 'recipeId' of type 'System.Int32' ...
+2022-08-31 17:15:25.505 +02:00 [DBG] Attempting to bind parameter 'recipeId' of type 'System.Int32' using the name 'recipeId' in request data ...
+2022-08-31 17:15:25.508 +02:00 [DBG] Done attempting to bind parameter 'recipeId' of type 'System.Int32'.
+2022-08-31 17:15:25.510 +02:00 [DBG] Done attempting to bind parameter 'recipeId' of type 'System.Int32'.
+2022-08-31 17:15:25.512 +02:00 [DBG] Attempting to validate the bound parameter 'recipeId' of type 'System.Int32' ...
+2022-08-31 17:15:25.514 +02:00 [DBG] Done attempting to validate the bound parameter 'recipeId' of type 'System.Int32'.
+2022-08-31 17:15:25.522 +02:00 [INF] Podany przepis nie istnieje.
+2022-08-31 17:15:25.525 +02:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2022-08-31 17:15:25.533 +02:00 [DBG] No information found on request to perform content negotiation.
+2022-08-31 17:15:25.536 +02:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2022-08-31 17:15:25.540 +02:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2022-08-31 17:15:25.542 +02:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2022-08-31 17:15:25.738 +02:00 [INF] Executed action FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API) in 287.9439ms
+2022-08-31 17:15:25.741 +02:00 [INF] Executed endpoint 'FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API)'
+2022-08-31 17:15:25.742 +02:00 [DBG] Connection id "0HMKBCEDF818G" completed keep alive response.
+2022-08-31 17:15:25.743 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7127/api/foods/1/recipe/13 - - - 404 161 application/problem+json;+charset=utf-8 438.0554ms
+2022-08-31 17:15:35.231 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7127/api/foods/1/recipe/1 - -
+2022-08-31 17:15:35.234 +02:00 [DBG] The request path  does not match the path filter
+2022-08-31 17:15:35.237 +02:00 [DBG] 1 candidate(s) found for the request path '/api/foods/1/recipe/1'
+2022-08-31 17:15:35.242 +02:00 [DBG] Endpoint 'FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API)' with route pattern 'api/foods/{foodId}/recipe/{recipeid}' is valid for the request path '/api/foods/1/recipe/1'
+2022-08-31 17:15:35.245 +02:00 [DBG] Request matched endpoint 'FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API)'
+2022-08-31 17:15:35.248 +02:00 [INF] Executing endpoint 'FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API)'
+2022-08-31 17:15:35.249 +02:00 [INF] Route matched with {action = "GetRecipe", controller = "Recipe"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[FoodIdea.API.Models.RecipeDto] GetRecipe(Int32, Int32) on controller FoodIdea.API.Controllers.RecipeController (FoodIdea.API).
+2022-08-31 17:15:35.255 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-08-31 17:15:35.260 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-08-31 17:15:35.262 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-08-31 17:15:35.265 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-08-31 17:15:35.270 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-08-31 17:15:35.276 +02:00 [DBG] Executing controller factory for controller FoodIdea.API.Controllers.RecipeController (FoodIdea.API)
+2022-08-31 17:15:35.278 +02:00 [DBG] Executed controller factory for controller FoodIdea.API.Controllers.RecipeController (FoodIdea.API)
+2022-08-31 17:15:35.280 +02:00 [DBG] Attempting to bind parameter 'foodId' of type 'System.Int32' ...
+2022-08-31 17:15:35.281 +02:00 [DBG] Attempting to bind parameter 'foodId' of type 'System.Int32' using the name 'foodId' in request data ...
+2022-08-31 17:15:35.284 +02:00 [DBG] Done attempting to bind parameter 'foodId' of type 'System.Int32'.
+2022-08-31 17:15:35.285 +02:00 [DBG] Done attempting to bind parameter 'foodId' of type 'System.Int32'.
+2022-08-31 17:15:35.288 +02:00 [DBG] Attempting to validate the bound parameter 'foodId' of type 'System.Int32' ...
+2022-08-31 17:15:35.291 +02:00 [DBG] Done attempting to validate the bound parameter 'foodId' of type 'System.Int32'.
+2022-08-31 17:15:35.294 +02:00 [DBG] Attempting to bind parameter 'recipeId' of type 'System.Int32' ...
+2022-08-31 17:15:35.295 +02:00 [DBG] Attempting to bind parameter 'recipeId' of type 'System.Int32' using the name 'recipeId' in request data ...
+2022-08-31 17:15:35.297 +02:00 [DBG] Done attempting to bind parameter 'recipeId' of type 'System.Int32'.
+2022-08-31 17:15:35.300 +02:00 [DBG] Done attempting to bind parameter 'recipeId' of type 'System.Int32'.
+2022-08-31 17:15:35.302 +02:00 [DBG] Attempting to validate the bound parameter 'recipeId' of type 'System.Int32' ...
+2022-08-31 17:15:35.304 +02:00 [DBG] Done attempting to validate the bound parameter 'recipeId' of type 'System.Int32'.
+2022-08-31 17:15:35.307 +02:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2022-08-31 17:15:35.310 +02:00 [DBG] No information found on request to perform content negotiation.
+2022-08-31 17:15:35.311 +02:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2022-08-31 17:15:35.312 +02:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2022-08-31 17:15:35.315 +02:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2022-08-31 17:15:35.319 +02:00 [INF] Executing OkObjectResult, writing value of type 'FoodIdea.API.Models.RecipeDto'.
+2022-08-31 17:15:35.335 +02:00 [INF] Executed action FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API) in 59.482ms
+2022-08-31 17:15:35.338 +02:00 [INF] Executed endpoint 'FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API)'
+2022-08-31 17:15:35.343 +02:00 [DBG] Connection id "0HMKBCEDF818G" completed keep alive response.
+2022-08-31 17:15:35.346 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7127/api/foods/1/recipe/1 - - - 200 157 application/json;+charset=utf-8 115.1782ms
+2022-08-31 18:24:21.311 +02:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-08-31 18:24:21.528 +02:00 [DBG] Hosting starting
+2022-08-31 18:24:21.733 +02:00 [DBG] Using development certificate: CN=localhost (Thumbprint: D2D078B8839554F36FC8158D0A37C2DCA6302CB7)
+2022-08-31 18:24:21.779 +02:00 [INF] Now listening on: https://localhost:7127
+2022-08-31 18:24:21.781 +02:00 [INF] Now listening on: http://localhost:5127
+2022-08-31 18:24:21.782 +02:00 [DBG] Loaded hosting startup assembly FoodIdea.API
+2022-08-31 18:24:21.783 +02:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-08-31 18:24:21.783 +02:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-08-31 18:24:21.785 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-31 18:24:21.786 +02:00 [INF] Hosting environment: Development
+2022-08-31 18:24:21.786 +02:00 [INF] Content root path: C:\Users\dell\source\repos\FoodIdea.API\FoodIdea.API\
+2022-08-31 18:24:21.787 +02:00 [DBG] Hosting started
+2022-08-31 18:24:21.792 +02:00 [DBG] Connection id "0HMKBDL1FQ341" received FIN.
+2022-08-31 18:24:21.806 +02:00 [DBG] Connection id "0HMKBDL1FQ341" accepted.
+2022-08-31 18:24:21.810 +02:00 [DBG] Connection id "0HMKBDL1FQ341" started.
+2022-08-31 18:24:21.842 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-08-31 18:24:21.896 +02:00 [DBG] Connection id "0HMKBDL1FQ341" stopped.
+2022-08-31 18:24:21.902 +02:00 [DBG] Connection id "0HMKBDL1FQ341" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-08-31 18:24:22.116 +02:00 [DBG] Connection id "0HMKBDL1FQ342" accepted.
+2022-08-31 18:24:22.117 +02:00 [DBG] Connection id "0HMKBDL1FQ342" started.
+2022-08-31 18:24:22.175 +02:00 [DBG] Connection 0HMKBDL1FQ342 established using the following protocol: "Tls12"
+2022-08-31 18:24:22.257 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/swagger/index.html - -
+2022-08-31 18:24:22.329 +02:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-08-31 18:24:22.447 +02:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-08-31 18:24:22.617 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/_framework/aspnetcore-browser-refresh.js - -
+2022-08-31 18:24:22.621 +02:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-08-31 18:24:22.628 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/swagger/index.html - - - 200 - text/html;charset=utf-8 376.0040ms
+2022-08-31 18:24:22.628 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 8.6788ms
+2022-08-31 18:24:23.288 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/_vs/browserLink - -
+2022-08-31 18:24:23.315 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 27.0277ms
+2022-08-31 18:24:23.614 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/swagger/v1/swagger.json - -
+2022-08-31 18:24:23.871 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 265.0118ms
+2022-08-31 18:24:32.201 +02:00 [DBG] Connection id "0HMKBDL1FQ343" accepted.
+2022-08-31 18:24:32.202 +02:00 [DBG] Connection id "0HMKBDL1FQ343" received FIN.
+2022-08-31 18:24:32.204 +02:00 [DBG] Connection id "0HMKBDL1FQ343" started.
+2022-08-31 18:24:32.204 +02:00 [DBG] Connection id "0HMKBDL1FQ344" accepted.
+2022-08-31 18:24:32.207 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-08-31 18:24:32.208 +02:00 [DBG] Connection id "0HMKBDL1FQ344" started.
+2022-08-31 18:24:32.210 +02:00 [DBG] Connection id "0HMKBDL1FQ343" stopped.
+2022-08-31 18:24:32.212 +02:00 [DBG] Connection id "0HMKBDL1FQ343" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-08-31 18:24:32.221 +02:00 [DBG] Connection 0HMKBDL1FQ344 established using the following protocol: "Tls12"
+2022-08-31 18:24:32.236 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7127/api/foods/1/recipe/1 - -
+2022-08-31 18:24:32.240 +02:00 [DBG] The request path  does not match the path filter
+2022-08-31 18:24:32.266 +02:00 [DBG] 1 candidate(s) found for the request path '/api/foods/1/recipe/1'
+2022-08-31 18:24:32.272 +02:00 [DBG] Endpoint 'FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API)' with route pattern 'api/foods/{foodId}/recipe/{recipeid}' is valid for the request path '/api/foods/1/recipe/1'
+2022-08-31 18:24:32.275 +02:00 [DBG] Request matched endpoint 'FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API)'
+2022-08-31 18:24:32.278 +02:00 [INF] Executing endpoint 'FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API)'
+2022-08-31 18:24:32.300 +02:00 [INF] Route matched with {action = "GetRecipe", controller = "Recipe"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[FoodIdea.API.Models.RecipeDto] GetRecipe(Int32, Int32) on controller FoodIdea.API.Controllers.RecipeController (FoodIdea.API).
+2022-08-31 18:24:32.304 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-08-31 18:24:32.305 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-08-31 18:24:32.306 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-08-31 18:24:32.308 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-08-31 18:24:32.309 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-08-31 18:24:32.311 +02:00 [DBG] Executing controller factory for controller FoodIdea.API.Controllers.RecipeController (FoodIdea.API)
+2022-08-31 18:24:32.313 +02:00 [DBG] Executed controller factory for controller FoodIdea.API.Controllers.RecipeController (FoodIdea.API)
+2022-08-31 18:24:32.326 +02:00 [DBG] Attempting to bind parameter 'foodId' of type 'System.Int32' ...
+2022-08-31 18:24:32.330 +02:00 [DBG] Attempting to bind parameter 'foodId' of type 'System.Int32' using the name 'foodId' in request data ...
+2022-08-31 18:24:32.332 +02:00 [DBG] Done attempting to bind parameter 'foodId' of type 'System.Int32'.
+2022-08-31 18:24:32.334 +02:00 [DBG] Done attempting to bind parameter 'foodId' of type 'System.Int32'.
+2022-08-31 18:24:32.335 +02:00 [DBG] Attempting to validate the bound parameter 'foodId' of type 'System.Int32' ...
+2022-08-31 18:24:32.338 +02:00 [DBG] Done attempting to validate the bound parameter 'foodId' of type 'System.Int32'.
+2022-08-31 18:24:32.340 +02:00 [DBG] Attempting to bind parameter 'recipeId' of type 'System.Int32' ...
+2022-08-31 18:24:32.343 +02:00 [DBG] Attempting to bind parameter 'recipeId' of type 'System.Int32' using the name 'recipeId' in request data ...
+2022-08-31 18:24:32.344 +02:00 [DBG] Done attempting to bind parameter 'recipeId' of type 'System.Int32'.
+2022-08-31 18:24:32.345 +02:00 [DBG] Done attempting to bind parameter 'recipeId' of type 'System.Int32'.
+2022-08-31 18:24:32.346 +02:00 [DBG] Attempting to validate the bound parameter 'recipeId' of type 'System.Int32' ...
+2022-08-31 18:24:32.347 +02:00 [DBG] Done attempting to validate the bound parameter 'recipeId' of type 'System.Int32'.
+2022-08-31 18:24:32.353 +02:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2022-08-31 18:24:32.358 +02:00 [DBG] No information found on request to perform content negotiation.
+2022-08-31 18:24:32.359 +02:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2022-08-31 18:24:32.360 +02:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2022-08-31 18:24:32.361 +02:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2022-08-31 18:24:32.362 +02:00 [INF] Executing OkObjectResult, writing value of type 'FoodIdea.API.Models.RecipeDto'.
+2022-08-31 18:24:32.373 +02:00 [INF] Executed action FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API) in 57.9932ms
+2022-08-31 18:24:32.376 +02:00 [INF] Executed endpoint 'FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API)'
+2022-08-31 18:24:32.377 +02:00 [DBG] Connection id "0HMKBDL1FQ344" completed keep alive response.
+2022-08-31 18:24:32.379 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7127/api/foods/1/recipe/1 - - - 200 - application/json;+charset=utf-8 143.0178ms
+2022-08-31 18:24:36.357 +02:00 [INF] Request starting HTTP/1.1 DELETE https://localhost:7127/api/foods/1/recipe/1 - -
+2022-08-31 18:24:36.358 +02:00 [DBG] DELETE requests are not supported
+2022-08-31 18:24:36.359 +02:00 [DBG] 1 candidate(s) found for the request path '/api/foods/1/recipe/1'
+2022-08-31 18:24:36.360 +02:00 [DBG] Endpoint 'FoodIdea.API.Controllers.RecipeController.RemoveRecipe (FoodIdea.API)' with route pattern 'api/foods/{foodId}/recipe/{recipeid}' is valid for the request path '/api/foods/1/recipe/1'
+2022-08-31 18:24:36.363 +02:00 [DBG] Request matched endpoint 'FoodIdea.API.Controllers.RecipeController.RemoveRecipe (FoodIdea.API)'
+2022-08-31 18:24:36.365 +02:00 [INF] Executing endpoint 'FoodIdea.API.Controllers.RecipeController.RemoveRecipe (FoodIdea.API)'
+2022-08-31 18:24:36.368 +02:00 [INF] Route matched with {action = "RemoveRecipe", controller = "Recipe"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult RemoveRecipe(Int32, Int32) on controller FoodIdea.API.Controllers.RecipeController (FoodIdea.API).
+2022-08-31 18:24:36.370 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-08-31 18:24:36.371 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-08-31 18:24:36.373 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-08-31 18:24:36.376 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-08-31 18:24:36.377 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-08-31 18:24:36.381 +02:00 [DBG] Executing controller factory for controller FoodIdea.API.Controllers.RecipeController (FoodIdea.API)
+2022-08-31 18:24:36.382 +02:00 [DBG] Executed controller factory for controller FoodIdea.API.Controllers.RecipeController (FoodIdea.API)
+2022-08-31 18:24:36.383 +02:00 [DBG] Attempting to bind parameter 'foodId' of type 'System.Int32' ...
+2022-08-31 18:24:36.385 +02:00 [DBG] Attempting to bind parameter 'foodId' of type 'System.Int32' using the name 'foodId' in request data ...
+2022-08-31 18:24:36.386 +02:00 [DBG] Done attempting to bind parameter 'foodId' of type 'System.Int32'.
+2022-08-31 18:24:36.387 +02:00 [DBG] Done attempting to bind parameter 'foodId' of type 'System.Int32'.
+2022-08-31 18:24:36.388 +02:00 [DBG] Attempting to validate the bound parameter 'foodId' of type 'System.Int32' ...
+2022-08-31 18:24:36.389 +02:00 [DBG] Done attempting to validate the bound parameter 'foodId' of type 'System.Int32'.
+2022-08-31 18:24:36.390 +02:00 [DBG] Attempting to bind parameter 'recipeId' of type 'System.Int32' ...
+2022-08-31 18:24:36.391 +02:00 [DBG] Attempting to bind parameter 'recipeId' of type 'System.Int32' using the name 'recipeId' in request data ...
+2022-08-31 18:24:36.393 +02:00 [DBG] Done attempting to bind parameter 'recipeId' of type 'System.Int32'.
+2022-08-31 18:24:36.394 +02:00 [DBG] Done attempting to bind parameter 'recipeId' of type 'System.Int32'.
+2022-08-31 18:24:36.396 +02:00 [DBG] Attempting to validate the bound parameter 'recipeId' of type 'System.Int32' ...
+2022-08-31 18:24:36.398 +02:00 [DBG] Done attempting to validate the bound parameter 'recipeId' of type 'System.Int32'.
+2022-08-31 18:24:36.405 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2022-08-31 18:24:36.407 +02:00 [INF] Executed action FoodIdea.API.Controllers.RecipeController.RemoveRecipe (FoodIdea.API) in 26.1511ms
+2022-08-31 18:24:36.408 +02:00 [INF] Executed endpoint 'FoodIdea.API.Controllers.RecipeController.RemoveRecipe (FoodIdea.API)'
+2022-08-31 18:24:36.409 +02:00 [DBG] Connection id "0HMKBDL1FQ344" completed keep alive response.
+2022-08-31 18:24:36.411 +02:00 [INF] Request finished HTTP/1.1 DELETE https://localhost:7127/api/foods/1/recipe/1 - - - 204 - - 53.8630ms
+2022-08-31 21:45:59.249 +02:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-08-31 21:45:59.421 +02:00 [DBG] Hosting starting
+2022-08-31 21:45:59.657 +02:00 [DBG] Using development certificate: CN=localhost (Thumbprint: D2D078B8839554F36FC8158D0A37C2DCA6302CB7)
+2022-08-31 21:45:59.877 +02:00 [INF] Now listening on: https://localhost:7127
+2022-08-31 21:45:59.878 +02:00 [INF] Now listening on: http://localhost:5127
+2022-08-31 21:45:59.879 +02:00 [DBG] Loaded hosting startup assembly FoodIdea.API
+2022-08-31 21:45:59.881 +02:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-08-31 21:45:59.883 +02:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-08-31 21:45:59.885 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-31 21:45:59.887 +02:00 [INF] Hosting environment: Development
+2022-08-31 21:45:59.889 +02:00 [INF] Content root path: C:\Users\dell\source\repos\FoodIdea.API\FoodIdea.API\
+2022-08-31 21:45:59.890 +02:00 [DBG] Hosting started
+2022-08-31 21:45:59.925 +02:00 [DBG] Connection id "0HMKBH5N0J4LS" received FIN.
+2022-08-31 21:45:59.925 +02:00 [DBG] Connection id "0HMKBH5N0J4LR" received FIN.
+2022-08-31 21:45:59.945 +02:00 [DBG] Connection id "0HMKBH5N0J4LS" accepted.
+2022-08-31 21:45:59.945 +02:00 [DBG] Connection id "0HMKBH5N0J4LR" accepted.
+2022-08-31 21:45:59.949 +02:00 [DBG] Connection id "0HMKBH5N0J4LR" started.
+2022-08-31 21:45:59.949 +02:00 [DBG] Connection id "0HMKBH5N0J4LS" started.
+2022-08-31 21:45:59.987 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-08-31 21:45:59.987 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-08-31 21:46:00.072 +02:00 [DBG] Connection id "0HMKBH5N0J4LS" stopped.
+2022-08-31 21:46:00.072 +02:00 [DBG] Connection id "0HMKBH5N0J4LR" stopped.
+2022-08-31 21:46:00.079 +02:00 [DBG] Connection id "0HMKBH5N0J4LS" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-08-31 21:46:00.079 +02:00 [DBG] Connection id "0HMKBH5N0J4LR" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-08-31 21:46:00.291 +02:00 [DBG] Connection id "0HMKBH5N0J4LT" accepted.
+2022-08-31 21:46:00.293 +02:00 [DBG] Connection id "0HMKBH5N0J4LT" started.
+2022-08-31 21:46:00.361 +02:00 [DBG] Connection 0HMKBH5N0J4LT established using the following protocol: "Tls12"
+2022-08-31 21:46:00.453 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/swagger/index.html - -
+2022-08-31 21:46:00.503 +02:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-08-31 21:46:00.672 +02:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-08-31 21:46:00.914 +02:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-08-31 21:46:00.923 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/swagger/index.html - - - 200 - text/html;charset=utf-8 474.1709ms
+2022-08-31 21:46:00.934 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/_framework/aspnetcore-browser-refresh.js - -
+2022-08-31 21:46:00.941 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 6.9436ms
+2022-08-31 21:46:01.773 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/_vs/browserLink - -
+2022-08-31 21:46:01.796 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 23.2788ms
+2022-08-31 21:46:02.213 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/swagger/v1/swagger.json - -
+2022-08-31 21:46:02.413 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 199.7105ms
+2022-08-31 23:21:57.844 +02:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-08-31 23:21:58.017 +02:00 [DBG] Hosting starting
+2022-08-31 23:21:58.359 +02:00 [DBG] Using development certificate: CN=localhost (Thumbprint: D2D078B8839554F36FC8158D0A37C2DCA6302CB7)
+2022-08-31 23:21:58.419 +02:00 [INF] Now listening on: https://localhost:7127
+2022-08-31 23:21:58.421 +02:00 [INF] Now listening on: http://localhost:5127
+2022-08-31 23:21:58.422 +02:00 [DBG] Loaded hosting startup assembly FoodIdea.API
+2022-08-31 23:21:58.423 +02:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-08-31 23:21:58.424 +02:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-08-31 23:21:58.425 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-31 23:21:58.426 +02:00 [INF] Hosting environment: Development
+2022-08-31 23:21:58.427 +02:00 [INF] Content root path: C:\Users\dell\source\repos\FoodIdea.API\FoodIdea.API\
+2022-08-31 23:21:58.428 +02:00 [DBG] Hosting started
+2022-08-31 23:21:58.918 +02:00 [DBG] Connection id "0HMKBIRBAJNCM" received FIN.
+2022-08-31 23:21:58.918 +02:00 [DBG] Connection id "0HMKBIRBAJNCN" received FIN.
+2022-08-31 23:21:58.932 +02:00 [DBG] Connection id "0HMKBIRBAJNCM" accepted.
+2022-08-31 23:21:58.932 +02:00 [DBG] Connection id "0HMKBIRBAJNCN" accepted.
+2022-08-31 23:21:58.939 +02:00 [DBG] Connection id "0HMKBIRBAJNCM" started.
+2022-08-31 23:21:58.939 +02:00 [DBG] Connection id "0HMKBIRBAJNCN" started.
+2022-08-31 23:21:58.974 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-08-31 23:21:58.974 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-08-31 23:21:59.036 +02:00 [DBG] Connection id "0HMKBIRBAJNCN" stopped.
+2022-08-31 23:21:59.036 +02:00 [DBG] Connection id "0HMKBIRBAJNCM" stopped.
+2022-08-31 23:21:59.042 +02:00 [DBG] Connection id "0HMKBIRBAJNCM" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-08-31 23:21:59.042 +02:00 [DBG] Connection id "0HMKBIRBAJNCN" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-08-31 23:21:59.266 +02:00 [DBG] Connection id "0HMKBIRBAJNCO" accepted.
+2022-08-31 23:21:59.268 +02:00 [DBG] Connection id "0HMKBIRBAJNCO" started.
+2022-08-31 23:21:59.327 +02:00 [DBG] Connection 0HMKBIRBAJNCO established using the following protocol: "Tls12"
+2022-08-31 23:21:59.409 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/swagger/index.html - -
+2022-08-31 23:21:59.475 +02:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-08-31 23:21:59.607 +02:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-08-31 23:21:59.796 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/_framework/aspnetcore-browser-refresh.js - -
+2022-08-31 23:21:59.796 +02:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-08-31 23:21:59.815 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/swagger/index.html - - - 200 - text/html;charset=utf-8 414.0710ms
+2022-08-31 23:21:59.815 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 16.7577ms
+2022-08-31 23:22:00.944 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/_vs/browserLink - -
+2022-08-31 23:22:00.967 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 22.4247ms
+2022-08-31 23:22:01.446 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/swagger/v1/swagger.json - -
+2022-08-31 23:22:01.603 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 157.3905ms
+2022-08-31 23:22:04.511 +02:00 [DBG] Connection id "0HMKBIRBAJNCP" accepted.
+2022-08-31 23:22:04.512 +02:00 [DBG] Connection id "0HMKBIRBAJNCP" received FIN.
+2022-08-31 23:22:04.513 +02:00 [DBG] Connection id "0HMKBIRBAJNCP" started.
+2022-08-31 23:22:04.514 +02:00 [DBG] Connection id "0HMKBIRBAJNCQ" accepted.
+2022-08-31 23:22:04.516 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-08-31 23:22:04.517 +02:00 [DBG] Connection id "0HMKBIRBAJNCQ" started.
+2022-08-31 23:22:04.520 +02:00 [DBG] Connection id "0HMKBIRBAJNCP" stopped.
+2022-08-31 23:22:04.522 +02:00 [DBG] Connection id "0HMKBIRBAJNCP" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-08-31 23:22:04.525 +02:00 [DBG] Connection 0HMKBIRBAJNCQ established using the following protocol: "Tls12"
+2022-08-31 23:22:04.542 +02:00 [INF] Request starting HTTP/1.1 DELETE https://localhost:7127/api/foods/1/recipe/1 - -
+2022-08-31 23:22:04.546 +02:00 [DBG] DELETE requests are not supported
+2022-08-31 23:22:04.575 +02:00 [DBG] 1 candidate(s) found for the request path '/api/foods/1/recipe/1'
+2022-08-31 23:22:04.581 +02:00 [DBG] Endpoint 'FoodIdea.API.Controllers.RecipeController.RemoveRecipe (FoodIdea.API)' with route pattern 'api/foods/{foodId}/recipe/{recipeid}' is valid for the request path '/api/foods/1/recipe/1'
+2022-08-31 23:22:04.585 +02:00 [DBG] Request matched endpoint 'FoodIdea.API.Controllers.RecipeController.RemoveRecipe (FoodIdea.API)'
+2022-08-31 23:22:04.589 +02:00 [INF] Executing endpoint 'FoodIdea.API.Controllers.RecipeController.RemoveRecipe (FoodIdea.API)'
+2022-08-31 23:22:04.638 +02:00 [INF] Route matched with {action = "RemoveRecipe", controller = "Recipe"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult RemoveRecipe(Int32, Int32) on controller FoodIdea.API.Controllers.RecipeController (FoodIdea.API).
+2022-08-31 23:22:04.645 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-08-31 23:22:04.648 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-08-31 23:22:04.652 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-08-31 23:22:04.659 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-08-31 23:22:04.661 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-08-31 23:22:04.665 +02:00 [DBG] Executing controller factory for controller FoodIdea.API.Controllers.RecipeController (FoodIdea.API)
+2022-08-31 23:22:04.689 +02:00 [INF] Executed action FoodIdea.API.Controllers.RecipeController.RemoveRecipe (FoodIdea.API) in 13.2033ms
+2022-08-31 23:22:04.701 +02:00 [INF] Executed endpoint 'FoodIdea.API.Controllers.RecipeController.RemoveRecipe (FoodIdea.API)'
+2022-08-31 23:22:04.710 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'FoodIdea.API.FoodDataStore' while attempting to activate 'FoodIdea.API.Controllers.RecipeController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method3(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-08-31 23:22:04.775 +02:00 [DBG] Connection id "0HMKBIRBAJNCQ" completed keep alive response.
+2022-08-31 23:22:04.780 +02:00 [INF] Request finished HTTP/1.1 DELETE https://localhost:7127/api/foods/1/recipe/1 - - - 500 - text/plain;+charset=utf-8 237.1627ms
+2022-08-31 23:22:08.095 +02:00 [INF] Request starting HTTP/1.1 DELETE https://localhost:7127/api/foods/1/recipe/1 - -
+2022-08-31 23:22:08.096 +02:00 [DBG] DELETE requests are not supported
+2022-08-31 23:22:08.098 +02:00 [DBG] 1 candidate(s) found for the request path '/api/foods/1/recipe/1'
+2022-08-31 23:22:08.100 +02:00 [DBG] Endpoint 'FoodIdea.API.Controllers.RecipeController.RemoveRecipe (FoodIdea.API)' with route pattern 'api/foods/{foodId}/recipe/{recipeid}' is valid for the request path '/api/foods/1/recipe/1'
+2022-08-31 23:22:08.102 +02:00 [DBG] Request matched endpoint 'FoodIdea.API.Controllers.RecipeController.RemoveRecipe (FoodIdea.API)'
+2022-08-31 23:22:08.103 +02:00 [INF] Executing endpoint 'FoodIdea.API.Controllers.RecipeController.RemoveRecipe (FoodIdea.API)'
+2022-08-31 23:22:08.104 +02:00 [INF] Route matched with {action = "RemoveRecipe", controller = "Recipe"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult RemoveRecipe(Int32, Int32) on controller FoodIdea.API.Controllers.RecipeController (FoodIdea.API).
+2022-08-31 23:22:08.106 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-08-31 23:22:08.108 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-08-31 23:22:08.110 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-08-31 23:22:08.115 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-08-31 23:22:08.118 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-08-31 23:22:08.121 +02:00 [DBG] Executing controller factory for controller FoodIdea.API.Controllers.RecipeController (FoodIdea.API)
+2022-08-31 23:22:08.124 +02:00 [INF] Executed action FoodIdea.API.Controllers.RecipeController.RemoveRecipe (FoodIdea.API) in 3.7612ms
+2022-08-31 23:22:08.127 +02:00 [INF] Executed endpoint 'FoodIdea.API.Controllers.RecipeController.RemoveRecipe (FoodIdea.API)'
+2022-08-31 23:22:08.129 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'FoodIdea.API.FoodDataStore' while attempting to activate 'FoodIdea.API.Controllers.RecipeController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method3(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-08-31 23:22:08.140 +02:00 [DBG] Connection id "0HMKBIRBAJNCQ" completed keep alive response.
+2022-08-31 23:22:08.142 +02:00 [INF] Request finished HTTP/1.1 DELETE https://localhost:7127/api/foods/1/recipe/1 - - - 500 - text/plain;+charset=utf-8 47.4191ms
+2022-08-31 23:22:13.820 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7127/api/foods/1/recipe/1 - -
+2022-08-31 23:22:13.825 +02:00 [DBG] The request path  does not match the path filter
+2022-08-31 23:22:13.830 +02:00 [DBG] 1 candidate(s) found for the request path '/api/foods/1/recipe/1'
+2022-08-31 23:22:13.835 +02:00 [DBG] Endpoint 'FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API)' with route pattern 'api/foods/{foodId}/recipe/{recipeid}' is valid for the request path '/api/foods/1/recipe/1'
+2022-08-31 23:22:13.840 +02:00 [DBG] Request matched endpoint 'FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API)'
+2022-08-31 23:22:13.845 +02:00 [INF] Executing endpoint 'FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API)'
+2022-08-31 23:22:13.853 +02:00 [INF] Route matched with {action = "GetRecipe", controller = "Recipe"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[FoodIdea.API.Models.RecipeDto] GetRecipe(Int32, Int32) on controller FoodIdea.API.Controllers.RecipeController (FoodIdea.API).
+2022-08-31 23:22:13.864 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-08-31 23:22:13.872 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-08-31 23:22:13.878 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-08-31 23:22:13.888 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-08-31 23:22:13.894 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-08-31 23:22:13.903 +02:00 [DBG] Executing controller factory for controller FoodIdea.API.Controllers.RecipeController (FoodIdea.API)
+2022-08-31 23:22:13.911 +02:00 [INF] Executed action FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API) in 8.7899ms
+2022-08-31 23:22:13.919 +02:00 [INF] Executed endpoint 'FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API)'
+2022-08-31 23:22:13.924 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'FoodIdea.API.FoodDataStore' while attempting to activate 'FoodIdea.API.Controllers.RecipeController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method5(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-08-31 23:22:13.954 +02:00 [DBG] Connection id "0HMKBIRBAJNCQ" completed keep alive response.
+2022-08-31 23:22:13.960 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7127/api/foods/1/recipe/1 - - - 500 - text/plain;+charset=utf-8 139.7155ms
+2022-08-31 23:22:36.093 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7127/api/foods/1/recipe/1 - -
+2022-08-31 23:22:36.095 +02:00 [DBG] The request path  does not match the path filter
+2022-08-31 23:22:36.096 +02:00 [DBG] 1 candidate(s) found for the request path '/api/foods/1/recipe/1'
+2022-08-31 23:22:36.099 +02:00 [DBG] Endpoint 'FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API)' with route pattern 'api/foods/{foodId}/recipe/{recipeid}' is valid for the request path '/api/foods/1/recipe/1'
+2022-08-31 23:22:36.102 +02:00 [DBG] Request matched endpoint 'FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API)'
+2022-08-31 23:22:36.104 +02:00 [INF] Executing endpoint 'FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API)'
+2022-08-31 23:22:36.108 +02:00 [INF] Route matched with {action = "GetRecipe", controller = "Recipe"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[FoodIdea.API.Models.RecipeDto] GetRecipe(Int32, Int32) on controller FoodIdea.API.Controllers.RecipeController (FoodIdea.API).
+2022-08-31 23:22:36.111 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-08-31 23:22:36.113 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-08-31 23:22:36.114 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-08-31 23:22:36.117 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-08-31 23:22:36.118 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-08-31 23:22:36.120 +02:00 [DBG] Executing controller factory for controller FoodIdea.API.Controllers.RecipeController (FoodIdea.API)
+2022-08-31 23:22:36.133 +02:00 [INF] Executed action FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API) in 13.0105ms
+2022-08-31 23:22:36.141 +02:00 [INF] Executed endpoint 'FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API)'
+2022-08-31 23:22:36.150 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'FoodIdea.API.FoodDataStore' while attempting to activate 'FoodIdea.API.Controllers.RecipeController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method5(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-08-31 23:22:36.215 +02:00 [DBG] Connection id "0HMKBIRBAJNCQ" completed keep alive response.
+2022-08-31 23:22:36.220 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7127/api/foods/1/recipe/1 - - - 500 - text/plain;+charset=utf-8 127.0073ms
+2022-08-31 23:23:25.254 +02:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-08-31 23:23:25.425 +02:00 [DBG] Hosting starting
+2022-08-31 23:23:25.644 +02:00 [DBG] Using development certificate: CN=localhost (Thumbprint: D2D078B8839554F36FC8158D0A37C2DCA6302CB7)
+2022-08-31 23:23:25.731 +02:00 [INF] Now listening on: https://localhost:7127
+2022-08-31 23:23:25.733 +02:00 [INF] Now listening on: http://localhost:5127
+2022-08-31 23:23:25.734 +02:00 [DBG] Loaded hosting startup assembly FoodIdea.API
+2022-08-31 23:23:25.735 +02:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-08-31 23:23:25.737 +02:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-08-31 23:23:25.738 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-31 23:23:25.740 +02:00 [INF] Hosting environment: Development
+2022-08-31 23:23:25.741 +02:00 [INF] Content root path: C:\Users\dell\source\repos\FoodIdea.API\FoodIdea.API\
+2022-08-31 23:23:25.742 +02:00 [DBG] Hosting started
+2022-08-31 23:23:25.821 +02:00 [DBG] Connection id "0HMKBIS57C96F" accepted.
+2022-08-31 23:23:25.821 +02:00 [DBG] Connection id "0HMKBIS57C96E" accepted.
+2022-08-31 23:23:25.823 +02:00 [DBG] Connection id "0HMKBIS57C96F" started.
+2022-08-31 23:23:25.824 +02:00 [DBG] Connection id "0HMKBIS57C96E" started.
+2022-08-31 23:23:25.829 +02:00 [DBG] Connection id "0HMKBIS57C96E" received FIN.
+2022-08-31 23:23:25.829 +02:00 [DBG] Connection id "0HMKBIS57C96F" received FIN.
+2022-08-31 23:23:25.859 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-08-31 23:23:25.859 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-08-31 23:23:25.921 +02:00 [DBG] Connection id "0HMKBIS57C96F" stopped.
+2022-08-31 23:23:25.921 +02:00 [DBG] Connection id "0HMKBIS57C96E" stopped.
+2022-08-31 23:23:25.927 +02:00 [DBG] Connection id "0HMKBIS57C96F" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-08-31 23:23:25.929 +02:00 [DBG] Connection id "0HMKBIS57C96E" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-08-31 23:23:26.153 +02:00 [DBG] Connection id "0HMKBIS57C96G" accepted.
+2022-08-31 23:23:26.161 +02:00 [DBG] Connection id "0HMKBIS57C96G" started.
+2022-08-31 23:23:26.214 +02:00 [DBG] Connection 0HMKBIS57C96G established using the following protocol: "Tls12"
+2022-08-31 23:23:26.288 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/swagger/index.html - -
+2022-08-31 23:23:26.348 +02:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-08-31 23:23:26.499 +02:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-08-31 23:23:26.653 +02:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-08-31 23:23:26.658 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/_framework/aspnetcore-browser-refresh.js - -
+2022-08-31 23:23:26.660 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/swagger/index.html - - - 200 - text/html;charset=utf-8 377.0073ms
+2022-08-31 23:23:26.673 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 14.3577ms
+2022-08-31 23:23:27.463 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/_vs/browserLink - -
+2022-08-31 23:23:27.488 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 24.2514ms
+2022-08-31 23:23:28.020 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/swagger/v1/swagger.json - -
+2022-08-31 23:23:28.202 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 182.1523ms
+2022-08-31 23:23:30.295 +02:00 [DBG] Connection id "0HMKBIS57C96H" accepted.
+2022-08-31 23:23:30.296 +02:00 [DBG] Connection id "0HMKBIS57C96H" received FIN.
+2022-08-31 23:23:30.298 +02:00 [DBG] Connection id "0HMKBIS57C96H" started.
+2022-08-31 23:23:30.299 +02:00 [DBG] Connection id "0HMKBIS57C96I" accepted.
+2022-08-31 23:23:30.301 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-08-31 23:23:30.303 +02:00 [DBG] Connection id "0HMKBIS57C96I" started.
+2022-08-31 23:23:30.307 +02:00 [DBG] Connection id "0HMKBIS57C96H" stopped.
+2022-08-31 23:23:30.310 +02:00 [DBG] Connection id "0HMKBIS57C96H" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-08-31 23:23:30.318 +02:00 [DBG] Connection 0HMKBIS57C96I established using the following protocol: "Tls12"
+2022-08-31 23:23:30.332 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7127/api/foods/1/recipe/1 - -
+2022-08-31 23:23:30.340 +02:00 [DBG] The request path  does not match the path filter
+2022-08-31 23:23:30.421 +02:00 [DBG] 1 candidate(s) found for the request path '/api/foods/1/recipe/1'
+2022-08-31 23:23:30.440 +02:00 [DBG] Endpoint 'FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API)' with route pattern 'api/foods/{foodId}/recipe/{recipeid}' is valid for the request path '/api/foods/1/recipe/1'
+2022-08-31 23:23:30.451 +02:00 [DBG] Request matched endpoint 'FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API)'
+2022-08-31 23:23:30.467 +02:00 [INF] Executing endpoint 'FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API)'
+2022-08-31 23:23:30.535 +02:00 [INF] Route matched with {action = "GetRecipe", controller = "Recipe"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[FoodIdea.API.Models.RecipeDto] GetRecipe(Int32, Int32) on controller FoodIdea.API.Controllers.RecipeController (FoodIdea.API).
+2022-08-31 23:23:30.550 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-08-31 23:23:30.560 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-08-31 23:23:30.570 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-08-31 23:23:30.582 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-08-31 23:23:30.590 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-08-31 23:23:30.605 +02:00 [DBG] Executing controller factory for controller FoodIdea.API.Controllers.RecipeController (FoodIdea.API)
+2022-08-31 23:23:30.638 +02:00 [INF] Executed action FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API) in 18.769ms
+2022-08-31 23:23:30.651 +02:00 [INF] Executed endpoint 'FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API)'
+2022-08-31 23:23:30.660 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'FoodIdea.API.FoodDataStore' while attempting to activate 'FoodIdea.API.Controllers.RecipeController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method3(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-08-31 23:23:30.751 +02:00 [DBG] Connection id "0HMKBIS57C96I" completed keep alive response.
+2022-08-31 23:23:30.758 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7127/api/foods/1/recipe/1 - - - 500 - text/plain;+charset=utf-8 424.5209ms
+2022-08-31 23:23:48.770 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7127/api/foods/1/recipe/1 - -
+2022-08-31 23:23:48.771 +02:00 [DBG] The request path  does not match the path filter
+2022-08-31 23:23:48.773 +02:00 [DBG] 1 candidate(s) found for the request path '/api/foods/1/recipe/1'
+2022-08-31 23:23:48.776 +02:00 [DBG] Endpoint 'FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API)' with route pattern 'api/foods/{foodId}/recipe/{recipeid}' is valid for the request path '/api/foods/1/recipe/1'
+2022-08-31 23:23:48.778 +02:00 [DBG] Request matched endpoint 'FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API)'
+2022-08-31 23:23:48.780 +02:00 [INF] Executing endpoint 'FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API)'
+2022-08-31 23:23:48.781 +02:00 [INF] Route matched with {action = "GetRecipe", controller = "Recipe"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[FoodIdea.API.Models.RecipeDto] GetRecipe(Int32, Int32) on controller FoodIdea.API.Controllers.RecipeController (FoodIdea.API).
+2022-08-31 23:23:48.784 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-08-31 23:23:48.786 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-08-31 23:23:48.788 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-08-31 23:23:48.796 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-08-31 23:23:48.799 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-08-31 23:23:48.801 +02:00 [DBG] Executing controller factory for controller FoodIdea.API.Controllers.RecipeController (FoodIdea.API)
+2022-08-31 23:23:48.803 +02:00 [INF] Executed action FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API) in 2.2466ms
+2022-08-31 23:23:48.805 +02:00 [INF] Executed endpoint 'FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API)'
+2022-08-31 23:23:48.807 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'FoodIdea.API.FoodDataStore' while attempting to activate 'FoodIdea.API.Controllers.RecipeController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method3(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-08-31 23:23:48.866 +02:00 [DBG] Connection id "0HMKBIS57C96I" completed keep alive response.
+2022-08-31 23:23:48.870 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7127/api/foods/1/recipe/1 - - - 500 - text/plain;+charset=utf-8 100.6141ms
+2022-08-31 23:24:04.925 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7127/api/foods/2/recipe application/json 126
+2022-08-31 23:24:04.928 +02:00 [DBG] POST requests are not supported
+2022-08-31 23:24:04.931 +02:00 [DBG] 1 candidate(s) found for the request path '/api/foods/2/recipe'
+2022-08-31 23:24:04.933 +02:00 [DBG] Endpoint 'FoodIdea.API.Controllers.RecipeController.CreateRecipe (FoodIdea.API)' with route pattern 'api/foods/{foodId}/recipe' is valid for the request path '/api/foods/2/recipe'
+2022-08-31 23:24:04.936 +02:00 [DBG] Request matched endpoint 'FoodIdea.API.Controllers.RecipeController.CreateRecipe (FoodIdea.API)'
+2022-08-31 23:24:04.937 +02:00 [INF] Executing endpoint 'FoodIdea.API.Controllers.RecipeController.CreateRecipe (FoodIdea.API)'
+2022-08-31 23:24:04.940 +02:00 [INF] Route matched with {action = "CreateRecipe", controller = "Recipe"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[FoodIdea.API.Models.RecipeDto] CreateRecipe(Int32, FoodIdea.API.Models.RecipeForCreationDto) on controller FoodIdea.API.Controllers.RecipeController (FoodIdea.API).
+2022-08-31 23:24:04.948 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-08-31 23:24:04.950 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-08-31 23:24:04.952 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-08-31 23:24:04.954 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-08-31 23:24:04.956 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-08-31 23:24:04.958 +02:00 [DBG] Executing controller factory for controller FoodIdea.API.Controllers.RecipeController (FoodIdea.API)
+2022-08-31 23:24:04.960 +02:00 [INF] Executed action FoodIdea.API.Controllers.RecipeController.CreateRecipe (FoodIdea.API) in 1.9222ms
+2022-08-31 23:24:04.961 +02:00 [INF] Executed endpoint 'FoodIdea.API.Controllers.RecipeController.CreateRecipe (FoodIdea.API)'
+2022-08-31 23:24:04.964 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'FoodIdea.API.FoodDataStore' while attempting to activate 'FoodIdea.API.Controllers.RecipeController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method5(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-08-31 23:24:04.985 +02:00 [DBG] Connection id "0HMKBIS57C96I" completed keep alive response.
+2022-08-31 23:24:04.986 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7127/api/foods/2/recipe application/json 126 - 500 - text/plain;+charset=utf-8 61.0645ms
+2022-08-31 23:24:04.987 +02:00 [DBG] Connection id "0HMKBIS57C96I", Request id "0HMKBIS57C96I:00000004": started reading request body.
+2022-08-31 23:24:04.992 +02:00 [DBG] Connection id "0HMKBIS57C96I", Request id "0HMKBIS57C96I:00000004": done reading request body.
+2022-08-31 23:24:08.615 +02:00 [INF] Request starting HTTP/1.1 PUT https://localhost:7127/api/foods/3/recipe/3 application/json 126
+2022-08-31 23:24:08.616 +02:00 [DBG] PUT requests are not supported
+2022-08-31 23:24:08.619 +02:00 [DBG] 1 candidate(s) found for the request path '/api/foods/3/recipe/3'
+2022-08-31 23:24:08.621 +02:00 [DBG] Endpoint 'FoodIdea.API.Controllers.RecipeController.UpdateRecipe (FoodIdea.API)' with route pattern 'api/foods/{foodId}/recipe/{recipeid}' is valid for the request path '/api/foods/3/recipe/3'
+2022-08-31 23:24:08.625 +02:00 [DBG] Request matched endpoint 'FoodIdea.API.Controllers.RecipeController.UpdateRecipe (FoodIdea.API)'
+2022-08-31 23:24:08.628 +02:00 [INF] Executing endpoint 'FoodIdea.API.Controllers.RecipeController.UpdateRecipe (FoodIdea.API)'
+2022-08-31 23:24:08.631 +02:00 [INF] Route matched with {action = "UpdateRecipe", controller = "Recipe"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult UpdateRecipe(Int32, Int32, FoodIdea.API.Models.RecipeForUpdateDto) on controller FoodIdea.API.Controllers.RecipeController (FoodIdea.API).
+2022-08-31 23:24:08.637 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-08-31 23:24:08.640 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-08-31 23:24:08.643 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-08-31 23:24:08.647 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-08-31 23:24:08.651 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-08-31 23:24:08.653 +02:00 [DBG] Executing controller factory for controller FoodIdea.API.Controllers.RecipeController (FoodIdea.API)
+2022-08-31 23:24:08.655 +02:00 [INF] Executed action FoodIdea.API.Controllers.RecipeController.UpdateRecipe (FoodIdea.API) in 2.1344ms
+2022-08-31 23:24:08.660 +02:00 [INF] Executed endpoint 'FoodIdea.API.Controllers.RecipeController.UpdateRecipe (FoodIdea.API)'
+2022-08-31 23:24:08.663 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'FoodIdea.API.FoodDataStore' while attempting to activate 'FoodIdea.API.Controllers.RecipeController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method7(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-08-31 23:24:08.678 +02:00 [DBG] Connection id "0HMKBIS57C96I" completed keep alive response.
+2022-08-31 23:24:08.680 +02:00 [INF] Request finished HTTP/1.1 PUT https://localhost:7127/api/foods/3/recipe/3 application/json 126 - 500 - text/plain;+charset=utf-8 65.1818ms
+2022-08-31 23:24:08.682 +02:00 [DBG] Connection id "0HMKBIS57C96I", Request id "0HMKBIS57C96I:00000005": started reading request body.
+2022-08-31 23:24:08.684 +02:00 [DBG] Connection id "0HMKBIS57C96I", Request id "0HMKBIS57C96I:00000005": done reading request body.
+2022-08-31 23:24:12.446 +02:00 [INF] Request starting HTTP/1.1 DELETE https://localhost:7127/api/foods/1/recipe/1 - -
+2022-08-31 23:24:12.450 +02:00 [DBG] DELETE requests are not supported
+2022-08-31 23:24:12.457 +02:00 [DBG] 1 candidate(s) found for the request path '/api/foods/1/recipe/1'
+2022-08-31 23:24:12.463 +02:00 [DBG] Endpoint 'FoodIdea.API.Controllers.RecipeController.RemoveRecipe (FoodIdea.API)' with route pattern 'api/foods/{foodId}/recipe/{recipeid}' is valid for the request path '/api/foods/1/recipe/1'
+2022-08-31 23:24:12.471 +02:00 [DBG] Request matched endpoint 'FoodIdea.API.Controllers.RecipeController.RemoveRecipe (FoodIdea.API)'
+2022-08-31 23:24:12.477 +02:00 [INF] Executing endpoint 'FoodIdea.API.Controllers.RecipeController.RemoveRecipe (FoodIdea.API)'
+2022-08-31 23:24:12.484 +02:00 [INF] Route matched with {action = "RemoveRecipe", controller = "Recipe"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult RemoveRecipe(Int32, Int32) on controller FoodIdea.API.Controllers.RecipeController (FoodIdea.API).
+2022-08-31 23:24:12.497 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-08-31 23:24:12.505 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-08-31 23:24:12.511 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-08-31 23:24:12.520 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-08-31 23:24:12.529 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-08-31 23:24:12.539 +02:00 [DBG] Executing controller factory for controller FoodIdea.API.Controllers.RecipeController (FoodIdea.API)
+2022-08-31 23:24:12.550 +02:00 [INF] Executed action FoodIdea.API.Controllers.RecipeController.RemoveRecipe (FoodIdea.API) in 11.1404ms
+2022-08-31 23:24:12.561 +02:00 [INF] Executed endpoint 'FoodIdea.API.Controllers.RecipeController.RemoveRecipe (FoodIdea.API)'
+2022-08-31 23:24:12.568 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'FoodIdea.API.FoodDataStore' while attempting to activate 'FoodIdea.API.Controllers.RecipeController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method9(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-08-31 23:24:12.677 +02:00 [DBG] Connection id "0HMKBIS57C96I" completed keep alive response.
+2022-08-31 23:24:12.683 +02:00 [INF] Request finished HTTP/1.1 DELETE https://localhost:7127/api/foods/1/recipe/1 - - - 500 - text/plain;+charset=utf-8 236.2300ms
+2022-08-31 23:24:46.748 +02:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-08-31 23:24:46.918 +02:00 [DBG] Hosting starting
+2022-08-31 23:24:47.144 +02:00 [DBG] Using development certificate: CN=localhost (Thumbprint: D2D078B8839554F36FC8158D0A37C2DCA6302CB7)
+2022-08-31 23:24:47.245 +02:00 [INF] Now listening on: https://localhost:7127
+2022-08-31 23:24:47.246 +02:00 [INF] Now listening on: http://localhost:5127
+2022-08-31 23:24:47.247 +02:00 [DBG] Loaded hosting startup assembly FoodIdea.API
+2022-08-31 23:24:47.249 +02:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-08-31 23:24:47.252 +02:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-08-31 23:24:47.253 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-31 23:24:47.256 +02:00 [INF] Hosting environment: Development
+2022-08-31 23:24:47.257 +02:00 [INF] Content root path: C:\Users\dell\source\repos\FoodIdea.API\FoodIdea.API\
+2022-08-31 23:24:47.258 +02:00 [DBG] Hosting started
+2022-08-31 23:24:47.383 +02:00 [DBG] Connection id "0HMKBISTH6OAA" accepted.
+2022-08-31 23:24:47.383 +02:00 [DBG] Connection id "0HMKBISTH6OA9" accepted.
+2022-08-31 23:24:47.386 +02:00 [DBG] Connection id "0HMKBISTH6OA9" started.
+2022-08-31 23:24:47.386 +02:00 [DBG] Connection id "0HMKBISTH6OAA" started.
+2022-08-31 23:24:47.400 +02:00 [DBG] Connection id "0HMKBISTH6OAA" received FIN.
+2022-08-31 23:24:47.400 +02:00 [DBG] Connection id "0HMKBISTH6OA9" received FIN.
+2022-08-31 23:24:47.436 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-08-31 23:24:47.436 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-08-31 23:24:47.489 +02:00 [DBG] Connection id "0HMKBISTH6OA9" stopped.
+2022-08-31 23:24:47.489 +02:00 [DBG] Connection id "0HMKBISTH6OAA" stopped.
+2022-08-31 23:24:47.494 +02:00 [DBG] Connection id "0HMKBISTH6OA9" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-08-31 23:24:47.494 +02:00 [DBG] Connection id "0HMKBISTH6OAA" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-08-31 23:24:47.714 +02:00 [DBG] Connection id "0HMKBISTH6OAB" accepted.
+2022-08-31 23:24:47.716 +02:00 [DBG] Connection id "0HMKBISTH6OAB" started.
+2022-08-31 23:24:47.770 +02:00 [DBG] Connection 0HMKBISTH6OAB established using the following protocol: "Tls12"
+2022-08-31 23:24:47.878 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/swagger/index.html - -
+2022-08-31 23:24:47.935 +02:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-08-31 23:24:48.082 +02:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-08-31 23:24:48.358 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/_framework/aspnetcore-browser-refresh.js - -
+2022-08-31 23:24:48.369 +02:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-08-31 23:24:48.383 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/swagger/index.html - - - 200 - text/html;charset=utf-8 510.9060ms
+2022-08-31 23:24:48.383 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 22.9484ms
+2022-08-31 23:24:49.173 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/_vs/browserLink - -
+2022-08-31 23:24:49.201 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 28.3002ms
+2022-08-31 23:24:49.583 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/swagger/v1/swagger.json - -
+2022-08-31 23:24:49.759 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 175.9636ms
+2022-08-31 23:25:24.460 +02:00 [DBG] Connection id "0HMKBISTH6OAC" accepted.
+2022-08-31 23:25:24.464 +02:00 [DBG] Connection id "0HMKBISTH6OAC" received FIN.
+2022-08-31 23:25:24.465 +02:00 [DBG] Connection id "0HMKBISTH6OAC" started.
+2022-08-31 23:25:24.469 +02:00 [DBG] Connection id "0HMKBISTH6OAD" accepted.
+2022-08-31 23:25:24.477 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-08-31 23:25:24.478 +02:00 [DBG] Connection id "0HMKBISTH6OAD" started.
+2022-08-31 23:25:24.483 +02:00 [DBG] Connection id "0HMKBISTH6OAC" stopped.
+2022-08-31 23:25:24.488 +02:00 [DBG] Connection id "0HMKBISTH6OAC" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-08-31 23:25:24.495 +02:00 [DBG] Connection 0HMKBISTH6OAD established using the following protocol: "Tls12"
+2022-08-31 23:25:24.511 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7127/api/foods/1/recipe/1 - -
+2022-08-31 23:25:24.515 +02:00 [DBG] The request path  does not match the path filter
+2022-08-31 23:25:24.545 +02:00 [DBG] 1 candidate(s) found for the request path '/api/foods/1/recipe/1'
+2022-08-31 23:25:24.552 +02:00 [DBG] Endpoint 'FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API)' with route pattern 'api/foods/{foodId}/recipe/{recipeid}' is valid for the request path '/api/foods/1/recipe/1'
+2022-08-31 23:25:24.556 +02:00 [DBG] Request matched endpoint 'FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API)'
+2022-08-31 23:25:24.561 +02:00 [INF] Executing endpoint 'FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API)'
+2022-08-31 23:25:24.585 +02:00 [INF] Route matched with {action = "GetRecipe", controller = "Recipe"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[FoodIdea.API.Models.RecipeDto] GetRecipe(Int32, Int32) on controller FoodIdea.API.Controllers.RecipeController (FoodIdea.API).
+2022-08-31 23:25:24.591 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-08-31 23:25:24.595 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-08-31 23:25:24.597 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-08-31 23:25:24.599 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-08-31 23:25:24.601 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-08-31 23:25:24.604 +02:00 [DBG] Executing controller factory for controller FoodIdea.API.Controllers.RecipeController (FoodIdea.API)
+2022-08-31 23:25:24.613 +02:00 [INF] Executed action FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API) in 5.2274ms
+2022-08-31 23:25:24.617 +02:00 [INF] Executed endpoint 'FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API)'
+2022-08-31 23:25:24.619 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'FoodIdea.API.FoodDataStore' while attempting to activate 'FoodIdea.API.Controllers.RecipeController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method3(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-08-31 23:25:24.653 +02:00 [DBG] Connection id "0HMKBISTH6OAD" completed keep alive response.
+2022-08-31 23:25:24.656 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7127/api/foods/1/recipe/1 - - - 500 - text/plain;+charset=utf-8 144.5774ms
+2022-08-31 23:29:14.324 +02:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-08-31 23:29:14.488 +02:00 [DBG] Hosting starting
+2022-08-31 23:29:14.746 +02:00 [DBG] Using development certificate: CN=localhost (Thumbprint: D2D078B8839554F36FC8158D0A37C2DCA6302CB7)
+2022-08-31 23:29:14.815 +02:00 [INF] Now listening on: https://localhost:7127
+2022-08-31 23:29:14.816 +02:00 [INF] Now listening on: http://localhost:5127
+2022-08-31 23:29:14.817 +02:00 [DBG] Loaded hosting startup assembly FoodIdea.API
+2022-08-31 23:29:14.818 +02:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-08-31 23:29:14.819 +02:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-08-31 23:29:14.820 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-31 23:29:14.821 +02:00 [INF] Hosting environment: Development
+2022-08-31 23:29:14.821 +02:00 [INF] Content root path: C:\Users\dell\source\repos\FoodIdea.API\FoodIdea.API\
+2022-08-31 23:29:14.822 +02:00 [DBG] Hosting started
+2022-08-31 23:29:15.019 +02:00 [DBG] Connection id "0HMKBIVD9APE5" accepted.
+2022-08-31 23:29:15.019 +02:00 [DBG] Connection id "0HMKBIVD9APE4" accepted.
+2022-08-31 23:29:15.024 +02:00 [DBG] Connection id "0HMKBIVD9APE4" received FIN.
+2022-08-31 23:29:15.024 +02:00 [DBG] Connection id "0HMKBIVD9APE5" received FIN.
+2022-08-31 23:29:15.027 +02:00 [DBG] Connection id "0HMKBIVD9APE5" started.
+2022-08-31 23:29:15.028 +02:00 [DBG] Connection id "0HMKBIVD9APE4" started.
+2022-08-31 23:29:15.076 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-08-31 23:29:15.076 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-08-31 23:29:15.133 +02:00 [DBG] Connection id "0HMKBIVD9APE4" stopped.
+2022-08-31 23:29:15.133 +02:00 [DBG] Connection id "0HMKBIVD9APE5" stopped.
+2022-08-31 23:29:15.138 +02:00 [DBG] Connection id "0HMKBIVD9APE5" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-08-31 23:29:15.138 +02:00 [DBG] Connection id "0HMKBIVD9APE4" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-08-31 23:29:15.350 +02:00 [DBG] Connection id "0HMKBIVD9APE6" accepted.
+2022-08-31 23:29:15.356 +02:00 [DBG] Connection id "0HMKBIVD9APE6" started.
+2022-08-31 23:29:15.426 +02:00 [DBG] Connection 0HMKBIVD9APE6 established using the following protocol: "Tls12"
+2022-08-31 23:29:15.507 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/swagger/index.html - -
+2022-08-31 23:29:15.569 +02:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-08-31 23:29:15.720 +02:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-08-31 23:29:15.889 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/_framework/aspnetcore-browser-refresh.js - -
+2022-08-31 23:29:15.900 +02:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-08-31 23:29:15.907 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 16.7820ms
+2022-08-31 23:29:15.911 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/swagger/index.html - - - 200 - text/html;charset=utf-8 410.8819ms
+2022-08-31 23:29:16.925 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/_vs/browserLink - -
+2022-08-31 23:29:16.953 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 27.1809ms
+2022-08-31 23:29:17.277 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/swagger/v1/swagger.json - -
+2022-08-31 23:29:17.511 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 233.5080ms
+2022-08-31 23:29:19.956 +02:00 [DBG] Connection id "0HMKBIVD9APE7" accepted.
+2022-08-31 23:29:19.957 +02:00 [DBG] Connection id "0HMKBIVD9APE7" received FIN.
+2022-08-31 23:29:19.958 +02:00 [DBG] Connection id "0HMKBIVD9APE7" started.
+2022-08-31 23:29:19.958 +02:00 [DBG] Connection id "0HMKBIVD9APE8" accepted.
+2022-08-31 23:29:19.961 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-08-31 23:29:19.962 +02:00 [DBG] Connection id "0HMKBIVD9APE8" started.
+2022-08-31 23:29:19.964 +02:00 [DBG] Connection id "0HMKBIVD9APE7" stopped.
+2022-08-31 23:29:19.966 +02:00 [DBG] Connection id "0HMKBIVD9APE7" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-08-31 23:29:19.968 +02:00 [DBG] Connection 0HMKBIVD9APE8 established using the following protocol: "Tls12"
+2022-08-31 23:29:19.980 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7127/api/foods/1/recipe/1 - -
+2022-08-31 23:29:19.984 +02:00 [DBG] The request path  does not match the path filter
+2022-08-31 23:29:20.009 +02:00 [DBG] 1 candidate(s) found for the request path '/api/foods/1/recipe/1'
+2022-08-31 23:29:20.019 +02:00 [DBG] Endpoint 'FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API)' with route pattern 'api/foods/{foodId}/recipe/{recipeid}' is valid for the request path '/api/foods/1/recipe/1'
+2022-08-31 23:29:20.028 +02:00 [DBG] Request matched endpoint 'FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API)'
+2022-08-31 23:29:20.037 +02:00 [INF] Executing endpoint 'FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API)'
+2022-08-31 23:29:20.099 +02:00 [INF] Route matched with {action = "GetRecipe", controller = "Recipe"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[FoodIdea.API.Models.RecipeDto] GetRecipe(Int32, Int32) on controller FoodIdea.API.Controllers.RecipeController (FoodIdea.API).
+2022-08-31 23:29:20.113 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-08-31 23:29:20.120 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-08-31 23:29:20.129 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-08-31 23:29:20.137 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-08-31 23:29:20.144 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-08-31 23:29:20.152 +02:00 [DBG] Executing controller factory for controller FoodIdea.API.Controllers.RecipeController (FoodIdea.API)
+2022-08-31 23:29:20.162 +02:00 [DBG] Executed controller factory for controller FoodIdea.API.Controllers.RecipeController (FoodIdea.API)
+2022-08-31 23:29:20.202 +02:00 [DBG] Attempting to bind parameter 'foodId' of type 'System.Int32' ...
+2022-08-31 23:29:20.213 +02:00 [DBG] Attempting to bind parameter 'foodId' of type 'System.Int32' using the name 'foodId' in request data ...
+2022-08-31 23:29:20.223 +02:00 [DBG] Done attempting to bind parameter 'foodId' of type 'System.Int32'.
+2022-08-31 23:29:20.228 +02:00 [DBG] Done attempting to bind parameter 'foodId' of type 'System.Int32'.
+2022-08-31 23:29:20.231 +02:00 [DBG] Attempting to validate the bound parameter 'foodId' of type 'System.Int32' ...
+2022-08-31 23:29:20.237 +02:00 [DBG] Done attempting to validate the bound parameter 'foodId' of type 'System.Int32'.
+2022-08-31 23:29:20.248 +02:00 [DBG] Attempting to bind parameter 'recipeId' of type 'System.Int32' ...
+2022-08-31 23:29:20.255 +02:00 [DBG] Attempting to bind parameter 'recipeId' of type 'System.Int32' using the name 'recipeId' in request data ...
+2022-08-31 23:29:20.261 +02:00 [DBG] Done attempting to bind parameter 'recipeId' of type 'System.Int32'.
+2022-08-31 23:29:20.264 +02:00 [DBG] Done attempting to bind parameter 'recipeId' of type 'System.Int32'.
+2022-08-31 23:29:20.267 +02:00 [DBG] Attempting to validate the bound parameter 'recipeId' of type 'System.Int32' ...
+2022-08-31 23:29:20.271 +02:00 [DBG] Done attempting to validate the bound parameter 'recipeId' of type 'System.Int32'.
+2022-08-31 23:29:20.282 +02:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2022-08-31 23:29:20.298 +02:00 [DBG] No information found on request to perform content negotiation.
+2022-08-31 23:29:20.303 +02:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2022-08-31 23:29:20.308 +02:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2022-08-31 23:29:20.315 +02:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2022-08-31 23:29:20.324 +02:00 [INF] Executing OkObjectResult, writing value of type 'FoodIdea.API.Models.RecipeDto'.
+2022-08-31 23:29:20.358 +02:00 [INF] Executed action FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API) in 194.0106ms
+2022-08-31 23:29:20.366 +02:00 [INF] Executed endpoint 'FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API)'
+2022-08-31 23:29:20.370 +02:00 [DBG] Connection id "0HMKBIVD9APE8" completed keep alive response.
+2022-08-31 23:29:20.375 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7127/api/foods/1/recipe/1 - - - 200 - application/json;+charset=utf-8 394.6908ms
+2022-08-31 23:29:25.121 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7127/api/foods/2/recipe application/json 126
+2022-08-31 23:29:25.124 +02:00 [DBG] POST requests are not supported
+2022-08-31 23:29:25.126 +02:00 [DBG] 1 candidate(s) found for the request path '/api/foods/2/recipe'
+2022-08-31 23:29:25.127 +02:00 [DBG] Endpoint 'FoodIdea.API.Controllers.RecipeController.CreateRecipe (FoodIdea.API)' with route pattern 'api/foods/{foodId}/recipe' is valid for the request path '/api/foods/2/recipe'
+2022-08-31 23:29:25.128 +02:00 [DBG] Request matched endpoint 'FoodIdea.API.Controllers.RecipeController.CreateRecipe (FoodIdea.API)'
+2022-08-31 23:29:25.129 +02:00 [INF] Executing endpoint 'FoodIdea.API.Controllers.RecipeController.CreateRecipe (FoodIdea.API)'
+2022-08-31 23:29:25.131 +02:00 [INF] Route matched with {action = "CreateRecipe", controller = "Recipe"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[FoodIdea.API.Models.RecipeDto] CreateRecipe(Int32, FoodIdea.API.Models.RecipeForCreationDto) on controller FoodIdea.API.Controllers.RecipeController (FoodIdea.API).
+2022-08-31 23:29:25.135 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-08-31 23:29:25.136 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-08-31 23:29:25.138 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-08-31 23:29:25.140 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-08-31 23:29:25.141 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-08-31 23:29:25.143 +02:00 [DBG] Executing controller factory for controller FoodIdea.API.Controllers.RecipeController (FoodIdea.API)
+2022-08-31 23:29:25.144 +02:00 [DBG] Executed controller factory for controller FoodIdea.API.Controllers.RecipeController (FoodIdea.API)
+2022-08-31 23:29:25.145 +02:00 [DBG] Attempting to bind parameter 'foodId' of type 'System.Int32' ...
+2022-08-31 23:29:25.146 +02:00 [DBG] Attempting to bind parameter 'foodId' of type 'System.Int32' using the name 'foodId' in request data ...
+2022-08-31 23:29:25.147 +02:00 [DBG] Done attempting to bind parameter 'foodId' of type 'System.Int32'.
+2022-08-31 23:29:25.148 +02:00 [DBG] Done attempting to bind parameter 'foodId' of type 'System.Int32'.
+2022-08-31 23:29:25.150 +02:00 [DBG] Attempting to validate the bound parameter 'foodId' of type 'System.Int32' ...
+2022-08-31 23:29:25.151 +02:00 [DBG] Done attempting to validate the bound parameter 'foodId' of type 'System.Int32'.
+2022-08-31 23:29:25.152 +02:00 [DBG] Attempting to bind parameter 'recipe' of type 'FoodIdea.API.Models.RecipeForCreationDto' ...
+2022-08-31 23:29:25.155 +02:00 [DBG] Attempting to bind parameter 'recipe' of type 'FoodIdea.API.Models.RecipeForCreationDto' using the name '' in request data ...
+2022-08-31 23:29:25.156 +02:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2022-08-31 23:29:25.164 +02:00 [DBG] Connection id "0HMKBIVD9APE8", Request id "0HMKBIVD9APE8:00000003": started reading request body.
+2022-08-31 23:29:25.169 +02:00 [DBG] Connection id "0HMKBIVD9APE8", Request id "0HMKBIVD9APE8:00000003": done reading request body.
+2022-08-31 23:29:25.178 +02:00 [DBG] JSON input formatter succeeded, deserializing to type 'FoodIdea.API.Models.RecipeForCreationDto'
+2022-08-31 23:29:25.182 +02:00 [DBG] Done attempting to bind parameter 'recipe' of type 'FoodIdea.API.Models.RecipeForCreationDto'.
+2022-08-31 23:29:25.184 +02:00 [DBG] Done attempting to bind parameter 'recipe' of type 'FoodIdea.API.Models.RecipeForCreationDto'.
+2022-08-31 23:29:25.185 +02:00 [DBG] Attempting to validate the bound parameter 'recipe' of type 'FoodIdea.API.Models.RecipeForCreationDto' ...
+2022-08-31 23:29:25.197 +02:00 [DBG] Done attempting to validate the bound parameter 'recipe' of type 'FoodIdea.API.Models.RecipeForCreationDto'.
+2022-08-31 23:29:25.203 +02:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2022-08-31 23:29:25.207 +02:00 [DBG] No information found on request to perform content negotiation.
+2022-08-31 23:29:25.208 +02:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2022-08-31 23:29:25.209 +02:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2022-08-31 23:29:25.209 +02:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2022-08-31 23:29:25.211 +02:00 [INF] Executing CreatedAtRouteResult, writing value of type 'FoodIdea.API.Models.RecipeDto'.
+2022-08-31 23:29:25.234 +02:00 [DBG] Found the endpoints ["FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API)"] for address Microsoft.AspNetCore.Routing.RouteValuesAddress
+2022-08-31 23:29:25.246 +02:00 [DBG] Successfully processed template api/foods/{foodId}/recipe/{recipeid} for FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API) resulting in /api/foods/2/recipe/4 and 
+2022-08-31 23:29:25.251 +02:00 [DBG] Link generation succeeded for endpoints ["FoodIdea.API.Controllers.RecipeController.GetRecipe (FoodIdea.API)"] with result /api/foods/2/recipe/4
+2022-08-31 23:29:25.253 +02:00 [INF] Executed action FoodIdea.API.Controllers.RecipeController.CreateRecipe (FoodIdea.API) in 110.8413ms
+2022-08-31 23:29:25.255 +02:00 [INF] Executed endpoint 'FoodIdea.API.Controllers.RecipeController.CreateRecipe (FoodIdea.API)'
+2022-08-31 23:29:25.257 +02:00 [DBG] Connection id "0HMKBIVD9APE8" completed keep alive response.
+2022-08-31 23:29:25.258 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7127/api/foods/2/recipe application/json 126 - 201 - application/json;+charset=utf-8 136.8843ms
+2022-08-31 23:29:28.659 +02:00 [INF] Request starting HTTP/1.1 PUT https://localhost:7127/api/foods/3/recipe/3 application/json 126
+2022-08-31 23:29:28.661 +02:00 [DBG] PUT requests are not supported
+2022-08-31 23:29:28.663 +02:00 [DBG] 1 candidate(s) found for the request path '/api/foods/3/recipe/3'
+2022-08-31 23:29:28.665 +02:00 [DBG] Endpoint 'FoodIdea.API.Controllers.RecipeController.UpdateRecipe (FoodIdea.API)' with route pattern 'api/foods/{foodId}/recipe/{recipeid}' is valid for the request path '/api/foods/3/recipe/3'
+2022-08-31 23:29:28.667 +02:00 [DBG] Request matched endpoint 'FoodIdea.API.Controllers.RecipeController.UpdateRecipe (FoodIdea.API)'
+2022-08-31 23:29:28.670 +02:00 [INF] Executing endpoint 'FoodIdea.API.Controllers.RecipeController.UpdateRecipe (FoodIdea.API)'
+2022-08-31 23:29:28.673 +02:00 [INF] Route matched with {action = "UpdateRecipe", controller = "Recipe"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult UpdateRecipe(Int32, Int32, FoodIdea.API.Models.RecipeForUpdateDto) on controller FoodIdea.API.Controllers.RecipeController (FoodIdea.API).
+2022-08-31 23:29:28.675 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-08-31 23:29:28.677 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-08-31 23:29:28.678 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-08-31 23:29:28.682 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-08-31 23:29:28.683 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-08-31 23:29:28.685 +02:00 [DBG] Executing controller factory for controller FoodIdea.API.Controllers.RecipeController (FoodIdea.API)
+2022-08-31 23:29:28.686 +02:00 [DBG] Executed controller factory for controller FoodIdea.API.Controllers.RecipeController (FoodIdea.API)
+2022-08-31 23:29:28.687 +02:00 [DBG] Attempting to bind parameter 'foodId' of type 'System.Int32' ...
+2022-08-31 23:29:28.688 +02:00 [DBG] Attempting to bind parameter 'foodId' of type 'System.Int32' using the name 'foodId' in request data ...
+2022-08-31 23:29:28.689 +02:00 [DBG] Done attempting to bind parameter 'foodId' of type 'System.Int32'.
+2022-08-31 23:29:28.690 +02:00 [DBG] Done attempting to bind parameter 'foodId' of type 'System.Int32'.
+2022-08-31 23:29:28.691 +02:00 [DBG] Attempting to validate the bound parameter 'foodId' of type 'System.Int32' ...
+2022-08-31 23:29:28.693 +02:00 [DBG] Done attempting to validate the bound parameter 'foodId' of type 'System.Int32'.
+2022-08-31 23:29:28.695 +02:00 [DBG] Attempting to bind parameter 'recipeId' of type 'System.Int32' ...
+2022-08-31 23:29:28.696 +02:00 [DBG] Attempting to bind parameter 'recipeId' of type 'System.Int32' using the name 'recipeId' in request data ...
+2022-08-31 23:29:28.698 +02:00 [DBG] Done attempting to bind parameter 'recipeId' of type 'System.Int32'.
+2022-08-31 23:29:28.699 +02:00 [DBG] Done attempting to bind parameter 'recipeId' of type 'System.Int32'.
+2022-08-31 23:29:28.701 +02:00 [DBG] Attempting to validate the bound parameter 'recipeId' of type 'System.Int32' ...
+2022-08-31 23:29:28.702 +02:00 [DBG] Done attempting to validate the bound parameter 'recipeId' of type 'System.Int32'.
+2022-08-31 23:29:28.703 +02:00 [DBG] Attempting to bind parameter 'recipe' of type 'FoodIdea.API.Models.RecipeForUpdateDto' ...
+2022-08-31 23:29:28.705 +02:00 [DBG] Attempting to bind parameter 'recipe' of type 'FoodIdea.API.Models.RecipeForUpdateDto' using the name '' in request data ...
+2022-08-31 23:29:28.706 +02:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2022-08-31 23:29:28.708 +02:00 [DBG] Connection id "0HMKBIVD9APE8", Request id "0HMKBIVD9APE8:00000004": started reading request body.
+2022-08-31 23:29:28.709 +02:00 [DBG] Connection id "0HMKBIVD9APE8", Request id "0HMKBIVD9APE8:00000004": done reading request body.
+2022-08-31 23:29:28.711 +02:00 [DBG] JSON input formatter succeeded, deserializing to type 'FoodIdea.API.Models.RecipeForUpdateDto'
+2022-08-31 23:29:28.711 +02:00 [DBG] Done attempting to bind parameter 'recipe' of type 'FoodIdea.API.Models.RecipeForUpdateDto'.
+2022-08-31 23:29:28.713 +02:00 [DBG] Done attempting to bind parameter 'recipe' of type 'FoodIdea.API.Models.RecipeForUpdateDto'.
+2022-08-31 23:29:28.714 +02:00 [DBG] Attempting to validate the bound parameter 'recipe' of type 'FoodIdea.API.Models.RecipeForUpdateDto' ...
+2022-08-31 23:29:28.717 +02:00 [DBG] Done attempting to validate the bound parameter 'recipe' of type 'FoodIdea.API.Models.RecipeForUpdateDto'.
+2022-08-31 23:29:28.723 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2022-08-31 23:29:28.726 +02:00 [INF] Executed action FoodIdea.API.Controllers.RecipeController.UpdateRecipe (FoodIdea.API) in 40.9625ms
+2022-08-31 23:29:28.727 +02:00 [INF] Executed endpoint 'FoodIdea.API.Controllers.RecipeController.UpdateRecipe (FoodIdea.API)'
+2022-08-31 23:29:28.729 +02:00 [DBG] Connection id "0HMKBIVD9APE8" completed keep alive response.
+2022-08-31 23:29:28.731 +02:00 [INF] Request finished HTTP/1.1 PUT https://localhost:7127/api/foods/3/recipe/3 application/json 126 - 204 - - 71.8946ms
+2022-08-31 23:29:33.664 +02:00 [INF] Request starting HTTP/1.1 DELETE https://localhost:7127/api/foods/1/recipe/1 - -
+2022-08-31 23:29:33.666 +02:00 [DBG] DELETE requests are not supported
+2022-08-31 23:29:33.668 +02:00 [DBG] 1 candidate(s) found for the request path '/api/foods/1/recipe/1'
+2022-08-31 23:29:33.669 +02:00 [DBG] Endpoint 'FoodIdea.API.Controllers.RecipeController.RemoveRecipe (FoodIdea.API)' with route pattern 'api/foods/{foodId}/recipe/{recipeid}' is valid for the request path '/api/foods/1/recipe/1'
+2022-08-31 23:29:33.670 +02:00 [DBG] Request matched endpoint 'FoodIdea.API.Controllers.RecipeController.RemoveRecipe (FoodIdea.API)'
+2022-08-31 23:29:33.672 +02:00 [INF] Executing endpoint 'FoodIdea.API.Controllers.RecipeController.RemoveRecipe (FoodIdea.API)'
+2022-08-31 23:29:33.674 +02:00 [INF] Route matched with {action = "RemoveRecipe", controller = "Recipe"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult RemoveRecipe(Int32, Int32) on controller FoodIdea.API.Controllers.RecipeController (FoodIdea.API).
+2022-08-31 23:29:33.678 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-08-31 23:29:33.679 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-08-31 23:29:33.681 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-08-31 23:29:33.682 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-08-31 23:29:33.683 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-08-31 23:29:33.685 +02:00 [DBG] Executing controller factory for controller FoodIdea.API.Controllers.RecipeController (FoodIdea.API)
+2022-08-31 23:29:33.686 +02:00 [DBG] Executed controller factory for controller FoodIdea.API.Controllers.RecipeController (FoodIdea.API)
+2022-08-31 23:29:33.687 +02:00 [DBG] Attempting to bind parameter 'foodId' of type 'System.Int32' ...
+2022-08-31 23:29:33.688 +02:00 [DBG] Attempting to bind parameter 'foodId' of type 'System.Int32' using the name 'foodId' in request data ...
+2022-08-31 23:29:33.690 +02:00 [DBG] Done attempting to bind parameter 'foodId' of type 'System.Int32'.
+2022-08-31 23:29:33.693 +02:00 [DBG] Done attempting to bind parameter 'foodId' of type 'System.Int32'.
+2022-08-31 23:29:33.697 +02:00 [DBG] Attempting to validate the bound parameter 'foodId' of type 'System.Int32' ...
+2022-08-31 23:29:33.700 +02:00 [DBG] Done attempting to validate the bound parameter 'foodId' of type 'System.Int32'.
+2022-08-31 23:29:33.702 +02:00 [DBG] Attempting to bind parameter 'recipeId' of type 'System.Int32' ...
+2022-08-31 23:29:33.705 +02:00 [DBG] Attempting to bind parameter 'recipeId' of type 'System.Int32' using the name 'recipeId' in request data ...
+2022-08-31 23:29:33.709 +02:00 [DBG] Done attempting to bind parameter 'recipeId' of type 'System.Int32'.
+2022-08-31 23:29:33.713 +02:00 [DBG] Done attempting to bind parameter 'recipeId' of type 'System.Int32'.
+2022-08-31 23:29:33.715 +02:00 [DBG] Attempting to validate the bound parameter 'recipeId' of type 'System.Int32' ...
+2022-08-31 23:29:33.718 +02:00 [DBG] Done attempting to validate the bound parameter 'recipeId' of type 'System.Int32'.
+2022-08-31 23:29:33.722 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2022-08-31 23:29:33.725 +02:00 [INF] Executed action FoodIdea.API.Controllers.RecipeController.RemoveRecipe (FoodIdea.API) in 40.2442ms
+2022-08-31 23:29:33.730 +02:00 [INF] Executed endpoint 'FoodIdea.API.Controllers.RecipeController.RemoveRecipe (FoodIdea.API)'
+2022-08-31 23:29:33.733 +02:00 [DBG] Connection id "0HMKBIVD9APE8" completed keep alive response.
+2022-08-31 23:29:33.736 +02:00 [INF] Request finished HTTP/1.1 DELETE https://localhost:7127/api/foods/1/recipe/1 - - - 204 - - 71.9585ms
