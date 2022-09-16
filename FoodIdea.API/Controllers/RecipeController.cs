@@ -1,4 +1,5 @@
-﻿using FoodIdea.API.Models;
+﻿using AutoMapper;
+using FoodIdea.API.Models;
 using FoodIdea.API.Services;
 using Microsoft.AspNetCore.Mvc;
 
@@ -10,107 +11,111 @@ namespace FoodIdea.API.Controllers
     {
         private readonly ILogger<RecipeController> _logger;
         private readonly IMailService _mailService;
-        private readonly FoodDataStore _foodDataStore;
-        public RecipeController(ILogger<RecipeController> logger,IMailService mailService, FoodDataStore foodDataStore)
+        private readonly IFoodIdeaRepository _foodIdeaRepository;
+        private readonly IMapper _mapper;
+
+        public RecipeController(ILogger<RecipeController> logger,IMailService mailService, 
+            FoodDataStore foodDataStore, IFoodIdeaRepository foodIdeaRepository, IMapper mapper)
         {
             _logger = logger ?? throw new ArgumentNullException(nameof(logger));
             _mailService = mailService ?? throw new ArgumentNullException(nameof(mailService));
-            _foodDataStore = foodDataStore ?? throw new ArgumentNullException(nameof(foodDataStore));
+            _foodIdeaRepository = foodIdeaRepository ?? throw new ArgumentNullException(nameof(IFoodIdeaRepository));
+            _mapper = mapper ?? throw new ArgumentNullException(nameof(mapper)); 
+            
         }
         [HttpGet]
-        public ActionResult<IEnumerable<RecipeDto>> GetRecipes(int foodId)
+        public async Task<ActionResult<IEnumerable<RecipeDto>>> GetRecipes(int foodId)
         {
-            var food = _foodDataStore.Foods.FirstOrDefault(x => x.Id == foodId);
-            if (food == null)
+            if(!await _foodIdeaRepository.foodCheckerAsync(foodId))
             {
-                _logger.LogInformation("Podany posiłek nie istnieje.");
+                _logger.LogInformation("Wybrana opcja nie istnieje");
                 return NotFound();
             }
-            return Ok(food.Recipe);
+            var recipes = await _foodIdeaRepository.GetRecipesAsync(foodId);
+
+            return Ok(_mapper.Map<IEnumerable<RecipeDto>>(recipes));
         }
         [HttpGet("{recipeid}", Name = "GetRecipe")]
-        public ActionResult<RecipeDto> GetRecipe(int foodId, int recipeId)
+        public async  Task<ActionResult<RecipeDto>> GetRecipe(int foodId, int recipeId)
         {
-            var food = _foodDataStore.Foods.FirstOrDefault(x => x.Id == foodId);
-            if(food == null)
+            if (!await _foodIdeaRepository.foodCheckerAsync(foodId))
             {
-                _logger.LogInformation("Podany posiłek nie istnieje.");
-                return NotFound();
-            }
-            var recipe = food.Recipe.FirstOrDefault(x => x.Id == recipeId);
-            if(recipe == null)
-            {
-                _logger.LogInformation("Podany przepis nie istnieje.");
+                _logger.LogInformation("Wybrana opcja nie istnieje");
                 return NotFound();
             }
 
-            return Ok(recipe);
-        }
-        [HttpPost]
-        public ActionResult<RecipeDto> CreateRecipe(int foodId, [FromBody] RecipeForCreationDto recipe)
-        {
-            var food = _foodDataStore.Foods.FirstOrDefault(x => x.Id == foodId);
-            if (food == null)
+            var recipe = await _foodIdeaRepository.GetRecipeAsync(foodId, recipeId);
+            if(recipe == null)
             {
                 return NotFound();
             }
-            var maxRecipeId = _foodDataStore.Foods.SelectMany(x => x.Recipe).Max(c => c.Id);
-            var finalRecipe = new RecipeDto()
+
+            return Ok(_mapper.Map<RecipeDto>(recipe));
+
+        }
+        [HttpPost]
+        public async Task<ActionResult<RecipeDto>> CreateRecipe(int foodId, [FromBody] RecipeForCreationDto recipe)
+        {
+            if(!await _foodIdeaRepository.foodCheckerAsync(foodId))
             {
-                Id = ++maxRecipeId,
-                Ingredients = recipe.Ingredients,
-                PreparationTime = recipe.PreparationTime,
-                IsHardToDo = recipe.IsHardToDo,
-                TasteRate = recipe.TasteRate
-            };
-            food.Recipe.Add(finalRecipe);
+                return NotFound();
+            }
+            var finalRecipe = _mapper.Map<Entities.Recipe>(recipe);
+            await _foodIdeaRepository.AddRecipeAsync(foodId, finalRecipe);
+
+            await _foodIdeaRepository.SaveChangesAsync();
+
+            var createdRecipeToReturn = _mapper.Map<Models.RecipeDto>(finalRecipe);
+
             return CreatedAtRoute("GetRecipe",
                 new
                 {
                     foodId = foodId,
-                    recipeId = finalRecipe.Id
+                    recipeId = createdRecipeToReturn.Id
                 },
-                finalRecipe);
+                createdRecipeToReturn);
         }
         [HttpPut("{recipeid}")]
-        public ActionResult UpdateRecipe(int foodId, int recipeId ,[FromBody] RecipeForUpdateDto recipe)
+        public async Task<ActionResult> UpdateRecipe(int foodId, int recipeId, [FromBody] RecipeForUpdateDto recipe)
         {
-            var food = _foodDataStore.Foods.FirstOrDefault(x => x.Id == foodId);
-            if (food == null)
+            if(!await _foodIdeaRepository.foodCheckerAsync(foodId))
             {
                 return NotFound();
             }
-            var recipeFromStore = food.Recipe.FirstOrDefault(x => x.Id == recipeId);
+
+            var recipeEntity = await _foodIdeaRepository.GetRecipeAsync(foodId, recipeId);
+            if(recipeEntity == null)
+            {
+                return NotFound();
+            }
+            var recipeFromStore = _mapper.Map<Entities.Recipe>(recipe);
             if (recipeFromStore == null)
             {
                 return NotFound();
             }
-            recipeFromStore.Ingredients = recipe.Ingredients;
-            recipeFromStore.IsHardToDo = recipe.IsHardToDo;
-            recipeFromStore.PreparationTime = recipe.PreparationTime;
-            recipeFromStore.TasteRate = recipe.TasteRate;
-
+            _mapper.Map(recipe, recipeEntity);
+            await _foodIdeaRepository.SaveChangesAsync();
             return NoContent();
         }
         [HttpDelete("{recipeid}")]
-        
-        public ActionResult RemoveRecipe(int foodId,int recipeId)
+
+        public async Task<ActionResult> RemoveRecipe(int foodId, int recipeId)
         {
-            var food = _foodDataStore.Foods.FirstOrDefault(x => x.Id == foodId);
-            if (food == null)
+            if (!await _foodIdeaRepository.foodCheckerAsync(foodId))
             {
                 return NotFound();
             }
-            var recipeFromStore = food.Recipe.FirstOrDefault(x => x.Id == recipeId);
-            if (recipeFromStore == null)
+            var recipeEntity = await _foodIdeaRepository.GetRecipeAsync(foodId, recipeId);
+            if (recipeEntity == null)
             {
                 return NotFound();
             }
-            food.Recipe.Remove(recipeFromStore);
-            _mailService.Send("Recipe deleted.", $"Recipe {recipeFromStore.Id} was deleted.");
+            _foodIdeaRepository.RemoveRecipe(recipeEntity);
+            await _foodIdeaRepository.SaveChangesAsync();
+            _mailService.Send("Recipe deleted.", $"Recipe {recipeEntity.Id} was deleted.");
             return NoContent();
         }
 
-        
+
     }
 }

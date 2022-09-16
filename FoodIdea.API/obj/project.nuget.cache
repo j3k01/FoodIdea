@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "oz214YnBGEWjQhbYBVChH6V1y5JP0gydEeeVm1pLeL61F/xPt5yWwXQtvdoIeEj76pxolEybE/KxBHguzzvK8w==",
+  "dgSpecHash": "d/3XGVrh0TYjnLdYlldKXEQ9fFyHneP0dXxtmzKe/99OPOzp6oibaEhpUeTTZrim/jukPtLeJp0PEzo8L6mq1w==",
   "success": true,
   "projectFilePath": "C:\\Users\\dell\\Desktop\\programming\\FoodIdea.API\\FoodIdea.API\\FoodIdea.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\dell\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
+    "C:\\Users\\dell\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\dell\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\dell\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\6.0.8\\microsoft.aspnetcore.jsonpatch.6.0.8.nupkg.sha512",
     "C:\\Users\\dell\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\6.0.8\\microsoft.aspnetcore.mvc.newtonsoftjson.6.0.8.nupkg.sha512",

@@ -1,5 +1,7 @@
 ﻿
+using AutoMapper;
 using FoodIdea.API.Models;
+using FoodIdea.API.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FoodIdea.API.Controllers
@@ -8,29 +10,36 @@ namespace FoodIdea.API.Controllers
     [Route("api/foods")]
     public class FoodsController : ControllerBase
     {
-        private readonly FoodDataStore _foodDataStore;
-        public FoodsController(FoodDataStore foodDataStore)
+        private readonly IFoodIdeaRepository _foodIdeaRepository;
+        private readonly IMapper _mapper;
+        public FoodsController(IFoodIdeaRepository foodIdeaRepository,IMapper mapper)
         {
-            _foodDataStore = foodDataStore ?? throw new ArgumentNullException(nameof(foodDataStore));
+            _foodIdeaRepository = foodIdeaRepository ?? throw new ArgumentNullException(nameof(foodIdeaRepository));
+            _mapper = mapper ?? throw new ArgumentNullException(nameof(mapper));
         }
         [HttpGet]
-        public ActionResult<IEnumerable<FoodDto>> GetFoods()
+        
+        public async Task<ActionResult<IEnumerable<FoodWithoutRecipeDto>>> GetFoods()
         {
-            return Ok(_foodDataStore.Foods);
+            var foodEntities = await _foodIdeaRepository.GetFoodsAsync();
+            return Ok(_mapper.Map<IEnumerable<FoodWithoutRecipeDto>>(foodEntities));
         }
 
         [HttpGet("{id}")]
-        
-        public ActionResult<FoodDto> GetFood(int id)
-        {
-            var foodToReturn = _foodDataStore.Foods
-                .FirstOrDefault(x => x.Id == id);
 
-            if(foodToReturn == null)
+        public async Task<IActionResult> GetFood(int id, bool includeRecipe = false)
+        {
+            var foodEntities = await _foodIdeaRepository.GetFoodAsync(id, includeRecipe);
+            if(foodEntities == null)
             {
                 return NotFound();
             }
-            return Ok(foodToReturn);
+            if (includeRecipe)
+            {
+                return Ok(_mapper.Map<FoodDto>(foodEntities));
+            }
+
+            return Ok(_mapper.Map<FoodWithoutRecipeDto>(foodEntities));
         }
 
     }

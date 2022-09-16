@@ -36,6 +36,9 @@ builder.Services.AddDbContext<FoodIdeaContext>(
                 .UseMySql(builder.Configuration["ConnectionStrings:FoodIdeaDBConnectionString"],
                 ServerVersion.AutoDetect(builder.Configuration["ConnectionStrings:FoodIdeaDBConnectionString"])));
 
+builder.Services.AddScoped<IFoodIdeaRepository, FoodIdeaRepository>();
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
