@@ -79,7 +79,7 @@ namespace FoodIdea.API.Controllers
             //UserDB in progress, I'll change it later :)
             //
             //
-            return new FoodIdeaUserInfo(1, "Mike", "King", 18);
+            return new FoodIdeaUserInfo(1, "Tytus", "Bomba", 18);
         }
     }
 }
