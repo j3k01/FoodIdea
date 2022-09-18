@@ -7,6 +7,7 @@ namespace FoodIdea.API.Services
     public class FoodIdeaRepository : IFoodIdeaRepository
     {
         private readonly FoodIdeaContext _context;
+        const int maxFoodsPageSize = 40;
         public FoodIdeaRepository(FoodIdeaContext context)
         {
             _context = context ?? throw new ArgumentNullException(nameof(context));
@@ -16,6 +17,35 @@ namespace FoodIdea.API.Services
             return await _context.Foods.OrderBy(c => c.Name).ToListAsync();
         }
 
+        public async Task<IEnumerable<Food>> GetFoodsAsync(string? name, string? search, int pageSize, int pageNumber)
+        {
+            if(pageSize > maxFoodsPageSize)
+            {
+                pageSize = maxFoodsPageSize;
+            }
+            //if(string.IsNullOrWhiteSpace(name) && string.IsNullOrWhiteSpace(search))
+            //{
+            //    return await GetFoodsAsync();
+            //}
+
+            //collection to start with
+            var collection = _context.Foods as IQueryable<Food>;
+            if(!string.IsNullOrWhiteSpace(name))
+            {
+                name = name.Trim();
+                collection = collection.Where(c => c.Name == name);
+            }
+            if(!string.IsNullOrEmpty(search))
+            {
+                search = search.Trim();
+                collection = collection.Where(a => a.Name.Contains(search) || (a.Description != null && a.Description.Contains(search)));
+            }
+            return await collection.OrderBy(c => c.Name)
+                .Skip(pageSize * (pageNumber-1))
+                .Take(pageSize)
+                .ToListAsync();
+                
+        }
         public async Task<Food?> GetFoodAsync(int foodId, bool includeRecipe)
         {
             if(includeRecipe)

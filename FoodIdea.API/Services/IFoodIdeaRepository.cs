@@ -5,6 +5,7 @@ namespace FoodIdea.API.Services
     public interface IFoodIdeaRepository
     {
         Task<IEnumerable<Food>> GetFoodsAsync();
+        Task<IEnumerable<Food>> GetFoodsAsync(string? name, string? search, int pageSize, int pageNumber);
 
         Task<Food?> GetFoodAsync(int foodId, bool includeRecipe);
         Task<bool> foodCheckerAsync(int foodId);

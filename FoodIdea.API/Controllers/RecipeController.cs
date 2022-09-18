@@ -1,11 +1,13 @@
 ﻿using AutoMapper;
 using FoodIdea.API.Models;
 using FoodIdea.API.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FoodIdea.API.Controllers
 {
     [Route("api/foods/{foodId}/recipe")]
+    [Authorize]
     [ApiController]
     public class RecipeController : ControllerBase
     {

@@ -1,0 +1,247 @@
+2022-09-17 18:20:36.240 +02:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-09-17 18:20:36.350 +02:00 [DBG] Hosting starting
+2022-09-17 18:20:36.661 +02:00 [DBG] Using development certificate: CN=localhost (Thumbprint: D2D078B8839554F36FC8158D0A37C2DCA6302CB7)
+2022-09-17 18:20:36.725 +02:00 [INF] Now listening on: https://localhost:7127
+2022-09-17 18:20:36.727 +02:00 [INF] Now listening on: http://localhost:5127
+2022-09-17 18:20:36.728 +02:00 [DBG] Loaded hosting startup assembly FoodIdea.API
+2022-09-17 18:20:36.730 +02:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2022-09-17 18:20:36.731 +02:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2022-09-17 18:20:36.732 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-17 18:20:36.734 +02:00 [INF] Hosting environment: Development
+2022-09-17 18:20:36.735 +02:00 [INF] Content root path: C:\Users\dell\Desktop\programming\FoodIdea.API\FoodIdea.API\
+2022-09-17 18:20:36.737 +02:00 [DBG] Hosting started
+2022-09-17 18:20:37.160 +02:00 [DBG] Connection id "0HMKOP271RHIU" accepted.
+2022-09-17 18:20:37.171 +02:00 [DBG] Connection id "0HMKOP271RHIU" started.
+2022-09-17 18:20:37.172 +02:00 [DBG] Connection id "0HMKOP271RHIV" accepted.
+2022-09-17 18:20:37.178 +02:00 [DBG] Connection id "0HMKOP271RHIV" started.
+2022-09-17 18:20:37.501 +02:00 [DBG] Connection id "0HMKOP271RHJ0" accepted.
+2022-09-17 18:20:37.510 +02:00 [DBG] Connection id "0HMKOP271RHJ0" started.
+2022-09-17 18:20:37.570 +02:00 [DBG] Connection 0HMKOP271RHJ0 established using the following protocol: "Tls12"
+2022-09-17 18:20:37.665 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/swagger/index.html - -
+2022-09-17 18:20:37.711 +02:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-09-17 18:20:37.867 +02:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2022-09-17 18:20:38.349 +02:00 [DBG] Response markup was updated to include browser refresh script injection.
+2022-09-17 18:20:38.366 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/swagger/index.html - - - 200 - text/html;charset=utf-8 703.2848ms
+2022-09-17 18:20:38.385 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/_framework/aspnetcore-browser-refresh.js - -
+2022-09-17 18:20:38.395 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 10.4235ms
+2022-09-17 18:20:38.422 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/_vs/browserLink - -
+2022-09-17 18:20:38.548 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 126.4983ms
+2022-09-17 18:20:38.698 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7127/swagger/v1/swagger.json - -
+2022-09-17 18:20:38.928 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7127/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 229.7715ms
+2022-09-17 18:20:47.199 +02:00 [DBG] Authentication of the HTTPS connection timed out.
+2022-09-17 18:20:47.199 +02:00 [DBG] Authentication of the HTTPS connection timed out.
+2022-09-17 18:20:47.206 +02:00 [DBG] Connection id "0HMKOP271RHIU" stopped.
+2022-09-17 18:20:47.206 +02:00 [DBG] Connection id "0HMKOP271RHIV" stopped.
+2022-09-17 18:20:47.208 +02:00 [DBG] Connection id "0HMKOP271RHIU" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-09-17 18:20:47.209 +02:00 [DBG] Connection id "0HMKOP271RHIV" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-09-17 18:21:37.459 +02:00 [DBG] Connection id "0HMKOP271RHJ1" accepted.
+2022-09-17 18:21:37.466 +02:00 [DBG] Connection id "0HMKOP271RHJ1" received FIN.
+2022-09-17 18:21:37.468 +02:00 [DBG] Connection id "0HMKOP271RHJ1" started.
+2022-09-17 18:21:37.469 +02:00 [DBG] Connection id "0HMKOP271RHJ2" accepted.
+2022-09-17 18:21:37.487 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-09-17 18:21:37.488 +02:00 [DBG] Connection id "0HMKOP271RHJ2" started.
+2022-09-17 18:21:37.542 +02:00 [DBG] Connection id "0HMKOP271RHJ1" stopped.
+2022-09-17 18:21:37.545 +02:00 [DBG] Connection id "0HMKOP271RHJ1" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-09-17 18:21:37.553 +02:00 [DBG] Connection 0HMKOP271RHJ2 established using the following protocol: "Tls12"
+2022-09-17 18:21:37.575 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7127/api/foods?search=spaghetti - -
+2022-09-17 18:21:37.581 +02:00 [DBG] The request path  does not match the path filter
+2022-09-17 18:21:37.627 +02:00 [DBG] 1 candidate(s) found for the request path '/api/foods'
+2022-09-17 18:21:37.637 +02:00 [DBG] Endpoint 'FoodIdea.API.Controllers.FoodsController.GetFoods (FoodIdea.API)' with route pattern 'api/foods' is valid for the request path '/api/foods'
+2022-09-17 18:21:37.643 +02:00 [DBG] Request matched endpoint 'FoodIdea.API.Controllers.FoodsController.GetFoods (FoodIdea.API)'
+2022-09-17 18:21:37.648 +02:00 [INF] Executing endpoint 'FoodIdea.API.Controllers.FoodsController.GetFoods (FoodIdea.API)'
+2022-09-17 18:21:37.729 +02:00 [INF] Route matched with {action = "GetFoods", controller = "Foods"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FoodIdea.API.Models.FoodWithoutRecipeDto]]] GetFoods(System.String, System.String) on controller FoodIdea.API.Controllers.FoodsController (FoodIdea.API).
+2022-09-17 18:21:37.743 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-09-17 18:21:37.750 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-09-17 18:21:37.759 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-09-17 18:21:37.767 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-09-17 18:21:37.773 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-09-17 18:21:37.782 +02:00 [DBG] Executing controller factory for controller FoodIdea.API.Controllers.FoodsController (FoodIdea.API)
+2022-09-17 18:21:39.027 +02:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-09-17 18:21:39.441 +02:00 [DBG] Executed controller factory for controller FoodIdea.API.Controllers.FoodsController (FoodIdea.API)
+2022-09-17 18:21:39.455 +02:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' ...
+2022-09-17 18:21:39.460 +02:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' using the name '' in request data ...
+2022-09-17 18:21:39.462 +02:00 [DBG] Could not find a value in the request with name '' for binding parameter 'name' of type 'System.String'.
+2022-09-17 18:21:39.463 +02:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2022-09-17 18:21:39.465 +02:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2022-09-17 18:21:39.466 +02:00 [DBG] Attempting to validate the bound parameter 'name' of type 'System.String' ...
+2022-09-17 18:21:39.469 +02:00 [DBG] Done attempting to validate the bound parameter 'name' of type 'System.String'.
+2022-09-17 18:21:39.476 +02:00 [DBG] Attempting to bind parameter 'search' of type 'System.String' ...
+2022-09-17 18:21:39.484 +02:00 [DBG] Attempting to bind parameter 'search' of type 'System.String' using the name 'search' in request data ...
+2022-09-17 18:21:39.492 +02:00 [DBG] Done attempting to bind parameter 'search' of type 'System.String'.
+2022-09-17 18:21:39.497 +02:00 [DBG] Done attempting to bind parameter 'search' of type 'System.String'.
+2022-09-17 18:21:39.503 +02:00 [DBG] Attempting to validate the bound parameter 'search' of type 'System.String' ...
+2022-09-17 18:21:39.513 +02:00 [DBG] Done attempting to validate the bound parameter 'search' of type 'System.String'.
+2022-09-17 18:21:41.336 +02:00 [INF] Entity Framework Core 6.0.8 initialized 'FoodIdeaContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.30-mysql 
+2022-09-17 18:21:41.455 +02:00 [DBG] Compiling query expression: 
+'DbSet<Food>()
+    .Where(a => a.Name.Contains(__search_0) || a.Description != null && a.Description.Contains(__search_0))
+    .OrderBy(c => c.Name)'
+2022-09-17 18:21:42.363 +02:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Food>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Food.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Food.Description (string), 1], [Property: Food.Name (string) Required MaxLength(50), 2] }
+        SELECT f.Id, f.Description, f.Name
+        FROM Foods AS f
+        WHERE ((@__search_0 LIKE '') || (LOCATE(@__search_0, f.Name) > 0)) || ((f.Description != NULL) && ((@__search_0 LIKE '') || (LOCATE(@__search_0, f.Description) > 0)))
+        ORDER BY f.Name ASC), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Food>, 
+    FoodIdea.API.DbContexts.FoodIdeaContext, 
+    False, 
+    False, 
+    True
+)'
+2022-09-17 18:21:42.594 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-09-17 18:21:42.633 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (26ms).
+2022-09-17 18:21:42.761 +02:00 [DBG] Opening connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-17 18:21:42.868 +02:00 [DBG] Opened connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-17 18:21:42.912 +02:00 [DBG] Executing DbCommand [Parameters=[@__search_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT `f`.`Id`, `f`.`Description`, `f`.`Name`
+FROM `Foods` AS `f`
+WHERE ((@__search_0 LIKE '') OR (LOCATE(@__search_0, `f`.`Name`) > 0)) OR (`f`.`Description` IS NOT NULL AND ((@__search_0 LIKE '') OR (LOCATE(@__search_0, `f`.`Description`) > 0)))
+ORDER BY `f`.`Name`
+2022-09-17 18:21:43.044 +02:00 [INF] Executed DbCommand (156ms) [Parameters=[@__search_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT `f`.`Id`, `f`.`Description`, `f`.`Name`
+FROM `Foods` AS `f`
+WHERE ((@__search_0 LIKE '') OR (LOCATE(@__search_0, `f`.`Name`) > 0)) OR (`f`.`Description` IS NOT NULL AND ((@__search_0 LIKE '') OR (LOCATE(@__search_0, `f`.`Description`) > 0)))
+ORDER BY `f`.`Name`
+2022-09-17 18:21:43.092 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Food' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-17 18:21:43.175 +02:00 [DBG] A data reader was disposed.
+2022-09-17 18:21:43.200 +02:00 [DBG] Closing connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-17 18:21:43.213 +02:00 [DBG] Closed connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-17 18:21:43.286 +02:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2022-09-17 18:21:43.297 +02:00 [DBG] No information found on request to perform content negotiation.
+2022-09-17 18:21:43.299 +02:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2022-09-17 18:21:43.303 +02:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2022-09-17 18:21:43.307 +02:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2022-09-17 18:21:43.313 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FoodIdea.API.Models.FoodWithoutRecipeDto, FoodIdea.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-09-17 18:21:43.649 +02:00 [INF] Executed action FoodIdea.API.Controllers.FoodsController.GetFoods (FoodIdea.API) in 5851.8107ms
+2022-09-17 18:21:43.658 +02:00 [INF] Executed endpoint 'FoodIdea.API.Controllers.FoodsController.GetFoods (FoodIdea.API)'
+2022-09-17 18:21:43.666 +02:00 [DBG] Connection id "0HMKOP271RHJ2" completed keep alive response.
+2022-09-17 18:21:43.685 +02:00 [DBG] 'FoodIdeaContext' disposed.
+2022-09-17 18:21:43.705 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7127/api/foods?search=spaghetti - - - 200 91 application/json;+charset=utf-8 6130.1256ms
+2022-09-17 18:22:26.444 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7127/api/foods?search=a - -
+2022-09-17 18:22:26.447 +02:00 [DBG] The request path  does not match the path filter
+2022-09-17 18:22:26.448 +02:00 [DBG] 1 candidate(s) found for the request path '/api/foods'
+2022-09-17 18:22:26.449 +02:00 [DBG] Endpoint 'FoodIdea.API.Controllers.FoodsController.GetFoods (FoodIdea.API)' with route pattern 'api/foods' is valid for the request path '/api/foods'
+2022-09-17 18:22:26.451 +02:00 [DBG] Request matched endpoint 'FoodIdea.API.Controllers.FoodsController.GetFoods (FoodIdea.API)'
+2022-09-17 18:22:26.452 +02:00 [INF] Executing endpoint 'FoodIdea.API.Controllers.FoodsController.GetFoods (FoodIdea.API)'
+2022-09-17 18:22:26.454 +02:00 [INF] Route matched with {action = "GetFoods", controller = "Foods"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FoodIdea.API.Models.FoodWithoutRecipeDto]]] GetFoods(System.String, System.String) on controller FoodIdea.API.Controllers.FoodsController (FoodIdea.API).
+2022-09-17 18:22:26.457 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-09-17 18:22:26.458 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-09-17 18:22:26.460 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-09-17 18:22:26.461 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-09-17 18:22:26.463 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-09-17 18:22:26.464 +02:00 [DBG] Executing controller factory for controller FoodIdea.API.Controllers.FoodsController (FoodIdea.API)
+2022-09-17 18:22:26.484 +02:00 [DBG] Executed controller factory for controller FoodIdea.API.Controllers.FoodsController (FoodIdea.API)
+2022-09-17 18:22:26.500 +02:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' ...
+2022-09-17 18:22:26.504 +02:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' using the name '' in request data ...
+2022-09-17 18:22:26.507 +02:00 [DBG] Could not find a value in the request with name '' for binding parameter 'name' of type 'System.String'.
+2022-09-17 18:22:26.511 +02:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2022-09-17 18:22:26.514 +02:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2022-09-17 18:22:26.516 +02:00 [DBG] Attempting to validate the bound parameter 'name' of type 'System.String' ...
+2022-09-17 18:22:26.519 +02:00 [DBG] Done attempting to validate the bound parameter 'name' of type 'System.String'.
+2022-09-17 18:22:26.524 +02:00 [DBG] Attempting to bind parameter 'search' of type 'System.String' ...
+2022-09-17 18:22:26.527 +02:00 [DBG] Attempting to bind parameter 'search' of type 'System.String' using the name 'search' in request data ...
+2022-09-17 18:22:26.529 +02:00 [DBG] Done attempting to bind parameter 'search' of type 'System.String'.
+2022-09-17 18:22:26.532 +02:00 [DBG] Done attempting to bind parameter 'search' of type 'System.String'.
+2022-09-17 18:22:26.535 +02:00 [DBG] Attempting to validate the bound parameter 'search' of type 'System.String' ...
+2022-09-17 18:22:26.539 +02:00 [DBG] Done attempting to validate the bound parameter 'search' of type 'System.String'.
+2022-09-17 18:22:26.559 +02:00 [INF] Entity Framework Core 6.0.8 initialized 'FoodIdeaContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.30-mysql 
+2022-09-17 18:22:26.584 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-09-17 18:22:26.590 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (4ms).
+2022-09-17 18:22:26.598 +02:00 [DBG] Opening connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-17 18:22:26.639 +02:00 [DBG] Opened connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-17 18:22:26.646 +02:00 [DBG] Executing DbCommand [Parameters=[@__search_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT `f`.`Id`, `f`.`Description`, `f`.`Name`
+FROM `Foods` AS `f`
+WHERE ((@__search_0 LIKE '') OR (LOCATE(@__search_0, `f`.`Name`) > 0)) OR (`f`.`Description` IS NOT NULL AND ((@__search_0 LIKE '') OR (LOCATE(@__search_0, `f`.`Description`) > 0)))
+ORDER BY `f`.`Name`
+2022-09-17 18:22:26.694 +02:00 [INF] Executed DbCommand (48ms) [Parameters=[@__search_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT `f`.`Id`, `f`.`Description`, `f`.`Name`
+FROM `Foods` AS `f`
+WHERE ((@__search_0 LIKE '') OR (LOCATE(@__search_0, `f`.`Name`) > 0)) OR (`f`.`Description` IS NOT NULL AND ((@__search_0 LIKE '') OR (LOCATE(@__search_0, `f`.`Description`) > 0)))
+ORDER BY `f`.`Name`
+2022-09-17 18:22:26.707 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Food' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-17 18:22:26.715 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Food' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-17 18:22:26.720 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Food' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-17 18:22:26.728 +02:00 [DBG] A data reader was disposed.
+2022-09-17 18:22:26.732 +02:00 [DBG] Closing connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-17 18:22:26.735 +02:00 [DBG] Closed connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-17 18:22:26.744 +02:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2022-09-17 18:22:26.758 +02:00 [DBG] No information found on request to perform content negotiation.
+2022-09-17 18:22:26.762 +02:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2022-09-17 18:22:26.765 +02:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2022-09-17 18:22:26.768 +02:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2022-09-17 18:22:26.774 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FoodIdea.API.Models.FoodWithoutRecipeDto, FoodIdea.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-09-17 18:22:26.783 +02:00 [INF] Executed action FoodIdea.API.Controllers.FoodsController.GetFoods (FoodIdea.API) in 319.1203ms
+2022-09-17 18:22:26.790 +02:00 [INF] Executed endpoint 'FoodIdea.API.Controllers.FoodsController.GetFoods (FoodIdea.API)'
+2022-09-17 18:22:26.795 +02:00 [DBG] Connection id "0HMKOP271RHJ2" completed keep alive response.
+2022-09-17 18:22:26.801 +02:00 [DBG] 'FoodIdeaContext' disposed.
+2022-09-17 18:22:26.809 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7127/api/foods?search=a - - - 200 347 application/json;+charset=utf-8 364.1740ms
+2022-09-17 18:22:32.290 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7127/api/foods?search=as - -
+2022-09-17 18:22:32.292 +02:00 [DBG] The request path  does not match the path filter
+2022-09-17 18:22:32.294 +02:00 [DBG] 1 candidate(s) found for the request path '/api/foods'
+2022-09-17 18:22:32.295 +02:00 [DBG] Endpoint 'FoodIdea.API.Controllers.FoodsController.GetFoods (FoodIdea.API)' with route pattern 'api/foods' is valid for the request path '/api/foods'
+2022-09-17 18:22:32.297 +02:00 [DBG] Request matched endpoint 'FoodIdea.API.Controllers.FoodsController.GetFoods (FoodIdea.API)'
+2022-09-17 18:22:32.298 +02:00 [INF] Executing endpoint 'FoodIdea.API.Controllers.FoodsController.GetFoods (FoodIdea.API)'
+2022-09-17 18:22:32.300 +02:00 [INF] Route matched with {action = "GetFoods", controller = "Foods"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[FoodIdea.API.Models.FoodWithoutRecipeDto]]] GetFoods(System.String, System.String) on controller FoodIdea.API.Controllers.FoodsController (FoodIdea.API).
+2022-09-17 18:22:32.302 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-09-17 18:22:32.304 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-09-17 18:22:32.305 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2022-09-17 18:22:32.307 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-09-17 18:22:32.308 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2022-09-17 18:22:32.310 +02:00 [DBG] Executing controller factory for controller FoodIdea.API.Controllers.FoodsController (FoodIdea.API)
+2022-09-17 18:22:32.313 +02:00 [DBG] Executed controller factory for controller FoodIdea.API.Controllers.FoodsController (FoodIdea.API)
+2022-09-17 18:22:32.316 +02:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' ...
+2022-09-17 18:22:32.317 +02:00 [DBG] Attempting to bind parameter 'name' of type 'System.String' using the name '' in request data ...
+2022-09-17 18:22:32.320 +02:00 [DBG] Could not find a value in the request with name '' for binding parameter 'name' of type 'System.String'.
+2022-09-17 18:22:32.321 +02:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2022-09-17 18:22:32.323 +02:00 [DBG] Done attempting to bind parameter 'name' of type 'System.String'.
+2022-09-17 18:22:32.324 +02:00 [DBG] Attempting to validate the bound parameter 'name' of type 'System.String' ...
+2022-09-17 18:22:32.325 +02:00 [DBG] Done attempting to validate the bound parameter 'name' of type 'System.String'.
+2022-09-17 18:22:32.326 +02:00 [DBG] Attempting to bind parameter 'search' of type 'System.String' ...
+2022-09-17 18:22:32.327 +02:00 [DBG] Attempting to bind parameter 'search' of type 'System.String' using the name 'search' in request data ...
+2022-09-17 18:22:32.328 +02:00 [DBG] Done attempting to bind parameter 'search' of type 'System.String'.
+2022-09-17 18:22:32.330 +02:00 [DBG] Done attempting to bind parameter 'search' of type 'System.String'.
+2022-09-17 18:22:32.332 +02:00 [DBG] Attempting to validate the bound parameter 'search' of type 'System.String' ...
+2022-09-17 18:22:32.334 +02:00 [DBG] Done attempting to validate the bound parameter 'search' of type 'System.String'.
+2022-09-17 18:22:32.408 +02:00 [INF] Entity Framework Core 6.0.8 initialized 'FoodIdeaContext' using provider 'Pomelo.EntityFrameworkCore.MySql:6.0.2' with options: ServerVersion 8.0.30-mysql 
+2022-09-17 18:22:32.413 +02:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-09-17 18:22:32.414 +02:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2022-09-17 18:22:32.416 +02:00 [DBG] Opening connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-17 18:22:32.425 +02:00 [DBG] Opened connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-17 18:22:32.427 +02:00 [DBG] Executing DbCommand [Parameters=[@__search_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT `f`.`Id`, `f`.`Description`, `f`.`Name`
+FROM `Foods` AS `f`
+WHERE ((@__search_0 LIKE '') OR (LOCATE(@__search_0, `f`.`Name`) > 0)) OR (`f`.`Description` IS NOT NULL AND ((@__search_0 LIKE '') OR (LOCATE(@__search_0, `f`.`Description`) > 0)))
+ORDER BY `f`.`Name`
+2022-09-17 18:22:32.431 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[@__search_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT `f`.`Id`, `f`.`Description`, `f`.`Name`
+FROM `Foods` AS `f`
+WHERE ((@__search_0 LIKE '') OR (LOCATE(@__search_0, `f`.`Name`) > 0)) OR (`f`.`Description` IS NOT NULL AND ((@__search_0 LIKE '') OR (LOCATE(@__search_0, `f`.`Description`) > 0)))
+ORDER BY `f`.`Name`
+2022-09-17 18:22:32.435 +02:00 [DBG] Context 'FoodIdeaContext' started tracking 'Food' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-17 18:22:32.437 +02:00 [DBG] A data reader was disposed.
+2022-09-17 18:22:32.438 +02:00 [DBG] Closing connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-17 18:22:32.440 +02:00 [DBG] Closed connection to database 'FoodIdea_db' on server 'localhost'.
+2022-09-17 18:22:32.441 +02:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2022-09-17 18:22:32.444 +02:00 [DBG] No information found on request to perform content negotiation.
+2022-09-17 18:22:32.445 +02:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2022-09-17 18:22:32.446 +02:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2022-09-17 18:22:32.447 +02:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2022-09-17 18:22:32.449 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FoodIdea.API.Models.FoodWithoutRecipeDto, FoodIdea.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-09-17 18:22:32.451 +02:00 [INF] Executed action FoodIdea.API.Controllers.FoodsController.GetFoods (FoodIdea.API) in 141.4492ms
+2022-09-17 18:22:32.453 +02:00 [INF] Executed endpoint 'FoodIdea.API.Controllers.FoodsController.GetFoods (FoodIdea.API)'
+2022-09-17 18:22:32.454 +02:00 [DBG] Connection id "0HMKOP271RHJ2" completed keep alive response.
+2022-09-17 18:22:32.456 +02:00 [DBG] 'FoodIdeaContext' disposed.
+2022-09-17 18:22:32.457 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7127/api/foods?search=as - - - 200 133 application/json;+charset=utf-8 166.8456ms
+2022-09-17 18:40:15.302 +02:00 [DBG] Connection id "0HMKOP271RHJ0" received FIN.
+2022-09-17 18:40:15.733 +02:00 [DBG] Connection id "0HMKOP271RHJ0" is closed. The last processed stream ID was 7.
+2022-09-17 18:40:15.850 +02:00 [DBG] Connection id "0HMKOP271RHJ0" sending FIN because: "The client closed the connection."
+2022-09-17 18:40:15.859 +02:00 [DBG] Connection id "0HMKOP271RHJ0" stopped.

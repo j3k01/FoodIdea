@@ -90,3 +90,11 @@ C:\Users\dell\Desktop\programming\FoodIdea.API\FoodIdea.API\bin\Debug\net6.0\MyS
 C:\Users\dell\Desktop\programming\FoodIdea.API\FoodIdea.API\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
 C:\Users\dell\Desktop\programming\FoodIdea.API\FoodIdea.API\bin\Debug\net6.0\AutoMapper.dll
 C:\Users\dell\Desktop\programming\FoodIdea.API\FoodIdea.API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\dell\Desktop\programming\FoodIdea.API\FoodIdea.API\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\dell\Desktop\programming\FoodIdea.API\FoodIdea.API\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\dell\Desktop\programming\FoodIdea.API\FoodIdea.API\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\dell\Desktop\programming\FoodIdea.API\FoodIdea.API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\dell\Desktop\programming\FoodIdea.API\FoodIdea.API\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\dell\Desktop\programming\FoodIdea.API\FoodIdea.API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\dell\Desktop\programming\FoodIdea.API\FoodIdea.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\dell\Desktop\programming\FoodIdea.API\FoodIdea.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
